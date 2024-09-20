@@ -6,7 +6,7 @@ title: Collaborative Worldbuilding
 
 ## A Process
 
-My first [[digital gardening]] project is developing my procedure for collaborative worldbuilding in the public eye.
+My first [[digital gardening]] project is developing my procedure for collaborative worldbuilding in the public eye. This procedure should be a great way to get your TTRPG group together and generate a world you are all excited to adventure in. This is especially handy for [[sandbox-play]].
 
 ### Goals
 
