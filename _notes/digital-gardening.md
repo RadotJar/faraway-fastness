@@ -12,8 +12,10 @@ This space is constantly growing, never perfect and always open to the scrutiny 
 
 It is in opposition to the modern 'stream' model of web platforms, aiming to create a longer lasting, more interconnected, more beautiful web.
 
-Key ideas include 'learning in public' and '[the stream vs the garden](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/)'.
+Key ideas include '[learning in public](https://www.swyx.io/digital-garden-tos)' and '[the stream vs the garden](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/)'.
 
 Other references: [How the blog broke the web](https://stackingthebricks.com/how-blogs-broke-the-web/)
 
-I want to thank [this great site](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll) for providing the template on which the faraway fastness is built.
+I want to thank [this great site](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll) for providing the template on which the faraway fastness is built. 
+
+[This site](https://nesslabs.com/digital-garden-set-up) has more great tips on building your own digital garden.
