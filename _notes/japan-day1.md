@@ -11,7 +11,7 @@ Today we arrived very late. We had to run from the escalator to our train going 
 
 Walking from the Shinagawa station to the guest house was a very pleasant experience. The city was so peaceful and there was a lovely cool breeze, nothing like the oppressive summer heat I'd read about on Reddit. Everything is so small and cute in Japan, cars, buildings and people alike.
 
-At the guest house (TODO: name), we were greeted by the extremely welcoming staff who checked us in and gave us some recommendations for a ramen dinner. The common room was very small and sitting on the tiny stools with our huge rucksacks on was somewhat uncomfortable. 
+At the guest house (Guesthouse Shinagawa-Shuku), we were greeted by the extremely welcoming staff who checked us in and gave us some recommendations for a ramen dinner. The common room was very small and sitting on the tiny stools with our huge rucksacks on was somewhat uncomfortable. 
 
 Our room was also incredibly tiny, but clean and cozy. They'd managed to fit a double bed and a tiny desk in there but little else.
 
