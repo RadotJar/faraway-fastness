@@ -2,6 +2,8 @@
 title: Japan Day One. Shinagawa
 ---
 
+🌱
+
 24/Sep/2024
 
 ## English
@@ -26,3 +28,6 @@ During the meal we discussed the options on the ticket machine and were able to 
 After the meal, I plucked up the courage to ask the chef "このらーめんわおおきいですね？" (This ramen is big isn't it?). He replied "はい" (yes), but gave me a somewhat confused look. I continued, "とそのらーめんわなんですか？" (and what is that ramen?). And so it went, with him even going so far as to write out the portion sizes for me (360g and 240g for those interested), before finally getting to the answer I wanted. For meal sizes, 中 (medium), is pronounced "chu". 大　(large), is pronounced "ookii".
 
 The way the staff's faces lit up when I tried to speak Japanese was so worth it, and I think we went from stupid foreigners to slightly nicer foreigners in their eyes. I feel much more confident in myself than the last time I travelled, and I'm going to try really hard to speak Japanese as much as I can on this trip.
+
+## German (WIP)
+Heute sind wir sehr spät gekommen. Wir sind von die Rolltreppe zum Zug gelauft. Die Systeme war Komplex, aber haben wir sie verstanden. Mann muss im Bahnhofstor zwei Zugfahrkarten setzen. Es war der ungewöhnlichste Ding. Die Zugfahrkarten sind verschiedene Größen und die Orientierung ist nicht wichtig. Ich habe die Mechanismen gestaunt. 
