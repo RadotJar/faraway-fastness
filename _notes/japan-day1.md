@@ -6,6 +6,8 @@ title: Japan Day One. Shinagawa
 
 24/Sep/2024
 
+This is the first day of our trip. The [[japan-day2|second day]] can be found here.
+
 ## English
 Today we arrived very late. We had to run from the escalator to our train going from the Airport to Shinagawa, but we managed to navigate the slightly confusing systems. Most unusual was the fact that you put two tickets into the gates at the same time. The tickets are different sizes and the orientation doesn't appear to matter, so I found myself marvelling at what internal mechanics must be handling the tickets.
 
