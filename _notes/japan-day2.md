@@ -7,7 +7,7 @@ title: Japan Day Two. Hiroshima
 25/09/2024
 
 ## English
-This is the second day of our trip. You can find [[japan-day1|the first day]] here.
+This is the second day of our trip. You can find [[japan-day1|the first day]] here and the [[japan-day3|third day]] here.
 
 - Breakfast: Pancake, eggs and bacon, pastries and coffee by the river 
 - Shinkansen. Seeing all of Japan go past and man in front didnt care
@@ -19,3 +19,5 @@ This is the second day of our trip. You can find [[japan-day1|the first day]] he
 - Called into bar with sign. Spoke to Tokyo man who was friendly and wished we had spent more time. Asked about cinema, no luck. Asked about dessert. Muzukashii Australians. 31 years old but looked 20
 - Ice cream place and early grey nice. Had to eat it standing up because heard its rude to walk
 - Washed clothes in sink
+
+
