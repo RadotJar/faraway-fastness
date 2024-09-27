@@ -16,4 +16,7 @@ This is day three of our trip. The [[japan-day2|second day]] can be found here.
 - Museum. Movie was good. Lots of information, dry and felt like cattle.
 - Sat and saw the jumping fish
 - Went quickly through castle. First but traditional but second part a museum. All levelled during bomb. Vending machine inside. Very busy
-- Found dinner faster, another Izakaya. Gave english menu. Similar to last night. Giant meat ball
+- Found dinner faster, another Izakaya. Gave english menu. Similar to last night. Giant meat ball. Got given a sweet
+- Peed and waited for a long time
+- Lush with minecraft bath bombs
+- Crepes at Giraffe Crepes
