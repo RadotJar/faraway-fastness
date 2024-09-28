@@ -6,7 +6,7 @@ title: Japan Day Four. Hiroshima and Miyajima
 
 27/09/2024
 
-This is day four of our trip. You can find [[japan-day3|day three here]].
+This is day four of our trip. You can find [[japan-day3|day three here]] and [[japan-day5|day five here]].
 
 ## English (WIP)
 - Breakfast at little train station cafe. Directed there by volunteer. Vienna coffee and iced tea and french toast and curry
