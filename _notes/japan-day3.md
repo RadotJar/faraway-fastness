@@ -20,3 +20,4 @@ This is day three of our trip. The [[japan-day2|second day]] can be found here.
 - Peed and waited for a long time
 - Lush with minecraft bath bombs
 - Crepes at Giraffe Crepes
+- TV Shows and Hanabi foreshadowing
