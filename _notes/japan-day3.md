@@ -6,7 +6,7 @@ title: Japan Day Three. Hiroshima
 
 26/09/2024
 
-This is day three of our trip. The [[japan-day2|second day]] can be found here.
+This is day three of our trip. The [[japan-day2|second day]] can be found here and the [[japan-day4|fourth day here]].
 
 ## English
 - Okonomiyaki and huge line after us. Seated us first. Nice woman.
