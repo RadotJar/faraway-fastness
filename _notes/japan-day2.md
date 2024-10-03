@@ -2,7 +2,7 @@
 title: Japan Day Two. Shinagawa and Hiroshima
 ---
 
-🌱
+🪴
 
 25/09/2024
 
