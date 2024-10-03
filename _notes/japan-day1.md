@@ -2,7 +2,7 @@
 title: Japan Day One. Shinagawa
 ---
 
-🌱
+🪴
 
 24/Sep/2024
 
