@@ -2,7 +2,7 @@
 title: Japan Day Three. Hiroshima
 ---
 
-🌱
+🪴
 
 26/09/2024
 
