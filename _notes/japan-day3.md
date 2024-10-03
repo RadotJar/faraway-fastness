@@ -4,7 +4,7 @@ title: Japan Day Three. Hiroshima
 
 🪴
 
-26/09/2024
+26/Sep/2024
 
 This is day three of our trip. You can find the [[japan-day2|second day here]] and the [[japan-day4|fourth day here]].
 
