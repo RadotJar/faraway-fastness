@@ -4,7 +4,7 @@ title: Japan Day Two. Shinagawa and Hiroshima
 
 🪴
 
-25/09/2024
+25/Sep/2024
 
 ## English
 This is the second day of our trip. You can find [[japan-day1|the first day here]] and the [[japan-day3|third day here]].
