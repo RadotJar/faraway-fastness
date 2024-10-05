@@ -2,7 +2,7 @@
 title: Japan Day Eleven. Hiwasa and Osaka
 ---
 🌱
-05/Oct/2024
+04/Oct/2024
 
 ## English (WIP)
 - Got little treats from a treat shop and said goodbye to the little cat bibi and owners of hostel. Got drinks and sandwhiches.
