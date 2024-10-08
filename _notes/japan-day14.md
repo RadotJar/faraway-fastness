@@ -19,4 +19,6 @@ title: Japan Day Fourteen. Osaka
 - Videos were a loud cacophany in one room, should be headphones. Art style of hologram was cool.
 - Wish there was more on strategic reasons for the castle.
 - Cool to learn that it was rebuilt by the Tokugawas after destroying the existing one in great fire.
-- Rainy view from top was magnificent
+- Rainy view from top was magnificent.
+- Dinner we split up into Izakaya and Ramen groups. Had oishii Yakitori including the chicken wrapped in leaves and with plum sauce. Also beer and fruit wines.
+- Got some snacks and back to bed.
