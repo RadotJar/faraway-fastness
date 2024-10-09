@@ -3,7 +3,7 @@ title: Japan Day Fourteen. Osaka
 ---
 🌱
 
-06/Oct/2024
+07/Oct/2024
 
 ## English (WIP)
 - Oldies went out for an early breakfast and came back noisily to us still sleeping.
