@@ -31,7 +31,7 @@ This step is inspired by [this blog post by New School Revolution](https://newsc
 - If it feels necessary, another round of truths could be illicited.
 
 ### 3. Character and Starting Town Creation
-This step takes inspiration from games where collaborative worldbuilding is built into character creation, such as [Beyond the Wall](https://www.flatlandgames.com/btw/).
+This step takes inspiration from games where collaborative worldbuilding is built into character creation, such as [Beyond the Wall](https://www.flatlandgames.com/btw/). Another great post on the topic can be found [here](https://rolltodoubt.wordpress.com/2024/09/14/setting-up-an-osr-sandbox/).
 
 - Start by following the usual character creation steps of your chosen system. 
 
