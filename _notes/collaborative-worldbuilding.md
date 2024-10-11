@@ -27,30 +27,39 @@ This step is inspired by [this blog post by New School Revolution](https://newsc
 
 - Each player names a broad truth about the shared world.
 - No player should contradict another player's truth.
-- I think it would he useful to use the classic fantasy setting as an assumed baseline and make the truths focus on highlighting deviations from this.
+- I think it would be useful to use the classic fantasy setting as an assumed baseline and make the truths focus on highlighting deviations from this.
 - If it feels necessary, another round of truths could be illicited.
 
-### 3. Character Creation
-This step takes inspiration from games where collaborative worldbuilding is built into charactee creation, such as [Beyond the Wall](https://www.flatlandgames.com/btw/).
+### 3. Character and Starting Town Creation
+This step takes inspiration from games where collaborative worldbuilding is built into character creation, such as [Beyond the Wall](https://www.flatlandgames.com/btw/).
 
 - Start by following the usual character creation steps of your chosen system. 
 
-(I'll be using ACKS which provides nice little templates within the mechanical classes for hints at a backstory through proficiencies and equipment.)
+(I'll be using ACKS which provides nice little templates for all classes that hint at a backstory through proficiencies and equipment.)
 
 #### 3a. Childhood (Optional)
 - Each player briefly describes their character's family history. What role did they play in the character's society? What effect did this have on the character.
-- Each player adds a location to the town map related to their upbringing.
+- Each player playing a human character adds a location to the town map related to their upbringing.
+- Each player playing a non-human character draws a nearby settlement for their race if one does not already exist, or adds more detail to an existing one.
 - Each player playing a human character describes how they distinguished themselves as a child. Were they the toughest in the village? A loner, preferring playing with animals to the other children?
-- Each player playing a non-human character describes their reason for leaving their own society and coming to the realm of man.
+- Each player playing a non-human character describes their reason for leaving their own society and coming to the realm of men.
 - Each player ties their character to an individual or group within the starting town, creating an NPC in the process.
 
-#### 3b. Early Career
+#### 3b. Early Adventuring Career
 - Each player briefly describes their core character concept. They might not know much about their character as a person, but they probably have a fantasy trope or role in mind  (grizzled warrior, devout crusader, wandering mystic etc.)
 - After a player has desribed the concept, the rest of the group should ask clarifying questions. "You say you're grizzled, what happened to make you that way? How have you spent your long fighting career?". This can be quite a freeform discussion but the DM may need to do some wrangling if things go too long or get off topic. The idea is to find out how the character got their core abilities and other defining features.
-- Each player should add a location to the shared town map related to these fleshed out backstory details. The location need not be in the town proper, but it should at least be close by.
-- Each player should come up with an escapade their character survived with the character of the player to their right.
+- Each player should add a town location to the shared map related to these fleshed out backstory details. The location need not be in the town proper, but it should at least be close by.
+- Each player should come up with an escapade their character survived in their early career with the character of the player to their right.
 - Each player should come up with a unique item they have from their past. Something to set up future troubles and hint at more backstory yet to be discovered.
 - Each player should create an NPC in the starting town related to their early career.
+
+#### 3c. Finishing up the Starting Town
+- Ask the player of the most social character or the one most prone to drink to define the local Inn if not already defined. If defined, ask them some clarifying questions. A good Inn needs a name, Innkeep and sense of overall size and vibe. Is it cramped and seedy? Open and welcoming? Remember that many Inns have a simple name that can easily be represented by a symbol or two. "The Green Dragon", "The crimson hog" etc.
+- Ask the player of the character with the most mounts or animals to define the town's stables. Who is the practitioner? Is the care superior with a matching price tag? Or a good place for leaving your flea bitten muts.
+- Ask the player of the most noble or law-abiding character to define the local rulership. Who is the lord or lady of the town? What sort of retinue do they keep? What do the common folk think of them? From where do they get their power?
+- Ask the player of the most devout character about the local religion and place of worship. Who is the local head? What is the religion? Do the local people believe out of fear or thanks? How much power is held by the church? 
+- Ask the player of the most well read/wise character about the local wise man or woman. Does the town host a witch? A wise sage? How do the people see this individual? What cost do they ask for their services? What is their abode like?
+
 
 ### 4. Rumours of Adventure
 This step is pretty much copied from the Further Afield supplement to [Beyond the Wall](https://www.flatlandgames.com/btw/). 
@@ -58,7 +67,7 @@ This step is pretty much copied from the Further Afield supplement to [Beyond th
 DMs may use a threat pack provided by flatland games alongside this step or create their own, but I won't go into those details here.
 
 - The GM sets out a piece of paper as the shared map and draws the starting town in or close to the center.
-- Players take turns placing major locations on the map. Distances and directions refresh once each option from the given set has been used.
+- Players take turns placing major locations on the map. Distance and direction options refresh once each option from the given set has been used.
     - The player selects a direction not yet used by another player (North, South, East or West).
     - The player selects a distance not yet used by another player (Near, Moderate, Far). 
     - The player rolls 1d8 for location type.
