@@ -91,4 +91,5 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
 - The group tell the DM what they'd like to do as their first adventure.
 
 ### 5. The Truth Emerges
-
+- Rest of beyond the wall.
+- Use worlds without number to fill in the gaps.
