@@ -13,3 +13,5 @@ title: Japan Day Nineteen. Seki
 - Went to the cutlery hall and got our nice kitchen knives. Really cool "asymettrical" ones .
 - Saw sword smithing museum. Learnt about the multi person smithing, folding the steel. All the different crafts involved in sword making: sword, handle, guard, sharpening, sheath. Iron purification or selection steps.
 - Samurai dress up. Cool to see how all the armor was attached. Greaves, arms, skirt, cuirass, helmet, wrap around, sword. Also glaive and bow, mum was leading in red. 
+- Sat on balcony with drinks. Lucca drawing street power lines.
+- Surprisingly nice food court dinner set in massive multi building complex with cinema and all.
