@@ -13,3 +13,4 @@ title: Japan Day Twenty. Seki and Mino
 - Washi prints, cat mug, lots of lanterns including minecraft and maybe pokemon.
 - Washi making old man. Looked a little boring doing it for so long.
 - Cafe in museum thing.
+- Back to Seki and underground temple maze in darkness. Had a dungeon experience of feeling the draft.
