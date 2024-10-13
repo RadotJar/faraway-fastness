@@ -14,3 +14,6 @@ title: Japan Day Twenty. Seki and Mino
 - Washi making old man. Looked a little boring doing it for so long.
 - Cafe in museum thing.
 - Back to Seki and underground temple maze in darkness. Had a dungeon experience of feeling the draft.
+- Dinner at chain katsudon place, sat with feet under and ate so fast. Rushed off to boat with mum charging ahead. Felt like a party adventuring through the dark jungle.
+- Cormorant fishing was very interesting. Flame ball constantly fed to scare fish out of rocks. 12 cormorants run by a master, helper who rows and hits boat and a steersman. 
+- Drunk businessmen offered us beers and sake and tea and fish cake and coke. Knew a few english words but harkens back to sharing culture.
