@@ -79,7 +79,7 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
         - 6: Monster Lair (Large groups or extremely powerful singular entities like dragons and Beholders)
         - 7: Source of Power (Sought after centers of magic)
         - 8: Otherworld (connections to underdark or other planes)
-    - The player decides whether they've learnt about the place, seen it for themselves, or heard about it.
+    - The player decides whether they've learnt about the place, seen it for themselves, or heard about it. Pick a different option from any previously picked by the player.
     - The player comes up with a hook for the location, describing what they know of the place and why one might want to adventure there. 
     - The DM secretly checks for how accurate the character's information is. 2d20 are rolled, one produces the target number and one is modified by an appropriate character attribute based on how they learnt of the place (eg. Wisdom for hearing a rumour from a wandering pilgrim). 
         - Failure by 10 or more means the character is badly mistaken about the location, likely in a dangerous way.
