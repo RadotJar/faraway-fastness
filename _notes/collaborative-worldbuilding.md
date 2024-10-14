@@ -88,6 +88,7 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
         - Success by 10 or more means the character is correct and knows even more about the location. When the time comes, the DM should provide additional information, advantages or aids such as a map of the place to the player.
 - Each player picks another player's location and embellishes on it. Players should not contradict established facts and it works best if the same location is not embellished more than once.
 - The group spend some time discussing the created world and connecting what they already know about their characters etc.
+- DM should illicit character motivations.
 - The group tell the DM what they'd like to do as their first adventure.
 
 ### 5. The Truth Emerges
