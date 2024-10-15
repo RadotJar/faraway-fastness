@@ -22,4 +22,6 @@ title: Japan Day 22. Nakatsugawa to Tsumago on the Nakasendo
 - Cheap education, even for alternative schooling like forest school.
 - Other tea room was 250 years old. All blackened inside from constant fire. Huge 
 - Other abandoned tea house made of bark. Some 70s guy who dreamt of it and built his little tea house. Everything was there including toasters, clothes, pictures, crockery etc. Really cool to see and looks like someone just died and nobody took over (true).
+- Tanuki ballsacks used for everything. Merchant creatures. Scaring people, sleeping bag, catching fish and ducks.
+- Spoke about rice farming with ducks too.
 - Crazy bus ride. Hard to stand around all the mountain bends. Couldn't see more than a few meters ahead of the bus.
