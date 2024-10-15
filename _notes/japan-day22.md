@@ -25,3 +25,5 @@ title: Japan Day 22. Nakatsugawa to Tsumago on the Nakasendo
 - Tanuki ballsacks used for everything. Merchant creatures. Scaring people, sleeping bag, catching fish and ducks.
 - Spoke about rice farming with ducks too.
 - Crazy bus ride. Hard to stand around all the mountain bends. Couldn't see more than a few meters ahead of the bus.
+- Dinner at family run (apparently community) sushi place. Japanese boss and his employee there who worked in turbo boosters. He spoke English well, Japanese and German a bit. German couple came in later and three way convo. They asked restaurant to put AUSTRALIA v JAPAN soccer on TV. 
+- Sushi was some of the best we have ever tasted.
