@@ -18,6 +18,7 @@ title: Japan Day 22. Nakatsugawa to Tsumago on the Nakasendo
 - Also cow canon for all the black oxen who died taking building materials down a slope.
 - Lunch at little tea shop. Woman gave gifts to the guide for his family whi gave gifts to her because she gave gifts for birth of their child. 
 - Urinal shorter than me.
+- Free housing in rurual places due to population reduction. Lots of abandoned houses that families cant take care off.
 - Other tea room was 250 years old. All blackened inside from constant fire. Huge 
 - Other abandoned tea house made of bark. Some 70s guy who dreamt of it and built his little tea house. Everything was there including toasters, clothes, pictures, crockery etc. Really cool to see and looks like someone just died and nobody took over (true).
 - Crazy bus ride. Hard to stand around all the mountain bends. Couldn't see more than a few meters ahead of the bus.
