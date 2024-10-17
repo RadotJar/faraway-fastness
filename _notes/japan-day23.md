@@ -22,4 +22,5 @@ title: Japan Day 23. Nakatsugawa and Hirugami
 - Got snacks before dinner so bought a lot at the family mart very close by. Huge beers.
 - Dinner time we had our first banquet. Immediarely greeted by a number of women who lead you to the room and seat you and have another assigned one who takes all your orders and organises your times for cleaning and beds etc.
 - She was Vietnamese and had limited English and apparently also limited Japanese but defaulted to talk to me maybe because we said we knew more Japanese or maybe because I have a penis. So nice and meek but hard to converse.
-- Dinner was Sashimi, grill your own meats and veg on a little hot plate, Eel salad, other salad, crab and seafood custard thing, 
+- Dinner was Sashimi, grill your own meats and veg on a little hot plate, Eel salad, other salad, crab and seafood custard thing. Non seafood lovers in group. Very expensive drinks.
+- Watched monsters inc and stuck hat and moustache on tv for game. I cried a little when Sully had to say goodbye because it felt like such a fatherly movie.
