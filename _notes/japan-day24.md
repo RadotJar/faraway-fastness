@@ -25,4 +25,10 @@ title: Japan Day 24. Hirugami
 - Ride surprised us, took about 15 minutes and had incredibly steep sections. Dark and spooky, weird alien theme.
 - Ushered to the stage by lightsaber wielding adults and rolled out our mat under the cloudy sky.
 - Countdown before they shut off the huge floodlights dramatically and could see one star or three if you squinted.
-- Guy gave a talk 
+- Guy gave a talk and used laser pointer accompanied with slideshow but everyone was just giggling under their breath. Very relaxing and almost fell asleep.
+- Hello Kitty machine on repeat I wanted to smash it.
+- First warm vending machine drink was a cocoa and it wasn't bad but tasted like long life. Everyone tried warm teas and coffees, all ok.
+- Got 40cm churros which were warm and hit the spot. Got the tape measure out and had a wholesome moment with the woman at her little stall.
+- Way down we turned our backs at the end and got flung around by the station.
+- Wash hair and then big onsen.
+- Felt powerful to be fully naked and alone in this expansive bath. Sat up to my neck and watched the steam waft across the surface. Not a lot to look at so you had to sit with your thoughts.
