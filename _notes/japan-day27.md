@@ -17,4 +17,8 @@ title: Japan Day 27. Universal Studios Japan
 - Flying dinosaur best ride because so scary and loop de looping upside down etc.
 - Even snack bars selling one thing had huge lines and didn't look particularly good.
 - Not that many restaurant options and the food was very fast and mass produced by little factory cog in machine chefs but surprisingly not crazy expensive and quite tasty. Tables hard to get.
-- Got selected by Olivander in front of a group of children and redid the wand scene
+- Got selected by Olivander in front of a group of children and redid the wand scene with wands flying out and shining light. Acted like it was so special that the wand had selected me. Only sold at the studios, not a particular character. 55 bucks haha no thanks.
+- Nintendo world was really cool aesthetically, especially at night after our timed entry. So light the sky is full dark. Other than that, lots of kiddy games and armband is a scam, can't do a lot without it. Mario Kart game wasn't amazing bevause too focused on screen and not the environment. Queue through the castle was worth it though to be honest.
+- Halloween death eaters and zombies were very cool. Ambient screams of random people. Japanese girls squeal so easily.
+- Guy got scared and turned to me and got scared again and we laughed snd high fived bro style.
+- Entire platform full on the way out. Train arrived and entire platform emptied into train. Marvellous
