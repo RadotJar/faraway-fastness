@@ -15,6 +15,7 @@ title: Japan Day 28. Kyoto
 - Busy bus stop wait to get to Ikari gates/shrine.
 - Thought that it was interesting that back when people walked around they probably used temples as landmarks. Now bus stops are at these same temples and castles. Transportstion may have changed but the important landmarks remain the same.
 - Skipped a whole section to avoid the crowds and even then it was still insanely busy.
+- You never see anyone actually turn around and go back down but the crowds do slowly disappear as you climb higher.
 - Gates were cool but after a few runs through groups of them, you've seen it. 
 - Wonder the meaning of all the gates. Something about passing through reincarnations or stages of life?
 - Speed hiked up to the top and it was not worth it. No view, but another place of worship similar to the ones dotted around the mountainside. Only worth it for the feeling of accomplishment itself.
