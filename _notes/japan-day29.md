@@ -13,6 +13,7 @@ title: Japan Day 29. Kyoto
 - Cool samurai and princesses.
 - Some very active or loud groups with instruments but lots of quiet walkers.
 - Some people very smiley and posing for photos, most a bit dreary and just plodding along.
+- Saw an ox pulling a huge cart and it was completely unbothered by the weight, just walking as usual. I'd never seen one working and I was astounded at the power of it.
 - Was cool to see, didn't watch it all as went for ages.
 - Back to accomodation, plan out Shinkansen for the next day.
 - Out to Pontocho park to look for live musicians. Found one with a very singsong voice and sat and listened for a while. Broke a string. Girlfriend asked him in Japanese if they were his songs and he understood and shared his youtube.
