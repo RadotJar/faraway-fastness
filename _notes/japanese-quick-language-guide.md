@@ -32,4 +32,5 @@ If you can read katakana, you don't really need to know any other Japanese to un
 Katakana will help you endlessly in figuring out Japanese food menus and signs, even if you need to stop for a moment and read slowly.
 
 ## Other words and phrases
+You will hear people say "dou zo" a lot to you. This isn't something you will probably ever say yourself but it means "welcome", "next please", "enjoy", "go ahead" etc. Basically a call to action or polite invitation. Examples of its use include being called up to a ticket counter and when your food is served in a restaurant.
 
