@@ -9,3 +9,5 @@ title: Japan Day 30. Kyoto and Kawaguchiko
 - Had pre booked expressway bus but north and south exit both have platform 2 and realised we were on wrong side of station but no way through so we had to run all the way around with our packs on. Very exhausting. Finally got into it.
 - Kawaguchi station and took local bus we paid too much for to accomodation. 
 - Had arrived early at the Umeya annex which is the last used residence of an Oshi spiritual guide for Mt Fuji hikers. In peak time there were 150 Oshi.
+- Old guy was surprised at us being only two, we were also early. Seemed a bit annoyed, presumably because of money loss.
+- Walked down for lunch at Hotou Fudou. Chaotic place. Huge old seeming building with blackened beams and old samurai portraits but i couldn't find history online to explain it.
