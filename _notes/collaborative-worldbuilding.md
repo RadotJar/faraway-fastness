@@ -92,5 +92,21 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
 - The group tell the DM what they'd like to do as their first adventure.
 
 ### 5. The Truth Emerges
-- Rest of beyond the wall.
+- DM gets hex paper with each hex being 3 miles across.
+- DM places starting town approximately in the centre of the map.
+- DM places geography and major locations established with the players. It is important to respect approximate locations defined by the players in the cases where they were correct, but the DM can play around a bit to make the map make sense. Ensure all major locations are at least 2 hexes apart.
+- The DM sprinkles around minor locations.
+    - Only make as many as needed/wanted for now. Can always add more later when inspired, even to hexes already visited, as long as not completely explored.
+    - Alternate between creating Friendly, Neutral and Hostile locations.
+    - Make one fantastical location for every two mundane, alter as fits your particular fantasy level.
+    - Minor locations should draw inspiration from the major locations and geography.
+    - Minor dungeon locations should only be a handful of rooms in size, completable in a single session.
+- The DM defines regions. These can be things such as forests, fertile basins or mountain ranges.
+    - Each region should have its own character, hazards and challenges.
+    - Regions should inspire and be inspired by the locstions within them.
+    - Define a few encounters for each region. Only as many as needed/wanted and add more later.
+    - Can assign to a random distribution to create encounter tables for the region if desired.
+- DM fleshes out major locations based on player input and their character rolls.
+    
+
 - Use worlds without number to fill in the gaps.
