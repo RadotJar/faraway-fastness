@@ -2,4 +2,6 @@
 title: Japan Day 31. Kawaguchiko and Yokohama
 ---
 🌱
-25/Oct/2024
+24/Oct/2024
+
+- Woke to get a clear view out to Fuji
