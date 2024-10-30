@@ -15,5 +15,23 @@ title: Japan Day 31. Kawaguchiko and Yokohama
 - China cabinet with 7x 30 second songs on embossed metal discs.
 - Women in fancy red blazers got out cranks to play ones that you want to see.
 - Upstairs had automatons that looked older than they were, actually from the 90s.
+- Highlights were giant dollhouse like Versailles, winemaker and clown.
+- Watched a show where an opera singer was accompanied by automatic machines. Best was a piano that also contained 3 violins all playing synchronously.
+- Really strange place with all these European instruments in rural Japan by mount Fuji.
+- Were going to take the bus to Yokohama but host offered to take us to station. He had the really funny vocabulary where he said a lot but  couldn't understand the same words said to him. "houses".
+- Crossing the bridge he told us "when my father was a children, the lake would freeze and he would skate to school". No longer due to global warming.
+- Bus was long and I watched interview on ACKS between Alexander Macris and Prince of Nothing.
+Very late due to traffic.
+- Neighbourhood we were staying in was incredibly scary. Old people doubled over and hobbling along, drug addiction sunken faces, dark and grimey, homelessness.
+- Accomodation was in a cigarette reeking block that felt like an old hospital or prison. Drunk people and old people. Man at reception on 5th floor! Was clearly a big smoker with missing front teeth. Very dodgy seeming.
+- Room was tiny with a small window onto the terrace completely open with no fly screen so couldn't open. Didn't smell of smoke luckily. Tatami mat but luckily lockable.
+- Decided to get out of the place and I asked about bringing my knife but was told it will just give a weapon to the better fighter.
+- Went to a really good tiny mexican place run by one japanese guy. Food was so fresh and tasty.
+- Decided to stay out longer so went to see a movie at a little indie cinema. In a basement and a different sort of crowd appeared.
+- We saw "Super Happy Forever" in Japanese with Japanese subtitles. Movie was not chronological so even more confusing.
+- Cinema experience was so different. No snacks to purchase. So silent you could hear a pin drop. Nobody even laughing or making any noises in funny bits (we did and don't even speak the language). Eating pringles by dissolving in our mouth.
+- Back home to accomodation and braved the shower. It was putrid with mould everywhere and hair filling the drain but was cleaned at 1pm and it was 11pm now. Showered together because bit worries for girlfriend's privacy and safety.
+- Slept really well without too many loud noises, despite what we expected being right next to the women's toilets and loud sinks.
+
 
 
