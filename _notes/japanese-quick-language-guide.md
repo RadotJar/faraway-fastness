@@ -24,6 +24,9 @@ Good Evening - konbanwa
 
 Not many people really say goodbye in formal settings like shops and restaurants, just say "arigato gozaimashita" when leaving.
 
+## Questions
+If someone asks you a question, you will hear "ka?" at the end of their sentence. You might have no idea what they're asking but at least you know that a response is expected.
+
 ## Katakana
 Learn to read katakana by following [this guide](https://www.tofugu.com/japanese/learn-katakana/) and doing [this quiz](https://kana-quiz.tofugu.com/) as the guide suggests. Learn the katakana section by section, do the quiz until comfortable and then move onto the next section. Once you've got all katakana in your quizzes, do it at least once every day.
 
