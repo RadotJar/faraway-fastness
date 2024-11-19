@@ -41,7 +41,7 @@ This step takes inspiration from games where collaborative worldbuilding is buil
 - Each player briefly describes their character's family history. What role did they play in the character's society? What effect did this have on the character.
 - Each player playing a human character adds a location to the town map related to their upbringing.
 - Each player playing a non-human character draws a nearby settlement for their race if one does not already exist, or adds more detail to an existing one.
-- Each player playing a human character describes how they distinguished themselves as a child. Were they the toughest in the village? A loner, preferring playing with animals to the other children?
+- Each player playing a human character describes how they became an adventurer after shifting from their familial line of work.
 - Each player playing a non-human character describes their reason for leaving their own society and coming to the realm of men.
 - Each player ties their character to an individual or group within the starting town, creating an NPC in the process.
 
@@ -54,7 +54,7 @@ This step takes inspiration from games where collaborative worldbuilding is buil
 - Each player should create an NPC in the starting town related to their early career.
 
 #### 3c. Finishing up the Starting Town
-- Ask the player of the most social character or the one most prone to drink to define the local Inn if not already defined. If defined, ask them some clarifying questions. A good Inn needs a name, Innkeep and sense of overall size and vibe. Is it cramped and seedy? Open and welcoming? Remember that many Inns have a simple name that can easily be represented by a symbol or two. "The Green Dragon", "The crimson hog" etc.
+- Ask the player of the most social character or the one most prone to drink to define the local Inn if not already defined. If defined, ask them some clarifying questions. A good Inn needs a name, Innkeep and sense of overall size and vibe. Is it cramped and seedy? Open and welcoming? Remember that many Inns have a simple name that can easily be represented by a symbol or two. "The Green Dragon", "The Crimson Hog" etc.
 - Ask the player of the character with the most mounts or animals to define the town's stables. Who is the practitioner? Is the care superior with a matching price tag? Or a good place for leaving your flea bitten muts.
 - Ask the player of the most noble or law-abiding character to define the local rulership. Who is the lord or lady of the town? What sort of retinue do they keep? What do the common folk think of them? From where do they get their power?
 - Ask the player of the most devout character about the local religion and place of worship. Who is the local head? What is the religion? Do the local people believe out of fear or thanks? How much power is held by the church? 
@@ -70,7 +70,7 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
 - Players take turns placing major locations on the map. Distance and direction options refresh once each option from the given set has been used.
     - The player selects a direction not yet used by another player (North, South, East or West).
     - The player selects a distance not yet used by another player (Near, Moderate, Far). 
-    - The player rolls 1d8 for location type.
+    - If needing ideas, the player rolls 1d8 for location type.
         - 1: Major City (reroll if a major city has already been placed on the map)
         - 2: Ancient Ruins (likely from an old civilisation)
         - 3: Human Settlement (small or of comparible size to starting town)
@@ -79,7 +79,7 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
         - 6: Monster Lair (Large groups or extremely powerful singular entities like dragons and Beholders)
         - 7: Source of Power (Sought after centers of magic)
         - 8: Otherworld (connections to underdark or other planes)
-    - The player decides whether they've learnt about the place, seen it for themselves, or heard about it. Pick a different option from any previously picked by the player.
+    - The player decides whether they've learnt about the place, seen it for themselves, or heard about it. Pick a different option from any previously picked by  players.
     - The player comes up with a hook for the location, describing what they know of the place and why one might want to adventure there. 
     - The DM secretly checks for how accurate the character's information is. 2d20 are rolled, one produces the target number and one is modified by an appropriate character attribute based on how they learnt of the place (eg. Wisdom for hearing a rumour from a wandering pilgrim). 
         - Failure by 10 or more means the character is badly mistaken about the location, likely in a dangerous way.
