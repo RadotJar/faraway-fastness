@@ -40,9 +40,9 @@ Should your charcter die, retire or otherwise be permanently removed from play, 
 - Start playing a backup character you created earlier.
 - Create a new character.
 
-New characters start at level 1 unless you have set up an xp fund or the old character's party throws them a heroic funeral. An xp fund is how you can effectively increase the level floor of all your future characters by sacrificing treasure for no other tangible in game benefit. A heroic funeral is how the old character's party can increase the starting level of your new charactee by sacrificing their treasure for no other tangible in game benefit.
+New characters start at level 1 unless you have set up an xp fund or the old character's party throws them a heroic funeral. An xp fund is how you can effectively increase the level floor of all your future characters by sacrificing treasure for no other tangible in game benefit. A heroic funeral is how the old character's party can increase the starting level of your new character by sacrificing their treasure for no other tangible in game benefit.
 
-New characters start with starting equipment only unless the old character had established an inheritance. 
+New characters start with starting equipment only, unless the old character had established an inheritance. 
 
 See page 311 of the ACKS II Revised Rulebook for more information on xp funds, heroic funerals and inheritance.
 
