@@ -32,8 +32,7 @@ You can follow this procedure to make a character in your own time, but you'll n
 - Work as a team.
 - Be inquisitive.
 - Be punctual.
-- Don't come if you're not in the mood.
-- Don't be disruptive and bring a fidget toy if you need one!
+- Don't be disruptive. Falling asleep, getting up and moving around and fidgeting all count as being disruptive. Bring a fidget toy if you need one, I'll do my best to schedule in a break every session.
 
 ## Bonus XP
 I will award bonus XP for the following out of game activities:
