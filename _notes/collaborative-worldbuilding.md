@@ -110,3 +110,5 @@ DMs may use a threat pack provided by flatland games alongside this step or crea
     
 
 - Use worlds without number to fill in the gaps.
+
+  After collaborative worldbuilding, I squirelled away to set the campaign up and then wrote this [[player-guide]].
