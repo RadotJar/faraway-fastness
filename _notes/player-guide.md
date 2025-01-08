@@ -14,7 +14,7 @@ If you've played in one of my campaigns before, I expect you to do the following
 - Create a character. Session time is sacred and only for playing the game, not character creation.
 
 ## Character Creation
-The procedure for character creation can be found on page 13 of the ACKS II Revised Rulebook. A PDF of this rulebook can be found pinned in the discord. All classes from this rulebook, as well as those found in the dwarven supplement 'By This Axe', and the work-in-progress elven class document can be chosen for your character.
+The procedure for character creation can be found on page 13 of the ACKS II Revised Rulebook. A PDF of this rulebook can be found pinned in the discord. All classes from this rulebook, as well as those found in the dwarven supplement 'By This Axe', and the work-in-progress elven class document can be chosen for your character. Some of the classes including the Barbarian and Witch, differ slightly based on their culture. The cultures in the rulebook differ from those in the campaign's setting, but most have equivalents that are listed in the Setting Primer.
 
 You can follow this procedure to make a character in your own time, but you'll need to run them past me before they can be played at the table. Whether you want to work with me to flesh out a character concept first and then build the character afterwards, or build them first and then come to me for a final check is up to you. I am also more than happy to sit down online or in person and build them together, but this must be arranged ahead of a session. A good option is for you to arrive at 6pm before a session to give us time to create a character together before play.
 
