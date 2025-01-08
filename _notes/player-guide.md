@@ -5,7 +5,7 @@ title: Player guide
 🌱
 
 ## Open Table Policy
-New players are always welcome at any session without prior warning or preparation. I will have a few pre-gens ready at all times in case someone new wants to give the game a try. Please feel free to bring anyone along who you think might be interested.
+New players are always welcome at any session without prior warning or preparation and regardless of player count. I will have a few pre-gens ready at all times in case someone new wants to give the game a try. Please feel free to bring anyone along who you think might be interested.
 
 ## Before Your First Game
 If you've played in one of my campaigns before, I expect you to do the following before your first game:
