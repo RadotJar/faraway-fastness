@@ -34,6 +34,20 @@ You can follow this procedure to make a character in your own time, but you'll n
 - Be punctual.
 - Don't be disruptive. Falling asleep, getting up and moving around and fidgeting all count as being disruptive. Bring a fidget toy if you need one, I'll do my best to schedule in a break every session.
 
+## Character Replacement
+Should your charcter die, retire or otherwise be permanently removed from play, you have a few choices:
+- Take over playing one of the character's henchmen.
+- Start playing a backup character you created earlier.
+- Create a new character.
+
+New characters start at level 1 unless you have set up an xp fund or the old character's party throws them a heroic funeral. An xp fund is how you can effectively increase the level floor of all your future characters by sacrificing treasure for no other tangible in game benefit. A heroic funeral is how the old character's party can increase the starting level of your new charactee by sacrificing their treasure for no other tangible in game benefit.
+
+New characters start with starting equipment only unless the old character had established an inheritance. 
+
+See page 311 of the ACKS II Revised Rulebook for more information on xp funds, heroic funerals and inheritance.
+
+Remember that you can always play multiple characters and switch between them session to session. It may sometimes even be required to fit the campaign's timeline.
+
 ## Bonus XP
 I will award bonus XP for the following out of game activities:
 - 5% Bonus XP if you bring snacks or drinks
