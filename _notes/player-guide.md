@@ -10,7 +10,7 @@ New players are always welcome at any session without prior warning or preparati
 ## Before Your First Game
 If you've played in one of my campaigns before, I expect you to do the following before your first game:
 - Read this guide.
-- Read the [[setting-primer]].
+- Read the [[setting primer]].
 - Create a character. Session time is sacred and only for playing the game, not character creation.
 
 ## Character Creation
