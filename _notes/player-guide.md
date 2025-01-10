@@ -18,8 +18,8 @@ The procedure for character creation can be found on page 13 of the ACKS II Revi
 
 You can follow this procedure to make a character in your own time, but you'll need to run them past me before they can be played at the table. Whether you want to work with me to flesh out a character concept first and then build the character afterwards, or build them first and then come to me for a final check is up to you. I am also more than happy to sit down online or in person and build them together, but this must be arranged ahead of a session. A good option is for you to arrive at 6pm before a session to give us time to create a character together before play.
 
-## Game Schedule
-- Games will be run at my house every Friday from 6:30pm to 10:30pm.
+## Session Schedule
+- Sessions will be run at my house every Friday from 6:30pm to 10:30pm.
 - At 6:30pm, we will eat pizza and catch up.
 - At 7:00pm, the game starts.
 - If you are going to be late and have told me in advance, I will wait up until 7:15pm to start the game.
@@ -30,7 +30,13 @@ You can follow this procedure to make a character in your own time, but you'll n
 - There will be an attendance poll for each session in the discord.
 - On Thursday evenings I will check the poll and count confirmed numbers.
 - I will run sessions as long as there are 3-6 confirmed players by Thursday evening.
-  
+
+## Session Cancellation Policy
+- Assume that sessions are going ahead every Friday.
+- If a session is cancelled, I will ping all confirmed attendees with as much notice as possible.
+- If a session is cancelled due to a lack of players, I will notify people on Thursday evenings, so be sure to check during the day on Fridays.
+- Only I can cancel sessions.
+
 ## Game Expectations
 - Let others shine.
 - Work as a team.
