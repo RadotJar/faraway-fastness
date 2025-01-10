@@ -25,8 +25,12 @@ You can follow this procedure to make a character in your own time, but you'll n
 - If you are going to be late and have told me in advance, I will wait up until 7:15pm to start the game.
 - If you are going to be late and have not told me, I will be starting at 7:00pm.
 - If you are going to be later than 7:30pm, do not attend. It is too disruptive. Just play next time instead.
-- There will be an attendance poll for each session in the discord. On Thursday evenings I will check the poll. If at least 3 players have said they are attending, the game will go ahead the following day.
 
+## Player Count
+- There will be an attendance poll for each session in the discord.
+- On Thursday evenings I will check the poll and count confirmed numbers.
+- I will run sessions as long as there are 3-6 confirmed players by Thursday evening.
+  
 ## Game Expectations
 - Let others shine.
 - Work as a team.
