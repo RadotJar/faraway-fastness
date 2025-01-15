@@ -38,3 +38,24 @@ centuries, many Rornish people carry Obrulion or Obrulionized names (e.g. “Uri
 **Male Names**: Aeron, Braig, Caradoc, Georn, Mard, Owain, Roben, Stuarry, Theon, Urien
 
 **Female Names**: Anwen, Ceridwen, Deiresa, Eirwen, Katrist, Maranie, Nimue, Rachess, Seren, Vale
+
+### Dwarven
+For as long as any man remembers, the stout and cunning dwarven people have delved vast vaults in the Gartnait Alps, gathering rich ores and 
+creating enduring works of stone and iron. The occasional dwarven vault was delved in other mountain ranges too as the people expanded. Today, the dwarves are an embattled race, fighting a never-ending war against the fast-
+breeding beastmen that have invaded their tunnels. Dwindling in number, barely clinging to their last ancestral holding, dwarves are 
+rarely seen by mankind. Those that do mingle with men are almost always adventurers or refugees of some sort.
+
+Dwarvea are very short-statured (men averaging 4’) but exceptionally stout, weighing as much as adult humans, with broad shoulders and hips, thick-boned limbs, and sturdy digits. They have large, round heads with prominent brows and strong chins. Their eyes are large, round, and very deep set, colored either grey, grey-brown, green, hazel, or light brown. Their skin ranges from medium to very dark brown, ocher, or sienna. Their hair is wavy or curly, and colored chestnut, grey, or black. Both the men 
+and women have heavy beard and body hair. 
+
+The Dwarves are usually named in Old Dwarven for a close relative, famous ancestor, or vault hero. In addition to their given name, all 
+dwarves carry a hereditary family name. Each dwarven vault will have a small number of surnames associated with the families of 
+that vault. The vault itself is always named after its founder’s family. A vault founder’s surname carries great prestige among dwarves 
+(e.g. a dwarf named Hurgon Radokh who hails from the vault of Azen Radokh is likely a person of some importance). In addition to 
+their given name and surname, dwarves enjoy collecting sobriquets and nicknames; any dwarf of distinction will carry at least one and sometimes two or three.
+
+**Male Names:** Arsic, Bombor, Denor, Hurgon, Korten, Morto, Norden, Stahlur, Torrad, Wharto
+
+**Female Names:** Arsi, Balla, Dara, Efti, Fili, Klia, Lara, Mora, Shylda, Thora
+
+**Surnames:** Breth, Domekh, Forkus, Gede, Karodar, Makor, Oengus, Radokh, Talorgen, Uoret
