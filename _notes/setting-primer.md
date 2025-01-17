@@ -61,17 +61,17 @@ their given name and surname, dwarves enjoy collecting sobriquets and nicknames;
 **Surnames:** Breth, Domekh, Forkus, Gede, Karodar, Makor, Oengus, Radokh, Talorgen, Uoret
 
 ### Equivalents
-Some of the classes in the ACKS II Revised Rulebook allow the player to select a culture which can change their abilities. Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the culture choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
+Some of the classes in the ACKS II Revised Rulebook allow the player to select a class variant based on region, Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the region choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
 
-|Setting Culture|Rulebook Equivalent|Real-world Equivalent|
+|Setting Culture|Rulebook Region|Real-world Equivalent|
 |---|---|---|
-|Tirenean|Auran|Western Roman|
-|Nicean|Auran|Eastern Roman (Greco-Roman/Byzantine)|
-|Krysean|Auran|Continental Celtic (Gaulic/Early French, Italian, Spanish|
-|Rornish|Rornish|Insular Celtic (Welsh, Cornish, Brythonic, Pictish)|
-|Celdorean|Auran|Persian/Islamic|
-|Nenadan|Ivory Kingdoma|Berber (African Nomads)|
-|Opplander|Jutlander|Norse/Viking|
-|Lovasok|Skysostan|Kievan Rus (Slavic Vikings on horses)|
+|Tirenean|Auran Empire|Western Roman|
+|Nicean|Auran Empire|Eastern Roman (Greco-Roman/Byzantine)|
+|Krysean|Auran Empire|Continental Celtic (Gaulic/Early French, Italian, Spanish|
+|Rornish|Rorn|Insular Celtic (Welsh, Cornish, Brythonic, Pictish)|
+|Opplander|Jutland|Northern Germanic/Viking|
+|Lovasok|Skysos|Kievan Rus (Slavic Vikings on horses)|
+|Mauvani|Opelenean|Persian/Arabian/North-African/Islamic World|
+|Nenadan|Ivory Kingdoms|Sub-Saharan African nomads|
 |Dwarven|Meniri Dwarven|Bit of Tolkien, bit of Warhammer|
 |Elven|Elven/Northern Argöllean|Tolkien Elves but a bit more fae with a pinch of Celtic culture|
