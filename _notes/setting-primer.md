@@ -45,7 +45,7 @@ creating enduring works of stone and iron. The occasional dwarven vault was delv
 breeding beastmen that have invaded their tunnels. Dwindling in number, barely clinging to their last ancestral holding, dwarves are 
 rarely seen by mankind. Those that do mingle with men are almost always adventurers or refugees of some sort.
 
-Dwarvea are very short-statured (men averaging 4’) but exceptionally stout, weighing as much as adult humans, with broad shoulders and hips, thick-boned limbs, and sturdy digits. They have large, round heads with prominent brows and strong chins. Their eyes are large, round, and very deep set, colored either grey, grey-brown, green, hazel, or light brown. Their skin ranges from medium to very dark brown, ocher, or sienna. Their hair is wavy or curly, and colored chestnut, grey, or black. Both the men 
+Dwarves are very short-statured (men averaging 4’) but exceptionally stout, weighing as much as adult humans, with broad shoulders and hips, thick-boned limbs, and sturdy digits. They have large, round heads with prominent brows and strong chins. Their eyes are large, round, and very deep set, colored either grey, grey-brown, green, hazel, or light brown. Their skin ranges from medium to very dark brown, ocher, or sienna. Their hair is wavy or curly, and colored chestnut, grey, or black. Both the men 
 and women have heavy beard and body hair. 
 
 The Dwarves are usually named in Old Dwarven for a close relative, famous ancestor, or vault hero. In addition to their given name, all 
@@ -59,3 +59,19 @@ their given name and surname, dwarves enjoy collecting sobriquets and nicknames;
 **Female Names:** Arsi, Balla, Dara, Efti, Fili, Klia, Lara, Mora, Shylda, Thora
 
 **Surnames:** Breth, Domekh, Forkus, Gede, Karodar, Makor, Oengus, Radokh, Talorgen, Uoret
+
+### Equivalents
+Some of the classes in the ACKS II Revised Rulebook allow the player to select a culture which can change their abilities. Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the culture choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
+
+|Setting Culture|Rulebook Equivalent|Real-world Equivalent|
+|---|---|---|
+|Tirenean|Auran|Western Roman|
+|Nicean|Auran|Eastern Roman (Greco-Roman/Byzantine)|
+|Krysean|Auran|Continental Celtic (Gaulic/Early French, Italian, Spanish|
+|Rornish|Rornish|Insular Celtic (Welsh, Cornish, Brythonic, Pictish)|
+|Celdorean|Auran|Persian/Islamic|
+|Nenadan|Ivory Kingdoma|Berber (African Nomads)|
+|Opplander|Jutlander|Norse/Viking|
+|Lovasok|Skysostan|Kievan Rus (Slavic Vikings on horses)|
+|Dwarven|Meniri Dwarven|Bit of Tolkien, bit of Warhammer|
+|Elven|Elven/Northern Argöllean|Tolkien Elves but a bit more fae with a pinch of Celtic culture|
