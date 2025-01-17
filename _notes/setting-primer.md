@@ -68,10 +68,10 @@ Some of the classes in the ACKS II Revised Rulebook allow the player to select a
 |Tirenean|Auran Empire|Western Roman|
 |Nicean|Auran Empire|Eastern Roman (Greco-Roman/Byzantine)|
 |Krysean|Auran Empire|Continental Celtic (Gaulic/Early French, Italian, Spanish|
-|Rornish|Rorn|Insular Celtic (Welsh, Cornish, Brythonic, Pictish)|
+|Rornish|Rorn|Insular Celtic (Welsh, Cornish, Britton, Pictish)|
 |Opplander|Jutland|Northern Germanic/Viking|
 |Lovasok|Skysos|Kievan Rus (Slavic Vikings on horses)|
-|Mauvani|Opelenean|Persian/Arabian/North-African/Islamic World|
+|Mauvani|Opelenea|Persian/Arabian/North-African/Islamic World|
 |Nenadan|Ivory Kingdoms|Sub-Saharan African nomads|
-|Dwarven|Meniri Dwarven|Bit of Tolkien, bit of Warhammer|
-|Elven|Elven/Northern Argöllean|Tolkien Elves but a bit more fae with a pinch of Celtic culture|
+|Dwarven|Meniri Mountains|Bit of Tolkien, bit of Warhammer|
+|Elven|Northern Argölle|Tolkien Elves but more fae with a pinch of Celtic culture|
