@@ -46,6 +46,7 @@ In the space between the Porta and the next river to the east, the Mortivena, a 
 |325 IY|The current year…|
 
 BS – Before shift. These dates are counted backwards from the year of the fourth shift. Like the real world’s BC/BCE.
+
 IY – Imperial year. These dates are counted forwards from the year that the Obrulion Empire established dominance of Kaelar. Like the real world’s AD/CE.
 
 ## Customs
