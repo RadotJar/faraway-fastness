@@ -69,6 +69,7 @@ Some of the classes in the ACKS II Revised Rulebook allow the player to select a
 |Nicean|Auran Empire|Eastern Roman (Greco-Roman/Byzantine)|
 |Krysean|Auran Empire|Continental Celtic (Gaulic/Early French, Italian, Spanish|
 |Rornish|Rorn|Insular Celtic (Welsh, Cornish, Britton, Pictish)|
+|Mizumi|-|Japanese/Chinese|
 |Opplander|Jutland|Northern Germanic/Viking|
 |Lovasok|Skysos|Kievan Rus (Slavic Vikings on horses)|
 |Mauvani|Opelenea|Persian/Arabian/North-African/Islamic World|
