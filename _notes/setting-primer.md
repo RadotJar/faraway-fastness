@@ -162,6 +162,7 @@ Mizumi people are named in the Mizumi tongue for the boon their parents hope the
 **Clan Names:** Higashimizu, Oka, Ryuiki, Midorihato, Tanbo.
 
 #### Opplander
+Since time immemorial, barbarian tribes have dwelled along the frigid north coast of Kaelar and among the snow-capped peaks there known as 'The Oppland'. These 'Opplanders' arrange themselves into loosely allied groups, each claiming dominion over one or more mountain peaks and a section of coastline. The tribes respect these ancestral boundaries but once on a raid, the gloves are off. While tribes have been known to collaborate on the ocean and river raids the Opplanders are famous for across Kaeler, usually it is more of a sport to see which tribes can make the most kills and take the most loot.  
 
 #### Lovasok
 
