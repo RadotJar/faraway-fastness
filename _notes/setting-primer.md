@@ -114,6 +114,23 @@ The head of the Luxian pantheon is known as ‘Luxeus’, though he has differen
 
 
 ### Peoples
+#### Equivalents
+Some of the classes in the ACKS II Revised Rulebook allow the player to select a class variant based on region, Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the region choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
+
+|Setting Culture|Rulebook Region|Real-world Equivalent|
+|---|---|---|
+|Tirenean|Auran Empire|Western Roman|
+|Nicean|Auran Empire|Eastern Roman (Greco-Roman/Byzantine)|
+|Krysean|Auran Empire|Continental Celtic (Gaulic/Early French, Italian, Spanish)|
+|Rornish|Rorn|Insular Celtic (Welsh, Cornish, Britton, Pictish)|
+|Mizumi|-|Japanese/Chinese|
+|Opplander|Jutland|Northern Germanic/Viking|
+|Lovasok|Skysos|Kievan Rus|
+|Mauvani|Opelenea|Persian/North-African/Islamic World|
+|Nenadan|Ivory Kingdoms|Sub-Saharan African nomads|
+|Dwarven|Meniri Mountains|Bit of Tolkien, bit of Warhammer|
+|Elven|Northern Argölle|Tolkien Elves but more fae with a pinch of Celtic culture|
+
 #### Tirenean
 The empire-building Tireneans hail from the western shores of The Great Lake. They can be found throughout Kaelera, though their greatest concentration remains in the Eastern and Western Obrulion Empires. They are tall-statured (men averaging 5’9”) with athletic body builds characterized by broad shoulders and narrow waists. They have long oval-shaped faces with upright foreheads, prominent cheekbones, narrow jaws, and moderately full lips. Tirenean eyes are deep-set and round, with coloration varying between blue-grey, grey, grey-brown, light brown, and dark brown. Their skin color is light but tans to dark brown. Tirenean hair is straight or wavy, and colored dark blonde, ash brown, dark brown, or black. The men have moderate beard and body hair.
 
@@ -180,8 +197,23 @@ The Lovasok are tall-statured (men averaging 5'10") with robust builds similar t
 **Female Names:** Anastasia, Olga, Mariya, Kateryna, Tetiana
 
 #### Mauvani
+The Mauvani Caliphate is the second most powerful civilized faction on Kaeler, having carved great domed cities out of the barren south-eastern desserts and badlands. Renowned for their mercantilism and learned men and women, caravans from the Caliphate can be found throughout Kaeler, striking shrewd deals atop towering camels and elephants. The dyes, incenses and spices of the Caliphate are of particular renown and in great demand throughout noble courts of the Obrulion Empires. Mauvani society is caste based, and as their civilization is restricted to relatively few bustling urban centers, the merchant lords of the desserts each operate relatively independantly as city-states. Of course, these lords still are absolutely loyal to their religious head, the Grand Caliph.
+
+Mauvani are medium-statured (men averaging 5’7”) with lean builds. They have oval- or ellipse-shaped faces with moderately sloped foreheads and full lips. Mauvani eyes are large and almond-shaped, with hazel, brown, or dark brown color. Their skin color ranges from medium to dark brown. Mauvani hair is wavy or curly, and colored dark brown or black, with ash brown or dark blonde occasionally seen. Their eyebrows tend to be thick and darker than their scalp hair. The men have heavy beard and body hair. Years of the slave trade have given many Mauvani traces of foreign blood, so features common in other peoples are not all too uncommon. Mauvani are traditionally given names in Old Mauvani, typically taking a grandparent’s, great uncle’s, or great aunt’s name. They do not use family names, instead indicating lineage
+by attaching the patronymic Bar (“son of ”) or Bat (“daughter of ”) to their father’s name (e.g. “Danel Bar Uthman” is “Danel, son of Uthman”).
+
+**Male Names:** Abedsh, Bodash, Danel, Eshmunazar, Hiram, Juba, Maharbal, Paebel, Shillek, Uthman
+
+**Female Names:** Ashera, Elissa, Donatiya, Fahima, Hurriya, Padriya, Rasha, Sapphira, Talliya, Zahira
 
 #### Nenadan
+The Nenadans are a nomadic but united people dwelling in the parts of the south-eastern deserts and badlands that cannot support urban centers and hence are relatively free from the 'civilizing' touch of the Caliphate. Still, the Nenadan existence is gruelling, many being taken into slavery or forced to turn to depraved acts of survival in the wastes of the world. Their culture is known to be one of the oldest, said to have existed even before the last shift and the formation of Kaelar. Perhaps this is why the Nenadans have a reputation of remaining sure of themselves even in the worst conditions. The few Obrulion scholars who have studied the Nenadan people speculate that there is something deeper at play behind their inhumanly calm visage, a long kept secret that gives them this confidence. Any who have ever encountered a Nenadan will corroborate the story that there is just something...off about them.
+
+The Nenadan people are tall-statured (men averaging 5’10”) with slender to athletic body builds, characterized by broad shoulders, narrow hips, and long legs. They have roundor diamond-shaped faces with narrow, steep foreheads, wide cheekbones, round chins, wide mouths, and full lips. Nenadan eyes are large, round, and black. Their glossy skin ranges from coffee-colored to brown-black. Their hair is black and tightly curled. The men have little to no beard and body hair. Nenadans are usually named in Old Nenadan after a totemic animal, a desired personality trait, or a tribal hero. The Nenadans do not carry hereditary surnames. Chiefs, heroes, and shamans may take or be given a sobriquet after their given name (e.g. if Masamba has outfought a lion, he might be “Masamba the Lion-Hearted”).
+
+**Male Names:** Abimbola, Babtunde, Chiumbo, Isingoma, Jengo, Kwame, Masamba, Olabode, Simba, Tifari
+
+**Female Names:** Ameena, Binta, Denisha, Habika, Kabira, Mandisa, Nakeisha, Rafiya, Safara, Zabia
 
 #### Dwarven
 For as long as any man remembers, the stout and cunning dwarven people have delved vast vaults in the Gartnait Alps, gathering rich ores and 
@@ -205,20 +237,15 @@ their given name and surname, dwarves enjoy collecting sobriquets and nicknames;
 **Surnames:** Breth, Domekh, Forkus, Gede, Karodar, Makor, Oengus, Radokh, Talorgen, Uoret
 
 #### Elven
+Elven civilization was at an advanced state well before human civilization appeared. The Elves claim they have always existed and talk of 'The Night of Eternal Darkness', a great cataclysm that rent the Earth, causing the first shift and the appearance of all other peoples. Today only a single elven kingdom survives on Kaelar in the northern jungles, though scattered fastnesses can still be found in forests throughout the continent. Elves hailing from the jungles style themselves “high elves” and count themselves as the inheritors of their race’s
+ancient glories. Elves from the outlying fastnesses are generally called “wood elves.” What they lack in arrogance, wood elves more than make up for in reclusiveness, a trait already prominent in the high elves. Elves are so rare throughout human realms that the appearance of one is usually taken as some kind of omen. They are viewed with either suspicion or awe and tend to find it hard to avoid trouble and attention. Adventuring tends to suit a life of being on the run and getting involved in world shaking matters quite well.
 
-#### Equivalents
-Some of the classes in the ACKS II Revised Rulebook allow the player to select a class variant based on region, Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the region choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
+Elves are short-statured (men averaging 5’6” in height), but have such lithe, well-proportioned bodies that all other races look ungainly in comparison. They have long heads and heartshaped faces with high cheekbones, finely-chiseled features, and full lips. Their eyes are almond-shaped and colored grey, blue, violet, green, or amber. Their hair is straight or wavy, and colored platinum, gold, silver, or blue-black. Their eyebrows are slender and they have neither beard nor body hair growth. Elven skin is pale, almost pure white, but suffers neither burning, browning, nor wrinkling — the elves look ever young and fair to the eyes of men. Despite this lack of natural blemishing, tattooing of the body and face is common among elven society, seen as much as an art form as a practical way to distinguish age, status or other achievements and associations.
 
-|Setting Culture|Rulebook Region|Real-world Equivalent|
-|---|---|---|
-|Tirenean|Auran Empire|Western Roman|
-|Nicean|Auran Empire|Eastern Roman (Greco-Roman/Byzantine)|
-|Krysean|Auran Empire|Continental Celtic (Gaulic/Early French, Italian, Spanish|
-|Rornish|Rorn|Insular Celtic (Welsh, Cornish, Britton, Pictish)|
-|Mizumi|-|Japanese/Chinese|
-|Opplander|Jutland|Northern Germanic/Viking|
-|Lovasok|Skysos|Kievan Rus (Slavic Vikings on horses)|
-|Mauvani|Opelenea|Persian/Arabian/North-African/Islamic World|
-|Nenadan|Ivory Kingdoms|Sub-Saharan African nomads|
-|Dwarven|Meniri Mountains|Bit of Tolkien, bit of Warhammer|
-|Elven|Northern Argölle|Tolkien Elves but more fae with a pinch of Celtic culture|
+Elves are always given names in the lilting Classical Elven language. Elven men are traditionally named for their paternal relatives, elven women for their maternal ones. Most Elves do not use family names. Their men indicate lineage with the patronymic Mag (“son of ”) followed by the father’s name (e.g. Aodan, son of Seanan, would be “Aodan Mag Seanan”). Their women use the matronymic Ni (“daughter of ”) followed by the mother’s name (e.g. Irial, daughter of Saorla, would be “Irial Ni Saorla”). The identifiers Mag and Ni are sometimes dropped. Elves descended from a famous noble or hero may append the identifier Ua/Ui (“descendant of ”) followed by the name of their ancestor (e.g. if Aodan is descended from the great hero Orthanach, he may call himself “Aodan Ua Orthanach”). This practice is most common among the high elven families of the norhtern jungles. Ever-suspicious of outsiders, elves who leave their fastnesses often conceal their lineage and instead use sobriquets in the local tongue (e.g. Aodan might call himself “Aodan Silverhair”).
+
+**Male Names:** Aodan, Brogan, Caoimhin, Eadan, Fionntan, Mainchin, Orthanach, Rigan, Seanan, Tomman
+
+**Female Names:** Arial, Ceara, Dairinn, Enya, Irial, Mornya, Niamh, Riona, Saorla, Una
+
+
