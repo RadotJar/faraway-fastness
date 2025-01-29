@@ -29,7 +29,7 @@ You can follow this procedure to make a character in your own time, but you'll n
 ## Player Count
 - There will be an attendance poll for each session in the discord.
 - On Thursday evenings I will check the poll and count confirmed numbers.
-- I will run sessions as long as there are 3-6 confirmed players by Thursday evening.
+- I will run sessions as long as there are 3 confirmed players by Thursday evening.
 
 ## Session Cancellation Policy
 - Assume that sessions are going ahead every Friday.
