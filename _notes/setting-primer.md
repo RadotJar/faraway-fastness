@@ -3,8 +3,6 @@ title: Setting Primer
 tags: settlement
 ---
 
-<script src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
-
 ## Setting Overview
 Millenia ago, the world was ruled over by an advanced ‘solarpunk’ race who learnt to harness all the energy the planet provided. Seven thousand years ago, in a great act of hubris, they sought to harness the power of the stars. A huge tower of incredible technological achievement was built at the highest peak and activated. The energy harnessed was so intense that it tore at the very fabric of the cosmos, and the spheres were dragged together in a great cataclysm the Elves know as ‘The Night of Eternal Darkness’. The cataclysm tore the world asunder, pulling beings from their spheres into ours. All lands were sent adrift in the vast oceans. These lands each took on some semblance of sentience, being inhabited or possessed by the spirits and deities from the other planes. All was still for a time as the beings came to rest. Then, came the first shift. The beings awakened and shifted across the world once more, coming together in different combinations to form a new ecosystem. Whenever these landmasses come together, great rifts of untamed power form along their borders, sometimes breaking free from the earth in places of power. Since the first shift, there have been three others.
 
@@ -29,22 +27,74 @@ In the space between the Porta and the next river to the east, the Mortivena, a 
 
 ## Timeline
 
-|Year|Events|
-|---|---|
-|>7000 BS|The world was ruled by a technologically advanced solarpunk race. Elves exist in a minority.|
-|7000 BS|The ancient rulers sought to harness the power of the stars, causing ‘The Night of Eternal Darkness’ and the first shift|
-|6999 BS – 6000 BS|The world is quiet as new races appear and find their place.|
-|5999 BS – 5000 BS|Second shift - the world’s landmasses shift again, arranging themselves differently.|
-|4999 BS – 4000 BS|The elves build a great civilization spanning most of the world’s lands.|
-|3999 BS – 3000 BS|Third shift.|
-|2999 BS – 2000 BS|Civilizations rebuild.|
-|1999 BS– 1 BS|Fourth shift - formation of current continents including Kaelera.|
-|0 BS – 0 IY|Civilizations rebuild.|
-|1 IY|The Obrulion Empire establishes itself as the dominant power on Kaelera.|
-|315 IY|The chaotic sorceress Isodor begins to spread chaos from her seat of power.|
-|318 IY|The peoples of Kaelera unite against Isodor, sending their finest legions to the source.|
-|320 IY|The Obrulion Empire fractures into western and eastern empires.|
-|325 IY|The current year…|
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Events</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><7000 BS</td>
+                <td>The world was ruled by a technologically advanced solarpunk race. Elves exist in a minority.</td>
+            </tr>
+            <tr>
+                <td>7000 BS</td>
+                <td>The ancient rulers sought to harness the power of the stars, causing ‘The Night of Eternal Darkness’ and the first shift.</td>
+            </tr>
+            <tr>
+                <td>6999 - 6000 BS</td>
+                <td>The world is quiet as new races appear and find their place.</td>
+            </tr>
+            <tr>
+                <td>5999 - 5000 BS</td>
+                <td>Second shift - the world’s landmasses shift again, arranging themselves differently.</td>
+            </tr>
+            <tr>
+                <td>4999 - 4000 BS</td>
+                <td>The elves build a great civilization spanning most of the world’s lands.</td>
+            </tr>
+            <tr>
+                <td>3999 - 3000 BS</td>
+                <td>Third shift.</td>
+            </tr>
+            <tr>
+                <td>2999 - 2000 BS</td>
+                <td>Civilizations rebuild.</td>
+            </tr>
+            <tr>
+                <td>1999 - 1 BS</td>
+                <td>Fourth shift - formation of current continents including Kaelera.</td>
+            </tr>
+            <tr>
+                <td>0 BS - 0 IY</td>
+                <td>Civilizations rebuild.</td>
+            </tr>
+            <tr>
+                <td>1 IY</td>
+                <td>The Obrulion Empire establishes itself as the dominant power on Kaelera.</td>
+            </tr>
+            <tr>
+                <td>315 IY</td>
+                <td>The chaotic sorceress Isodor begins to spread chaos from her seat of power.</td>
+            </tr>
+            <tr>
+                <td>318 IY</td>
+                <td>The peoples of Kaelera unite against Isodor, sending their finest legions to the source.</td>
+            </tr>
+            <tr>
+                <td>320 IY</td>
+                <td>The Obrulion Empire fractures into western and eastern empires.</td>
+            </tr>
+            <tr>
+                <td>325 IY</td>
+                <td>The current year…</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
 
 BS – Before shift. These dates are counted backwards from the year of the fourth shift. Like the real world’s BC/BCE.
 
@@ -186,6 +236,7 @@ Some of the classes in the ACKS II Revised Rulebook allow the player to select a
     </table>
 </responsive-table>
 
+
 #### Tirenean
 ![Tirenean male and female](/assets/tirenean.png)
 
@@ -274,7 +325,7 @@ by attaching the patronymic Bar (“son of ”) or Bat (“daughter of ”) to t
 **Female Names:** Ashera, Elissa, Donatiya, Fahima, Hurriya, Padriya, Rasha, Sapphira, Talliya, Zahira
 
 #### Nenadan
-![Nenadan male and female](/assets/nenadan.webp)
+![Nenadan male and female](/assets/nenadan.png)
 
 The Nenadans are a nomadic but united people dwelling in the parts of the south-eastern deserts and badlands that cannot support urban centers and hence are relatively free from the 'civilizing' touch of the Caliphate. Still, the Nenadan existence is gruelling, many being taken into slavery or forced to turn to depraved acts of survival in the wastes of the world. Their culture is known to be one of the oldest, said to have existed even before the last shift and the formation of Kaelera. Perhaps this is why the Nenadans have a reputation of remaining sure of themselves even in the worst conditions. The few Obrulion scholars who have studied the Nenadan people speculate that there is something deeper at play behind their inhumanly calm visage, a long kept secret that gives them this confidence. Any who have ever encountered a Nenadan will corroborate the story that there is just something...off about them.
 
@@ -318,3 +369,4 @@ Elves are always given names in the lilting Classical Elven language. Elven men 
 
 **Female Names:** Arial, Ceara, Dairinn, Enya, Irial, Mornya, Niamh, Riona, Saorla, Una
 
+<script src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
