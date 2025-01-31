@@ -2,7 +2,7 @@
 title: Digital Gardening
 ---
 
-🌱
+
 
 I've been doing some reading in the last couple of weeks about 'Digital Gardening'.
 

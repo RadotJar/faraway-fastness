@@ -1,7 +1,7 @@
 ---
 title: Japan Day 24. Hirugami
 ---
-🌱
+
 17/Oct/2024
 
 - Little local market that happens every day, pretty crazy. Town has permanent shade areas for stalls and the stallholders rotate location every day. About 20 stalls down by the river, misty mountains in the background.

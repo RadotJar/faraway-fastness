@@ -1,7 +1,7 @@
 ---
 title: Feudal Japan
 ---
-🌱
+
 
 Needless to say, my travels in Japan have inspired me to learn about the Japanese Feudal system. 
 

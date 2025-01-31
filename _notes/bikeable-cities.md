@@ -1,7 +1,6 @@
 ---
 title: Bikeable cities
 ---
-🌱
 
 - Are walkable.
 - People in Australia need infrastructure but people in Japan bike regardless of poor infrastructure. Is it because density forcea?

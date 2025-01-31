@@ -2,7 +2,7 @@
 title: Loss of Community
 ---
 
-🌱
+
 
 Watching the historical video in [[japan-day18|Shirakawa-go]], I was struck as I often am by just how much our communities have disappeared. 
 

@@ -1,7 +1,7 @@
 ---
 title: Japan Day Fourteen. Osaka
 ---
-🌱
+
 
 07/Oct/2024
 

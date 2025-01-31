@@ -1,7 +1,7 @@
 ---
 title: Japan Day 23. Nakatsugawa and Hirugami
 ---
-🌱
+
 
 16/Oct/2024
 

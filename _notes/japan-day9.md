@@ -1,7 +1,7 @@
 ---
 title: Japan Day Nine. Tokushima
 ---
-🌱
+
 02/10/2024
 
 ## English

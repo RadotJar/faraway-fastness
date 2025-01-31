@@ -1,7 +1,7 @@
 ---
 title: The Etymology of 'Fastness'
 ---
-🌱
+
 
 Just went down a rabbit hole on this word because it is quite specific and very rarely used. The meaning of the word is essentially 'a fortified or secure place' [ref](https://www.merriam-webster.com/dictionary/fastness).
 

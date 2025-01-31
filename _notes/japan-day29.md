@@ -1,7 +1,7 @@
 ---
 title: Japan Day 29. Kyoto
 ---
-🌱
+
 22/Oct/2024
 
 - Did our washing and put it in the bathroom heat mode to dry. Once again mentioning that these tiny plastic bathrooms seem to move when I'm in them. Not sure if its a claustraphobia thing or relative size illusion.

@@ -1,8 +1,7 @@
 ---
 title: Setting Primer
+tags: settlement
 ---
-
-🪴
 
 ## Setting Overview
 Millenia ago, the world was ruled over by an advanced ‘solarpunk’ race who learnt to harness all the energy the planet provided. Seven thousand years ago, in a great act of hubris, they sought to harness the power of the stars. A huge tower of incredible technological achievement was built at the highest peak and activated. The energy harnessed was so intense that it tore at the very fabric of the cosmos, and the spheres were dragged together in a great cataclysm the Elves know as ‘The Night of Eternal Darkness’. The cataclysm tore the world asunder, pulling beings from their spheres into ours. All lands were sent adrift in the vast oceans. These lands each took on some semblance of sentience, being inhabited or possessed by the spirits and deities from the other planes. All was still for a time as the beings came to rest. Then, came the first shift. The beings awakened and shifted across the world once more, coming together in different combinations to form a new ecosystem. Whenever these landmasses come together, great rifts of untamed power form along their borders, sometimes breaking free from the earth in places of power. Since the first shift, there have been three others.

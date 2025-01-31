@@ -1,7 +1,7 @@
 ---
 title: Japan Day 30. Kyoto and Kawaguchiko
 ---
-🌱
+
 23/Oct/2024
 
 - Up early to shinkansen going to Mishima station. Got bento box and got on the train.

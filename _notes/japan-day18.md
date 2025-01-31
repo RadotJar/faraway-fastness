@@ -1,7 +1,7 @@
 ---
 title: Japan Day Eighteen. Takiyama, Shirakawa-go and Seki
 ---
-🌱
+
 
 11/Oct/2024
 

@@ -2,7 +2,7 @@
 title: Japan Day Eight. Daisen, Okayama Prefecture and Tokushima Prefecture
 ---
 
-🌱
+
 
 01/10/2024
 

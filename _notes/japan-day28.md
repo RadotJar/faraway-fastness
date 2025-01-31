@@ -1,7 +1,7 @@
 ---
 title: Japan Day 28. Kyoto
 ---
-🌱
+
 21/Oct/2024
 
 - Super uneccesarily early wake up after long universal studios day.

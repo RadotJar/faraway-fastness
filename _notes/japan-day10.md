@@ -1,7 +1,7 @@
 ---
 title: Japan Day Ten. Tokushima and Hiwasa
 ---
-🌱
+
 03/Oct/2024
 
 ## English

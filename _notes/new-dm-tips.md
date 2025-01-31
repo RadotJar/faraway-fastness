@@ -2,7 +2,7 @@
 title: New DM Tips
 ---
 
-🌱
+
 
 - Showing the consequence of player action is the single most important thing
 - Always tell players more than your initial instinct, don't hide things unnecessarily

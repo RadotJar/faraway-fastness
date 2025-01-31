@@ -1,7 +1,7 @@
 ---
 title: Japan Day Seven. Daisen and Yonago
 ---
-🌱
+
 
 30/09/2024
 

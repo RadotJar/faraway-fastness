@@ -1,7 +1,7 @@
 ---
 title: Japanese Quick Language Guide
 ---
-🌱
+
 
 As my trip to Japan comes to an end, I feel inspired to write a quick and practical guide for the aspiring not-completely-ignorant tourist. 
 

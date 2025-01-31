@@ -2,7 +2,7 @@
 title: Collaborative Worldbuilding
 ---
 
-🌱
+
 
 ## A Process
 

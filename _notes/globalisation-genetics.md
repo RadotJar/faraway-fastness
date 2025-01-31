@@ -1,7 +1,7 @@
 ---
 title: Subtle effects of Globalisation
 ---
-🌱
+
 
 There are some issues brought about by globalisation that I have noticed and think are more subtle or rarely discussed.
 

@@ -1,7 +1,7 @@
 ---
 title: Japan Day 27. Universal Studios Japan
 ---
-🌱
+
 20/Oct/2024
 
 - Got up so early and didn't even eat and I was so worried about being hungry and grumpy and we found the train to Osaka.

@@ -1,7 +1,7 @@
 ---
 title: Japan Day Eleven. Hiwasa and Osaka
 ---
-🌱
+
 04/Oct/2024
 
 ## English (WIP)

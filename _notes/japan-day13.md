@@ -1,7 +1,7 @@
 ---
 title: Japan Day Thirteen. Osaka
 ---
-🌱
+
 
 06/Oct/2024
 

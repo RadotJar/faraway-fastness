@@ -5,14 +5,17 @@ layout: default
 <article>
   <div>
     <h1>
-      {{ page.title }}
-      {% if page.tags contains 'fastness' %}
-       🏰
-      {% elsif page.tags contains 'settlement' %}
-       ⛪
-      {% elsif page.tags contains 'outpost' %}
-       🛖
-      {% else %}
+      <span>{{ page.title }}</span>
+      <span>
+        {% if page.tags contains 'fastness' %}
+          <a title="This page is a Fastness (click for more information)" href="/icon-legend" class="internal-link" >🏰</a>
+        {% elsif page.tags contains 'settlement' %}
+          <a title="This page is a Settlement (click for more information)" href="/icon-legend" class="internal-link" >⛪</a>
+        {% elsif page.tags contains 'outpost' %}
+          <a title="This page is an Outpost (click for more information)" href="/icon-legend" class="internal-link" >🛖</a>
+        {% else %}
+        {% endif %}
+      <span>
     </h1>
     <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
       Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}

@@ -1,8 +1,7 @@
 ---
 title: Japan Day Three. Hiroshima
+tags: settlement
 ---
-
-🪴
 
 26/Sep/2024
 

@@ -1,7 +1,7 @@
 ---
 title: Land Ownership
 ---
-🌱
+
 
 Everyone in Australia is obsessed with owning property (land). The boomers had it cheap and have made a killing, the young people all want it to secure their financial future. It is basically in the Australian culture now to complain about housing prices.
 

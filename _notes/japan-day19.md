@@ -1,7 +1,7 @@
 ---
 title: Japan Day Nineteen. Seki
 ---
-🌱
+
 
 12/Oct/2024
 

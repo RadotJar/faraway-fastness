@@ -1,7 +1,7 @@
 ---
 title: Japan Day 21. Seki and Nakatsugawa
 ---
-🌱
+
 14/Oct/2024
 
 - Eggs and cake and packed.

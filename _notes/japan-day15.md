@@ -1,7 +1,7 @@
 ---
 title: Japan Day Fifteen. Osaka and Takayama
 ---
-🌱
+
 
 08/Oct/2024
 

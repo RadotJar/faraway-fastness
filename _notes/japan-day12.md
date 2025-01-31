@@ -1,7 +1,7 @@
 ---
 title: Japan Day Twelve. Osaka
 ---
-🌱
+
 05/Oct/2024
 
 ## English

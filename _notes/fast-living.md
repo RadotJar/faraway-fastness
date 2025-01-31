@@ -1,7 +1,7 @@
 ---
 title: Fast Living
 ---
-🌱
+
 
 The way people live has become so fast that certain things have lost their value.
 

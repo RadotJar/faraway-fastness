@@ -1,7 +1,7 @@
 ---
 title: Japan Day 25. Nakatsugawa and Nagoya
 ---
-🌱
+
 18/Oct/2024
 
 - Early rise and slimey breakfast before bus back to Nakatsugawa.

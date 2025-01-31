@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-# Welcome to the Faraway Fastness! 🌱
+# Welcome to the Faraway Fastness! 
 
 This is my [[digital-gardening|digital garden]]. Please peruse at your leisure.
 

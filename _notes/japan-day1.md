@@ -1,8 +1,7 @@
 ---
 title: Japan Day One. Shinagawa
+tags: settlement
 ---
-
-🪴
 
 24/Sep/2024
 

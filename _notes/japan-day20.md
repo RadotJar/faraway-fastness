@@ -1,7 +1,7 @@
 ---
 title: Japan Day Twenty. Seki and Mino
 ---
-🌱
+
 
 13/Oct/2024
 

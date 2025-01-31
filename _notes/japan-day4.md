@@ -2,7 +2,7 @@
 title: Japan Day Four. Hiroshima and Miyajima
 ---
 
-🌱
+
 
 27/Sep/2024
 

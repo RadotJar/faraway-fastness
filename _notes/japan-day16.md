@@ -1,7 +1,7 @@
 ---
 title: Japan Day Fifteen. Takayama
 ---
-🌱
+
 
 09/Oct/2024
 

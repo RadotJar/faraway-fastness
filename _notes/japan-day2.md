@@ -1,8 +1,7 @@
 ---
 title: Japan Day Two. Shinagawa and Hiroshima
+tags: settlement
 ---
-
-🪴
 
 25/Sep/2024
 

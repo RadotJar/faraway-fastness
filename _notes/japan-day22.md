@@ -1,7 +1,7 @@
 ---
 title: Japan Day 22. Nakatsugawa to Tsumago on the Nakasendo
 ---
-🌱
+
 15/Oct/2024
 
 - Toast and croissant breakfast not very filling and all pre packaged. Rushed to onigiri and got change.

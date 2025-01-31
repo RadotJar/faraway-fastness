@@ -1,7 +1,7 @@
 ---
 title: Japan Day 26. Nagoya and Kyoto
 ---
-🌱
+
 19/Oct/2024
 
 - Woken up by loud hair drying. May aswell take a shower as didn't last night to avoid noise despite loud common room guys.

@@ -2,7 +2,7 @@
 title: Japan Day Six. Miyajima, Hiroshima, Shimane and Tottori prefectures.
 ---
 
-🌱
+
 
 29/09/2024
 
