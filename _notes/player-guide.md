@@ -1,8 +1,7 @@
 ---
 title: Player guide
+tags: fastness
 ---
-
-🌱
 
 ## Open Table Policy
 New players are always welcome at any session without prior warning or preparation and regardless of player count. I will have a few pre-gens ready at all times in case someone new wants to give the game a try. Please feel free to bring anyone along who you think might be interested.
