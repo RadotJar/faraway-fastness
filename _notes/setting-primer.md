@@ -3,6 +3,8 @@ title: Setting Primer
 tags: settlement
 ---
 
+<script src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
+
 ## Setting Overview
 Millenia ago, the world was ruled over by an advanced ‘solarpunk’ race who learnt to harness all the energy the planet provided. Seven thousand years ago, in a great act of hubris, they sought to harness the power of the stars. A huge tower of incredible technological achievement was built at the highest peak and activated. The energy harnessed was so intense that it tore at the very fabric of the cosmos, and the spheres were dragged together in a great cataclysm the Elves know as ‘The Night of Eternal Darkness’. The cataclysm tore the world asunder, pulling beings from their spheres into ours. All lands were sent adrift in the vast oceans. These lands each took on some semblance of sentience, being inhabited or possessed by the spirits and deities from the other planes. All was still for a time as the beings came to rest. Then, came the first shift. The beings awakened and shifted across the world once more, coming together in different combinations to form a new ecosystem. Whenever these landmasses come together, great rifts of untamed power form along their borders, sometimes breaking free from the earth in places of power. Since the first shift, there have been three others.
 
@@ -115,19 +117,74 @@ The head of the Luxian pantheon is known as ‘Luxeus’, though he has differen
 #### Equivalents
 Some of the classes in the ACKS II Revised Rulebook allow the player to select a class variant based on region, Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the region choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
 
-|Setting Culture|Rulebook Region|Real-world Equivalent|
-|---|---|---|
-|Tirenean|Auran Empire|Western Roman|
-|Nicean|Auran Empire|Eastern Roman (Greco-Roman/Byzantine)|
-|Krysean|Auran Empire|Continental Celtic (Gaulic/Early French, Italian, Spanish)|
-|Rornish|Rorn|Insular Celtic (Welsh, Cornish, Britton, Pictish)|
-|Mizumi|-|Japanese/Chinese|
-|Opplander|Jutland|Northern Germanic/Viking|
-|Lovasok|Skysos|Kievan Rus|
-|Mauvani|Opelenea|Persian/North-African/Islamic World|
-|Nenadan|Ivory Kingdoms|Sub-Saharan African nomads|
-|Dwarven|Meniri Mountains|Bit of Tolkien, bit of Warhammer|
-|Elven|Northern Argölle|Tolkien Elves but more fae with a pinch of Celtic culture|
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Setting Culture</th>
+                <th scope="col">Rulebook Region</th>
+                <th scope="col">Real-world Equivalent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tirenean</td>
+                <td>Auran Empire</td>
+                <td>Western Roman</td>
+            </tr>
+            <tr>
+                <td>Nicean</td>
+                <td>Auran Empire</td>
+                <td>Eastern Roman (Greco-Roman/Byzantine)</td>
+            </tr>
+            <tr>
+                <td>Krysean</td>
+                <td>Auran Empire</td>
+                <td>Continental Celtic (Gaulic/Early French, Italian, Spanish)</td>
+            </tr>
+            <tr>
+                <td>Rornish</td>
+                <td>Rorn</td>
+                <td>Insular Celtic (Welsh, Cornish, Britton, Pictish)</td>
+            </tr>
+            <tr>
+                <td>Mizumi</td>
+                <td>-</td>
+                <td>Japanese/Chinese</td>
+            </tr>
+            <tr>
+                <td>Opplander</td>
+                <td>Jutland</td>
+                <td>Northern Germanic/Viking</td>
+            </tr>
+            <tr>
+                <td>Lovasok</td>
+                <td>Skysos</td>
+                <td>Kievan Rus</td>
+            </tr>
+            <tr>
+                <td>Mauvani</td>
+                <td>Opelenea</td>
+                <td>Persian/North-African/Islamic World</td>
+            </tr>
+            <tr>
+                <td>Nenadan</td>
+                <td>Ivory Kingdoms</td>
+                <td>Sub-Saharan African nomads</td>
+            </tr>
+            <tr>
+                <td>Dwarven</td>
+                <td>Meniri Mountains</td>
+                <td>Bit of Tolkien, bit of Warhammer</td>
+            </tr>
+            <tr>
+                <td>Elven</td>
+                <td>Northern Argölle</td>
+                <td>Tolkien Elves but more fae with a pinch of Celtic culture</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
 
 #### Tirenean
 ![Tirenean male and female](/assets/tirenean.png)
@@ -251,8 +308,7 @@ their given name and surname, dwarves enjoy collecting sobriquets and nicknames;
 **Surnames:** Breth, Domekh, Forkus, Gede, Karodar, Makor, Oengus, Radokh, Talorgen, Uoret
 
 #### Elven
-Elven civilization was at an advanced state well before human civilization appeared. The Elves claim they have always existed and talk of 'The Night of Eternal Darkness', a great cataclysm that rent the Earth, causing the first shift and the appearance of all other peoples. Today only a single elven kingdom survives on Kaelera in the northern jungles, though scattered fastnesses can still be found in forests throughout the continent. Elves hailing from the jungles style themselves “high elves” and count themselves as the inheritors of their race’s
-ancient glories. Elves from the outlying fastnesses are generally called “wood elves.” What they lack in arrogance, wood elves more than make up for in reclusiveness, a trait already prominent in the high elves. Elves are so rare throughout human realms that the appearance of one is usually taken as some kind of omen. They are viewed with either suspicion or awe and tend to find it hard to avoid trouble and attention. Adventuring tends to suit a life of being on the run and getting involved in world shaking matters quite well.
+Elven civilization was at an advanced state well before human civilization appeared. The Elves claim they have always existed and talk of 'The Night of Eternal Darkness', a great cataclysm that rent the Earth, causing the first shift and the appearance of all other peoples. Today only a single elven kingdom survives on Kaelera in the northern jungles, though scattered [[fastness-etymology|fastnesses]] can still be found in forests throughout the continent. Elves hailing from the jungles style themselves “high elves” and count themselves as the inheritors of their race’s ancient glories. Elves from the outlying fastnesses are generally called “wood elves.” What they lack in arrogance, wood elves more than make up for in reclusiveness, a trait already prominent in the high elves. Elves are so rare throughout human realms that the appearance of one is usually taken as some kind of omen. They are viewed with either suspicion or awe and tend to find it hard to avoid trouble and attention. Adventuring tends to suit a life of being on the run and getting involved in world shaking matters quite well.
 
 Elves are short-statured (men averaging 5’6” in height), but have such lithe, well-proportioned bodies that all other races look ungainly in comparison. They have long heads and heartshaped faces with high cheekbones, finely-chiseled features, and full lips. Their eyes are almond-shaped and colored grey, blue, violet, green, or amber. Their hair is straight or wavy, and colored platinum, gold, silver, or blue-black. Their eyebrows are slender and they have neither beard nor body hair growth. Elven skin is pale, almost pure white, but suffers neither burning, browning, nor wrinkling — the elves look ever young and fair to the eyes of men. Despite this lack of natural blemishing, tattooing of the body and face is common among elven society, seen as much as an art form as a practical way to distinguish age, status or other achievements and associations.
 
@@ -261,5 +317,4 @@ Elves are always given names in the lilting Classical Elven language. Elven men 
 **Male Names:** Aodan, Brogan, Caoimhin, Eadan, Fionntan, Mainchin, Orthanach, Rigan, Seanan, Tomman
 
 **Female Names:** Arial, Ceara, Dairinn, Enya, Irial, Mornya, Niamh, Riona, Saorla, Una
-
 

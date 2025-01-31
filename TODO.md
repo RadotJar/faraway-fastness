@@ -1,0 +1,3 @@
+- Table formatting
+- Table of contents
+- Dark mode
