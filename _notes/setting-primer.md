@@ -4,6 +4,7 @@ tags: settlement ttrpg
 ---
 
 ## Starting Situation
+![Hex map of the Borderlands](/assets/borderlandsMap.png)
 
 On the north-eastern edge of the Western Obrulion Empire, there is a pass between two mountain ranges. *Parumisi* to the North and *Spondus Obrulus* to the South. The *Porta River* runs North to South across this pass, naturally creating an incredibly defensible chokepoint. On this river sits the grand city of *Cyfaraun*, where the prince of the Borderlands watches over this far-flung corner of the empire. The Porta marks the beginning of the riverlands to its east, a great fertile basin that has been contested throughout history for its natural plenty. It’s lush forests and flood plains are littered with ancient fortresses, forgotten battlefields and the ruins of once great powers. Since the vile sorceress Isodor has risen to power, the riverlands have been poisoned by malice, overrun by beastmen and turned into a wild wasteland.
 
