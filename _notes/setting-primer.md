@@ -1,6 +1,6 @@
 ---
 title: Setting Primer
-tags: settlement ttrpg
+tags: fastness ttrpg
 ---
 
 ## Starting Situation
