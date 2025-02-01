@@ -1,5 +1,6 @@
 ---
 title: New DM Tips
+tags: ttrpg
 ---
 
 

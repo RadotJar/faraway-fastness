@@ -9,7 +9,7 @@ permalink: /
 
 This is my [[digital-gardening|digital garden]]. Please peruse at your leisure.
 
-<strong>Recently updated notes</strong>
+<strong>🕒 Recently updated notes</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
@@ -17,6 +17,18 @@ This is my [[digital-gardening|digital garden]]. Please peruse at your leisure.
     <li>
       {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
+  {% endfor %}
+</ul>
+
+<strong>🐉 Tabletop Roleplaying Games</strong>
+
+<ul>
+  {% for note in recent_notes %}
+    {% if note.tags contains "ttrpg" %}
+      <li>
+        <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 

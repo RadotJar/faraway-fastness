@@ -1,6 +1,6 @@
 ---
 title: Player guide
-tags: fastness
+tags: fastness ttrpg
 ---
 
 ## Open Table Policy

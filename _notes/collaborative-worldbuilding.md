@@ -1,5 +1,6 @@
 ---
 title: Collaborative Worldbuilding
+tags: ttrpg
 ---
 
 
