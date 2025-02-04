@@ -17,6 +17,8 @@ The procedure for character creation can be found on page 13 of the ACKS II Revi
 
 You can follow this procedure to make a character in your own time, but you'll need to run them past me before they can be played at the table. Whether you want to work with me to flesh out a character concept first and then build the character afterwards, or build them first and then come to me for a final check is up to you. I am also more than happy to sit down online or in person and build them together, but this must be arranged ahead of a session. A good option is for you to arrive at 6pm before a session to give us time to create a character together before play.
 
+When creating a character, I do not expect pages of backstory, in fact I discourage it. A character with all the mechanical bits and bobs, a name and a reason to adventure is all you'll need to begin.
+
 ## Session Schedule
 - Sessions will be run at my house every Friday from 6:30pm to 10:30pm.
 - At 6:30pm, we will eat pizza and catch up.
