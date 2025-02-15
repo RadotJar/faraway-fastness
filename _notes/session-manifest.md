@@ -61,7 +61,7 @@ tags: ttrpg
                 <td>Kriva</td>
                 <td>Heavy Infantry</td>
                 <td>0</td>
-                <td>Conversos</td>
+                <td>Conversos Crypt</td>
             </tr>
             <tr>
                 <td>Karvos</td>
