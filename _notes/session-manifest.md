@@ -5,6 +5,8 @@ tags: ttrpg
 
 ## Session 1
 
+**First day of the First Month of the Imperial Year 325**
+
 <responsive-table>
     <table class="table-striped">
         <thead>
@@ -16,30 +18,30 @@ tags: ttrpg
             </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Aleksei</td>
-            <td>Bladedancer</td>
-            <td>1</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>Conversos Crypt</td>
-            <td>Venturer</td>
-            <td>1</td>
-            <td>+5%</td>
-          </tr>
-          <tr>
-            <td>Tiche</td>
-            <td>Assassin</td>
-            <td>1</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>Bodash Ba'Esh Munazar</td>
-            <td>Mage</td>
-            <td>1</td>
-            <td>-</td>
-          </tr>          
+            <tr>
+                <td>Aleksei</td>
+                <td>Bladedancer</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Conversos Crypt</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Tiche</td>
+                <td>Assassin</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Bodash Ba'Esh Munazar</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>          
         </tbody>
     </table>
 </responsive-table>
@@ -55,24 +57,24 @@ tags: ttrpg
             </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Kriva</td>
-            <td>Heavy Infantry</td>
-            <td>0</td>
-            <td>Conversos</td>
-          </tr>
-          <tr>
-            <td>Karvos</td>
-            <td>Heavy Infantry</td>
-            <td>0</td>
-            <td>Conversos Crypt</td>
-          </tr>
-          <tr>
-            <td>Balien</td>
-            <td>Fisherman</td>
-            <td>0</td>
-            <td>Bodash Ba'Esh Munazar</td>
-          </tr>   
+            <tr>
+                <td>Kriva</td>
+                <td>Heavy Infantry</td>
+                <td>0</td>
+                <td>Conversos</td>
+            </tr>
+            <tr>
+                <td>Karvos</td>
+                <td>Heavy Infantry</td>
+                <td>0</td>
+                <td>Conversos Crypt</td>
+            </tr>
+            <tr>
+                <td>Balien</td>
+                <td>Fisherman</td>
+                <td>0</td>
+                <td>Bodash Ba'Esh Munazar</td>
+            </tr>   
         </tbody>
     </table>
 </responsive-table>
@@ -88,20 +90,54 @@ tags: ttrpg
       </thead>
       <tbody>
         <tr>
-          <td>Giant Crab Spider</td>
-          <td>1</td>
-          <td>38</td>
+            <td>Giant Crab Spider</td>
+            <td>1</td>
+            <td>38</td>
         </tr>
         <tr>
-          <td>Alleged Bandits</td>
-          <td>8</td>
-          <td>90</td>
+            <td>Alleged Bandits</td>
+            <td>8</td>
+            <td>90</td>
         </tr>
         <tr>
-          <td>Total</td>
-          <td></td>
-          <td>128</td>
+            <td>Total</td>
+            <td></td>
+            <td>128</td>
         </tr>   
       </tbody>
   </table>
 </responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">Treasure</th>
+              <th scope="col">Quantity</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Long wooden box tied to leather string</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Lump of lustrous dark stone</td>
+            <td>1</td>
+        <tr>
+            <td>Gold Pieces</td>
+            <td>322</td>
+        </tr>
+        <tr>
+            <td>Silver Pieces</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Copper Pieces</td>
+            <td>10</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+### Rule Questions
