@@ -105,34 +105,3 @@ tags: ttrpg
       </tbody>
   </table>
 </responsive-table>
-
-<responsive-table>
-  <table class="table-striped">
-      <thead>
-          <tr>
-              <th scope="col">Monster</th>
-              <th scope="col">Number</th>
-              <th scope="col">XP</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Giant Crab Spider</td>
-          <td>1</td>
-          <td>38</td>
-        </tr>
-        <tr>
-          <td>Alleged Bandits</td>
-          <td>8</td>
-          <td>90</td>
-        </tr>
-        <tr>
-          <td>Total</td>
-          <td></td>
-          <td>128</td>
-        </tr>   
-      </tbody>
-  </table>
-</responsive-table>
-  
-
