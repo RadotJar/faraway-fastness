@@ -5,7 +5,7 @@ tags: ttrpg
 
 ## Session 1
 
-**First day of the First Month of the Imperial Year 325**
+**First Day of the First Month of the Imperial Year 325**
 
 <responsive-table>
     <table class="table-striped">
