@@ -153,9 +153,14 @@ tags: ttrpg outpost
 
 ### Rule Clarifications
 
-**Spell Declaration: ** You must declare you are casting a spell before initiative is rolled. You must specify which spell.
-**Flanking: ** Flanking an enemy gives you a +2 to hit.
-**Attacking from Rear: ** Attacking an enemy from the rear gives you a +2 to hit like flanking. If your character can ambush or backstab, you may also trigger those abilities.
-**Firing into Melee: ** Firing through engaged allies to hit an unengaged opponent is at -2. Firing at opponents engaged with allies is not allowed at all (unless you have the Precise Shooting proficiency, which is at -4).
-**Retreating from Melee: ** You must declare your retreat before initiative is rolled. On your initiative, you turn away from engaged enemies and move up to your running speed. You have -2 AC until your next turn. Opponents **do not** get a free attack a la 'opportunity attack'.
-**Ammunition Retrieval: ** Spent ammunition cannot be retrieved.
+**Spell Declaration** You must declare you are casting a spell before initiative is rolled. You must specify which spell.
+
+**Flanking:** Flanking an enemy gives you a +2 to hit.
+
+**Attacking from Rear:** Attacking an enemy from the rear gives you a +2 to hit like flanking. If your character can ambush or backstab, you may also trigger those abilities.
+
+**Firing into Melee:** Firing through engaged allies to hit an unengaged opponent is at -2. Firing at opponents engaged with allies is not allowed at all (unless you have the Precise Shooting proficiency, which is at -4).
+
+**Retreating from Melee:** You must declare your retreat before initiative is rolled. On your initiative, you turn away from engaged enemies and move up to your running speed. You have -2 AC until your next turn. Opponents **do not** get a free attack a la 'opportunity attack'.
+
+**Ammunition Retrieval:** Spent ammunition cannot be retrieved.
