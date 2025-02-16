@@ -1,13 +1,13 @@
 ---
 title: Session Manifest
-tags: ttrpg
+tags: ttrpg outpost
 ---
 
 ## Session 1
 
-**Date - First Day of the First Month of the Imperial Year 325**
+### Date - First Day of the First Month of the Imperial Year 325
 
-**Location - Vaults of Volokarnos**
+### Location - Vaults of Volokarnos
 
 <responsive-table>
     <table class="table-striped">
@@ -151,4 +151,11 @@ tags: ttrpg
   </table>
 </responsive-table>
 
-### Rule Questions
+### Rule Clarifications
+
+**Spell Declaration: ** You must declare you are casting a spell before initiative is rolled. You must specify which spell.
+**Flanking: ** Flanking an enemy gives you a +2 to hit.
+**Attacking from Rear: ** Attacking an enemy from the rear gives you a +2 to hit like flanking. If your character can ambush or backstab, you may also trigger those abilities.
+**Firing into Melee: ** Firing through engaged allies to hit an unengaged opponent is at -2. Firing at opponents engaged with allies is not allowed at all (unless you have the Precise Shooting proficiency, which is at -4).
+**Retreating from Melee: ** You must declare your retreat before initiative is rolled. On your initiative, you turn away from engaged enemies and move up to your running speed. You have -2 AC until your next turn. Opponents **do not** get a free attack a la 'opportunity attack'.
+**Ammunition Retrieval: ** Spent ammunition cannot be retrieved.
