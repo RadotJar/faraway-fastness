@@ -5,7 +5,9 @@ tags: ttrpg
 
 ## Session 1
 
-**First Day of the First Month of the Imperial Year 325**
+**Date - First Day of the First Month of the Imperial Year 325**
+
+**Location - Vaults of Volokarnos**
 
 <responsive-table>
     <table class="table-striped">
@@ -124,6 +126,15 @@ tags: ttrpg
         <tr>
             <td>Lump of lustrous dark stone</td>
             <td>1</td>
+        </tr>
+        <tr>
+            <td>Brass armband depicting serpentine creature with runic carvings</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Ivory comb full of dark, coarse fur</td>
+            <td>1</td>
+        </tr>
         <tr>
             <td>Gold Pieces</td>
             <td>322</td>
