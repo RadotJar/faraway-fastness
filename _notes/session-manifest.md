@@ -39,7 +39,7 @@ tags: ttrpg outpost
                 <td>-</td>
             </tr>
             <tr>
-                <td>Bodash Ba'Esh Munazar</td>
+                <td>Bodash bar Eshmunazar</td>
                 <td>Mage</td>
                 <td>1</td>
                 <td>-</td>
@@ -75,7 +75,7 @@ tags: ttrpg outpost
                 <td>Balien</td>
                 <td>Fisherman</td>
                 <td>0</td>
-                <td>Bodash Ba'Esh Munazar</td>
+                <td>Bodash bar Eshmunazar</td>
             </tr>   
         </tbody>
     </table>
