@@ -48,6 +48,8 @@ tags: ttrpg outpost
     </table>
 </responsive-table>
 
+Break
+
 <responsive-table>
     <table class="table-striped">
         <thead>
@@ -81,6 +83,8 @@ tags: ttrpg outpost
     </table>
 </responsive-table>
 
+Break
+
 <responsive-table>
   <table class="table-striped">
       <thead>
@@ -109,6 +113,8 @@ tags: ttrpg outpost
       </tbody>
   </table>
 </responsive-table>
+
+Break
 
 <responsive-table>
   <table class="table-striped">
