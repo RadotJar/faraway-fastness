@@ -6,6 +6,7 @@ tags: ttrpg outpost
 ## Session 1
 
 📆 Date - First Day of the First Month of the Imperial Year 325
+
 🗺️ Location - Vaults of Volokarnos
 
 <responsive-table>
@@ -156,7 +157,7 @@ Break
   </table>
 </responsive-table>
 
-### Rule Clarifications
+### 📖 Rule Clarifications
 
 **Spell Declaration** You must declare you are casting a spell before initiative is rolled. You must specify which spell.
 
