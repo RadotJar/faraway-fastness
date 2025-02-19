@@ -5,15 +5,14 @@ tags: ttrpg outpost
 
 ## Session 1
 
-### Date - First Day of the First Month of the Imperial Year 325
-
-### Location - Vaults of Volokarnos
+📆 Date - First Day of the First Month of the Imperial Year 325
+🗺️ Location - Vaults of Volokarnos
 
 <responsive-table>
     <table class="table-striped">
         <thead>
             <tr>
-                <th scope="col">Character</th>
+                <th scope="col">🧑‍🦽 Character</th>
                 <th scope="col">Class</th>
                 <th scope="col">Level</th>
                 <th scope="col">Session XP Bonus</th>
@@ -54,7 +53,7 @@ Break
     <table class="table-striped">
         <thead>
             <tr>
-                <th scope="col">Henchman</th>
+                <th scope="col">🧎 Henchman</th>
                 <th scope="col">Occupation</th>
                 <th scope="col">Level</th>
                 <th scope="col">Employer</th>
@@ -89,7 +88,7 @@ Break
   <table class="table-striped">
       <thead>
           <tr>
-              <th scope="col">Monster</th>
+              <th scope="col">🐉 Monster</th>
               <th scope="col">Number</th>
               <th scope="col">XP</th>
           </tr>
@@ -120,7 +119,7 @@ Break
   <table class="table-striped">
       <thead>
           <tr>
-              <th scope="col">Treasure</th>
+              <th scope="col">🪙 Treasure</th>
               <th scope="col">Quantity</th>
           </tr>
       </thead>
