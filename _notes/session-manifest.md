@@ -48,8 +48,6 @@ tags: ttrpg outpost
     </table>
 </responsive-table>
 
-Break
-
 <responsive-table>
     <table class="table-striped">
         <thead>
@@ -83,8 +81,6 @@ Break
     </table>
 </responsive-table>
 
-Break
-
 <responsive-table>
   <table class="table-striped">
       <thead>
@@ -114,8 +110,6 @@ Break
   </table>
 </responsive-table>
 
-Break
-
 <responsive-table>
   <table class="table-striped">
       <thead>
@@ -125,6 +119,10 @@ Break
           </tr>
       </thead>
       <tbody>
+        <tr>
+            <td>Shiny bronze sheild engraved with legionnaires</td>
+            <td>1</td>
+        </tr>
         <tr>
             <td>Long wooden box tied to leather string</td>
             <td>1</td>
