@@ -170,6 +170,7 @@ The head of the Luxian pantheon is known as ‘Luxeus’, though he has differen
 
 **Krakiva:** Goddess of civilization, the oceans, storms and agriculture. She is the patron god of sailors and farmers and the twin sister of Leviathea. Her symbol is a many armed woman, each hand holding a different tool associated with civilization (gavel, scales, hoe etc).
 
+**Ianna:** Goddess of war. A lesser-known goddess worshipped primarily by the female-exclusive sect of Bladedancers hailing from a remote temple within Opplander territory. Her symbol is a seven pointed star.
 
 ### Peoples
 #### Equivalents
