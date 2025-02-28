@@ -10,7 +10,22 @@ On the north-eastern edge of the Western Obrulion Empire, there is a pass betwee
 
 In the space between the Porta and the next river to the east, the *Mortivena*, a line of border forts keeps the proverbial hounds from the doors of the common folk. Seven years ago, many of the garrisons from the Borderlands were sent East, to vanquish Isodor, never to return. Now, the dangers facing the Borderlands are greater than ever. Beastmen and monsters are slipping across the weakened border to terrorize and plunder. Travel has grown perilous, and the border forts are becoming increasingly isolated and outmatched. Here at the edge of an already crumbling empire, the power structure of the region has begun decentralizing to local warlords and private armies. The strong survive, and the weak are crushed underfoot to become another relic, lost to memory.
 
-**You** are all members of a mercenary guild. You've taken up a lucrative job which has sent you to the Borderlands to put an end to the beastmen raids and bring order back to the realm, lest the light of civilization should flicker and snuff to darkness.
+The characters are all members of a mercenery guild who have taken up a lucrative job offer posted by one mysterious 'Master Orius':
+
+```
+SEEKING ABLE BODIED MEN AND WOMEN!
+The Borderlands are being overrun by beastmen, and we don't stand a chance without knowing more about our enemy. The Guildmasters of the realm are under instruction to provide all those signing up with a list of rumored beastman redoubts and their approximate locations. Useful contacts will also be supplied for gathering further information. Clear these cursed locales and extract specimens, partial or whole. The Collector in Paluspa will purchase these for a fair price, live captives eliciting the highest bounty.
+
+All signees should expect immediate contact by way of supplied provisions. Following this, further contact will be made upon proof of first success.
+
+P.S. Learned men, scribes and ecologists shall also be rewarded for all salient findings.
+
+- Master Orius
+```
+
+At the outset of session 1, the party have travelled together for a number of weeks since signing up to the job, gathering information and making their way to the first rumoured redoubt: The Vaults of Volokarnos. We begin in this dungeon, some 6 miles North of Althier, crossroad town in the northeast of The Borderlands...
+
+Later parties may meet up with the first party in the Vaults, in the streets and domiciles of Althier, or somewhere else entirely. We shall see where the adventures lead.
 
 ## Setting Overview
 Millennia ago, the world was ruled over by an advanced solarpunk race who learnt to harness all the energy the planet provided. Seven thousand years ago, in a great act of hubris, they sought to go further and harness the power of the stars. A huge tower of incredible technological achievement was built at the highest peak and activated. The energy harnessed was so intense that it tore at the very fabric of the cosmos, and the spheres were dragged together in a great cataclysm the Elves know as *The Night of Eternal Darkness*. The cataclysm tore the world asunder, pulling beings from their spheres into ours. All lands were sent adrift in the vast oceans. These lands each took on some semblance of sentience, being inhabited or possessed by the spirits and deities from the other planes. 
