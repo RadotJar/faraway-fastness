@@ -162,7 +162,7 @@ tags: ttrpg outpost
         <tr>
             <td>Karvos</td>
             <td>M.I.A.</td>
-            <td>Chunk of leg torn off by hungry wolf pack. Last seen unconscious as brother tried to drag him from the Vauls. Presumed killed by gang of 8 Orcs</td>
+            <td>Chunk of leg torn off by hungry wolf pack. Last seen unconscious as brother tried to drag him from the Vaults. Presumed killed by gang of 8 Orcs</td>
         </tr>
       </tbody>
   </table>
