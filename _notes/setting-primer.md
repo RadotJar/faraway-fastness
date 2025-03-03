@@ -417,4 +417,4 @@ Elves are always given names in the lilting Classical Elven language. Elven men 
 
 **Female Names:** Arial, Ceara, Dairinn, Enya, Irial, Mornya, Niamh, Riona, Saorla, Una
 
-<script src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
+<script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
