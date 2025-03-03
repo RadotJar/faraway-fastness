@@ -346,4 +346,4 @@ tags: ttrpg outpost
 
 **Ammunition Retrieval:** Spent ammunition cannot be retrieved.
 
-<script src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
+<script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
