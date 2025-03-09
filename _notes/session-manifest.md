@@ -1,6 +1,176 @@
 ---
 title: Session Manifest
-tags: ttrpg outpost
+tags: ttrpg settlement
+---
+
+## Session 3
+
+📆 Date - First Day of the First Month of the Imperial Year 325
+
+🗺️ Location - Althier
+
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Binabus</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Bodash bar Eshmunazar</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Conversos Crypt</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Jozaferin</td>
+                <td>Dwarven Furnacewife</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Kalf Varsson</td>
+                <td>Crusader of Lux Dynamicus</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Tiche Na</td>
+                <td>Assassin</td>
+                <td>1</td>
+                <td>-</td>
+            </tr> 
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Balien</td>
+                <td>Fisherman</td>
+                <td>0</td>
+                <td>Bodash bar Eshmunazar</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🔼 Experience Awarded To</th>
+              <th scope="col">Quantity</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Conversos Crypt</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>Aleksei</td>
+            <td>172</td>
+        </tr>
+        <tr>
+            <td>Tiche Na</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Bodash bar Eshmunazar</td>
+            <td>143</td>
+        </tr>
+        <tr>
+            <td>Balien</td>
+            <td>68</td>
+        </tr>
+        <tr>
+            <td>Tetiana Buntovnic</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Jozaferin</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Theonus Eirwen</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Alberon</td>
+            <td>20</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure Awarded To</th>
+              <th scope="col">Treasure</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Bodash bar Eshmunazar</td>
+            <td>Scroll in Opplandic script</td>
+        </tr>
+        <tr>
+            <td>Conversos Crypt</td>
+            <td>111 gp, 10 cp</td>
+        </tr>
+        <tr>
+            <td>Jozaferin</td>
+            <td>Chunk of obsidian</td>
+        </tr>
+        <tr>
+            <td>Tiche Na</td>
+            <td>111 gp, 10 cp</td>
+        </tr>
+        <tr>
+            <td>Aleksei</td>
+            <td>101 gp</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+### 📖 Rule Clarifications
+
+**Casting the same spell multiple times:** If spellcasters (arcane or divine) are of high enough level to be able to cast multiple spells per day, they may cast the same spell multiple times in a day.
+
+**Cost of healing services:** Being healed at a temple/hospital is not free, costing 1gp per day. (Looking at you Conversos).
+
 ---
 
 ## Session 2
@@ -40,7 +210,7 @@ tags: ttrpg outpost
                 <td>+10%</td>
             </tr>
             <tr>
-                <td>Josepharian</td>
+                <td>Jozaferin</td>
                 <td>Dwarven Furnacewife</td>
                 <td>1</td>
                 <td>+5%</td>
