@@ -3,6 +3,92 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Session 4
+
+📆 Date - 2nd and 3rd days of the First Month of the Imperial Year 325
+
+🗺️ Location - Althier, Hommus and The Old Fortress
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alberron</td>
+                <td>Crusader of Leviathea</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Binabus</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Conversos Crypt</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>+10%</td>
+            </tr>
+            <tr>
+                <td>Jozaferin</td>
+                <td>Dwarven Furnacewife</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Kalf Varsson</td>
+                <td>Crusader of Lux Dynamicus</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Tetiana</td>
+                <td>Thief</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Tiche Na</td>
+                <td>Assassin</td>
+                <td>1</td>
+                <td>-</td>
+            </tr> 
+        </tbody>
+    </table>
+</responsive-table>
+
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Giant Crab Spider</td>
+            <td>1</td>
+            <td>38</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
+
 ## Session 3
 
 📆 Date - First Day of the First Month of the Imperial Year 325
@@ -130,7 +216,6 @@ tags: ttrpg settlement
       </tbody>
   </table>
 </responsive-table>
-
 
 <responsive-table>
   <table class="table-striped">
