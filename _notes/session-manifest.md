@@ -5,6 +5,8 @@ tags: ttrpg settlement
 
 ## Session 4
 
+The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He pointed them to the old fortress, where the beastmen were said to be lairing. The site was found, and a lurking spider was slain.
+
 📆 Date - 2nd and 3rd days of the First Month of the Imperial Year 325
 
 🗺️ Location - Althier, Hommus and The Old Fortress
@@ -36,7 +38,7 @@ tags: ttrpg settlement
                 <td>Conversos Crypt</td>
                 <td>Venturer</td>
                 <td>1</td>
-                <td>+10%</td>
+                <td>+5%</td>
             </tr>
             <tr>
                 <td>Jozaferin</td>
@@ -90,6 +92,8 @@ tags: ttrpg settlement
 
 
 ## Session 3
+
+The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities. The local mercenary guild had a posting for clearing beastmen from the village of Hommus.
 
 📆 Date - First Day of the First Month of the Imperial Year 325
 
@@ -210,7 +214,7 @@ tags: ttrpg settlement
             <td>21</td>
         </tr>
         <tr>
-            <td>Alberon</td>
+            <td>Alberron</td>
             <td>20</td>
         </tr>
       </tbody>
@@ -260,6 +264,12 @@ tags: ttrpg settlement
 
 ## Session 2
 
+The party interrogated the captive with impunity, learning that multiple score of Orc dwell within the Vaults of Volokarnos. A disastrous battle was had with the Orcs and the party was forced to flee, sacrificing Conversos' guts and henchmen.
+
+**Note:** This video covers both sessions 2 and 3.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CobOVkiY4hI?si=wYmR-v4iveQugmOu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 📆 Date - First Day of the First Month of the Imperial Year 325
 
 🗺️ Location - Vaults of Volokarnos
@@ -277,7 +287,7 @@ tags: ttrpg settlement
         </thead>
         <tbody>
             <tr>
-                <td>Alberon</td>
+                <td>Alberron</td>
                 <td>Crusader of Leviathea</td>
                 <td>1</td>
                 <td>-</td>
@@ -412,7 +422,7 @@ tags: ttrpg settlement
         <tr>
             <td>Kriva</td>
             <td>M.I.A.</td>
-            <td>Abandoned by party as he tried to drag his unconscious brother from the Vaults. Last seen by Alberon who uttered 'May the goddess be with you', before fleeing. Presumed killed by gang of 8 Orcs</td>
+            <td>Abandoned by party as he tried to drag his unconscious brother from the Vaults. Last seen by Alberron who uttered 'May the goddess be with you', before fleeing. Presumed killed by gang of 8 Orcs</td>
         </tr>
         <tr>
             <td>Karvos</td>
@@ -436,6 +446,10 @@ tags: ttrpg settlement
 ---
 
 ## Session 1
+
+The party began exploring the Vaults of Volokarnos. They ambushed a group of alleged bandits, killing all but one poor soul and snatching the loot!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/orEZQ6zpy3k?si=7Kbrq61_4y2CnxIe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 📆 Date - First Day of the First Month of the Imperial Year 325
 
@@ -552,7 +566,7 @@ tags: ttrpg settlement
       </thead>
       <tbody>
         <tr>
-            <td>Shiny bronze sheild engraved with legionnaires</td>
+            <td>Shiny bronze shield engraved with legionnaires</td>
             <td>1</td>
         </tr>
         <tr>
