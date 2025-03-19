@@ -1,0 +1,29 @@
+---
+layout: default
+title: "DM Assistant"
+id: "dm-assistant"
+---
+
+<div>
+    <div>
+        <div>Hour <span id ="hour">0</span></div>
+        <div>Turn  <span id="turn">1</span></div>
+    </div>
+    <br>   
+    <div>
+        <div>Durations</div>
+        <ul id="durations">
+            <li>Torch <span class=".turnsRemaining">6</span></li>
+            <li>Torch <span class=".turnsRemaining">4</span></li>
+            <li>Spell <span class=".turnsRemaining">2</span></li>
+        </ul>
+    </div>
+    <div>
+        <div>Actions</div>
+        <button type="button" onclick="addTorch()">Torch</button>
+        <button type="button" onclick="addSpell()">Spell</button>
+        <button type="button" onclick="advanceTurn()">Turn</button>
+    </div>
+</div>
+
+<script defer src="{{ site.baseurl }}/scripts/dm-assistant.js"></script>
