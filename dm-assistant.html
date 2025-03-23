@@ -12,18 +12,29 @@ id: "dm-assistant"
     <br>   
     <div>
         <div>Durations</div>
-        <ul id="durations">
-            <li>Torch <span class=".turnsRemaining">6</span></li>
-            <li>Torch <span class=".turnsRemaining">4</span></li>
-            <li>Spell <span class=".turnsRemaining">2</span></li>
-        </ul>
+        <div id="durations">
+            <button class="duration-torch">Torch <span class=".turns-remaining">6</span></button>
+            <button class="duration-torch">Torch <span class=".turns-remaining">4</span></button>
+            <button class="duration-spell">Spell <span class=".turns-remaining">2</span></button>
+        </div>
     </div>
+    <br>
     <div>
         <div>Actions</div>
-        <button type="button" onclick="addTorch()">Torch</button>
+        <button type="button" onclick="openTorchModal()">Torch</button>
         <button type="button" onclick="addSpell()">Spell</button>
         <button type="button" onclick="advanceTurn()">Turn</button>
     </div>
 </div>
+
+<dialog id="torch-modal">
+    <form method="dialog" onsubmit="addTorch(event)">
+        <div>New Torch</div>
+        <label for="characterName">Character Name:</label>
+        <input name="characterName" type="text" />
+        <br>
+        <input type="submit" value="Close Modal"/>
+    </form>
+</dialog>
 
 <script defer src="{{ site.baseurl }}/scripts/dm-assistant.js"></script>

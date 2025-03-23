@@ -12,13 +12,16 @@ function advanceTurn() {
     updateDurations();
 }
 
-function addTorch() {
+function addTorch( event ) {
+    const characterName = event.target.characterName.value;
+
     const torchDuration = document.createElement('span');
-    torchDuration.className = '.turnsRemaining';
+    torchDuration.className = '.turns-remaining';
     torchDuration.innerText = '6';
 
-    const newTorch = document.createElement('li');
-    newTorch.innerText = 'Torch ';
+    const newTorch = document.createElement('button');
+    newTorch.innerText = characterName + '\'s Torch '
+    newTorch.className = 'duration-torch'
     newTorch.appendChild(torchDuration);
 
     const durationsContainer = document.getElementById('durations');
@@ -27,11 +30,12 @@ function addTorch() {
 
 function addSpell() {
     const spellDuration = document.createElement('span');
-    spellDuration.className = '.turnsRemaining';
+    spellDuration.className = '.turns-remaining';
     spellDuration.innerText = '10';
 
-    const newSpell = document.createElement('li');
+    const newSpell = document.createElement('button');
     newSpell.innerText = 'Spell ';
+    newSpell.className = 'duration-spell'
     newSpell.appendChild(spellDuration);
 
     const durationsContainer = document.getElementById('durations');
@@ -44,11 +48,12 @@ function updateHour() {
     hour.innerText = updatedHour;
 }
 
+// There is a bug
 function updateDurations() {
     const durationsContainer = document.getElementById('durations');
     const durations = durationsContainer.children;
     for ( const duration of durations ) {
-        const turnsRemainingElm = duration.getElementsByClassName('.turnsRemaining')[0];
+        const turnsRemainingElm = duration.getElementsByClassName('.turns-remaining')[0];
         const turnsRemaining = Number(turnsRemainingElm.innerText);
         const updatedTurns = turnsRemaining - 1;
 
@@ -59,4 +64,9 @@ function updateDurations() {
 
         turnsRemainingElm.innerText = updatedTurns;
     }
+}
+
+function openTorchModal() {
+    const modal = document.getElementById('torch-modal');
+    modal.showModal();
 }

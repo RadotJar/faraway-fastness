@@ -95,7 +95,7 @@ The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He poin
 
 ## Session 3
 
-The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities. The local mercenary guild had a posting for clearing beastmen from the village of Hommus.
+The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities. The local mercenary guild had a posting for clearing beastmen from the village of Hommus. 'Malecab', the cacodemon was summoned by Binibus.
 
 ![Malecab the cacodemon](/assets/peteMalecab.jpg)
 
