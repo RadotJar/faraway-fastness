@@ -7,6 +7,8 @@ tags: ttrpg settlement
 
 The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He pointed them to the old fortress, where the beastmen were said to be lairing. The site was found, and a lurking spider was slain.
 
+![Drawing of spider emerging from fortress tower. Tiche holds the door open](/assets/peteSpider.jpg)
+
 📆 Date - 2nd and 3rd days of the First Month of the Imperial Year 325
 
 🗺️ Location - Althier, Hommus and The Old Fortress
@@ -59,7 +61,7 @@ The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He poin
                 <td>-</td>
             </tr>
             <tr>
-                <td>Tiche Na</td>
+                <td>Tiche</td>
                 <td>Assassin</td>
                 <td>1</td>
                 <td>-</td>
@@ -94,6 +96,8 @@ The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He poin
 ## Session 3
 
 The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities. The local mercenary guild had a posting for clearing beastmen from the village of Hommus.
+
+![Malecab the cacodemon](/assets/peteMalecab.jpg)
 
 📆 Date - First Day of the First Month of the Imperial Year 325
 
@@ -142,7 +146,7 @@ The party traveled to Althier, interring Conversos in the local Hospital while t
                 <td>-</td>
             </tr>
             <tr>
-                <td>Tiche Na</td>
+                <td>Tiche</td>
                 <td>Assassin</td>
                 <td>1</td>
                 <td>-</td>
@@ -190,7 +194,7 @@ The party traveled to Althier, interring Conversos in the local Hospital while t
             <td>172</td>
         </tr>
         <tr>
-            <td>Tiche Na</td>
+            <td>Tiche</td>
             <td>150</td>
         </tr>
         <tr>
@@ -243,7 +247,7 @@ The party traveled to Althier, interring Conversos in the local Hospital while t
             <td>Chunk of obsidian</td>
         </tr>
         <tr>
-            <td>Tiche Na</td>
+            <td>Tiche</td>
             <td>111 gp, 10 cp</td>
         </tr>
         <tr>
