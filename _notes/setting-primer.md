@@ -187,6 +187,8 @@ The head of the Luxian pantheon is known as ‘Luxeus’, though he has differen
 
 **Ianna:** Goddess of war. A lesser-known goddess worshipped primarily by the female-exclusive sect of Bladedancers hailing from a remote temple within Opplander territory. Her symbol is a seven pointed star.
 
+**Hypnos:** God of sleep, recuperation, distraction and hedonism. The son of Leviathea, his followers believe that regular, deep sleep is the path to health and enlightenment. If a bit of chemical aid is needed to get there, so be it. 
+
 ### Peoples
 #### Equivalents
 Some of the classes in the ACKS II Revised Rulebook allow the player to select a class variant based on region, Barbarians and Witches being notable examples. The peoples of my setting can all be represented by the region choices in the rulebook. I've listed these details below, alongside the real world cultures that they draw from.
