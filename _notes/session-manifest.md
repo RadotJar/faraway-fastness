@@ -3,11 +3,299 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Session 6
+The party disagree over whether to kill or free the captured leader of Zhaafique's ex-compatriots, but freedom wins out. They meet Rat Girl and her lovely family, before getting into a terrible tussle with a pair of Green Slimes.
+
+![Humorous graphic of two well loved characters. Below, the text 'Disabled Brothers' is scrawled in flame](/assets/disabledBrothers.webp)
+
+📆 Date - 3rd day of the First Month of the Imperial Year 325
+
+🗺️ Location - The Old Fortress
+
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alberron</td>
+                <td>Crusader of Leviathea</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Bodash Bar Eshmunazaar</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Binabus</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+10%</td>
+            </tr>
+            <tr>
+                <td>Conversos Crypt</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Kalf Varsson</td>
+                <td>Crusader of Lux Dynamicus</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Tetiana</td>
+                <td>Thief</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Tiche</td>
+                <td>Assassin</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Rat Girl</td>
+                <td>Shaman</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Balien</td>
+                <td>Fisherman</td>
+                <td>0</td>
+                <td>Bodash bar Eshmunazar</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Green Slime</td>
+            <td>2</td>
+            <td>112</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>112</td>
+        </tr>   
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tetiana</td>
+            <td>Melted Face: gruesome scarring (+1 to intimidate, -2 to other reaction rolls, Cannot impersonate others)</td>
+            <td>Found self inside a flaming green slime</td>
+        </tr>
+        <tr>
+            <td>Tiche</td>
+            <td>Ears burnt off, melted face: -2 to Listening rolls, -2 to Surprise rolls, gruesome scarring (+1 to intimidate, -2 to other reaction rolls, Cannot impersonate others)</td>
+            <td>Did not wear armour inside a green slime</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+
+## Session 5
+Zhaafique Bar Khan, venturer, was found bound by the spider's web. The party delved deeper into the old fortress, interrupting the escape of his treacherous ex-compatriots.
+
+📆 Date - 3rd day of the First Month of the Imperial Year 325
+
+🗺️ Location - The Old Fortress
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alberron</td>
+                <td>Crusader of Leviathea</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Aleksei</td>
+                <td>Bladedancer</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Binabus</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+10%</td>
+            </tr>
+            <tr>
+                <td>Conversos Crypt</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Jozaferin</td>
+                <td>Dwarven Furnacewife</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Kalf Varsson</td>
+                <td>Crusader of Lux Dynamicus</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Tetiana</td>
+                <td>Thief</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Tiche</td>
+                <td>Assassin</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Zhaafique Bar Khan</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr> 
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Man</td>
+            <td>9</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>100</td>
+        </tr>   
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Golden Neck-chain</td>
+            <td>1</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>Lapis Lazuli</td>
+            <td>1</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Bloodstone</td>
+            <td>1</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Platinum Pieces</td>
+            <td>11</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Silver Pieces</td>
+            <td>30</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>325</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+
 ## Session 4
 
 The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He pointed them to the old fortress, where the beastmen were said to be lairing. The site was found, and a lurking spider was slain.
 
-![Drawing of spider emerging from fortress tower. Tiche holds the door open](/assets/peteSpider.jpg)
+![Drawing of spider emerging from fortress tower. Tiche holds the door open](/assets/crab-spider.webp)
 
 📆 Date - 2nd and 3rd days of the First Month of the Imperial Year 325
 
@@ -86,6 +374,11 @@ The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He poin
             <td>1</td>
             <td>38</td>
         </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>38</td>
+        </tr>  
       </tbody>
   </table>
 </responsive-table>
@@ -95,9 +388,9 @@ The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He poin
 
 ## Session 3
 
-The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities. The local mercenary guild had a posting for clearing beastmen from the village of Hommus. 'Malecab', the cacodemon was summoned by Binibus.
+The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities. The local mercenary guild had a posting for clearing beastmen from the village of Hommus. 'Malaceb', the cacodemon was summoned by Binibus.
 
-![Malecab the cacodemon](/assets/peteMalecab.jpg)
+![Malaceb the cacodemon](/assets/malaceb.webp)
 
 📆 Date - First Day of the First Month of the Imperial Year 325
 
