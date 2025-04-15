@@ -75,7 +75,7 @@ Remember that you can always play multiple characters and switch between them se
 ## Bonus XP
 I will award bonus XP for the following out of game activities:
 - 5% Bonus XP if you bring snacks or drinks
-- 5% Bonus XP in your next session if you write a short session summary (200 words or less).
+- 5% Bonus XP in your next session if you produce a session summary. Examples include: A short text write up (200 words or less), a video, an image, a drawing.
 
 ## Other Useful Things
 A session log will be produced after each session on the [[session-manifest]] page.
