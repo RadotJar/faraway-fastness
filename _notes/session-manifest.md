@@ -291,6 +291,24 @@ Zhaafique Bar Khan, venturer, was found bound by the spider's web. The party del
 </responsive-table>
 
 
+### 📖 Rule Clarifications
+
+**Harvesting Monsters**
+
+Monsters can generally be harvested for three things:
+1. Mundane components for sale/crafting (antlers, skins etc).
+2. Magical components for spell research/magic item creation (dragon scales etc).
+3. Venom for poisoning weapons/other creatures.
+
+The requirements to identify and harvest each of these differ.
+
+**Mundane Components:** Generally require an appropriate tool such as an axe for hacking off antlers or a knife for skinning. Does not require any proficiency to harvest, though some proficiency may be required to process the item before it can be sold/used.
+
+**Magical Components:** External components (antlers, fangs, toes etc) can usually be harvested in the same way as their mundane equivalent. Internal organs such as a dragon's fire producing gland may require particular proficiencies. Magical components, unlike mundane components, do require a successful proficiency roll to even identify that a component is magical. Alchemy, Collegiate Wizardry, Magical Engineering, Naturalism and Loremastery can all be used for this identify roll, and can be stacked. Spells/abilities like detect magic can also help. Magical components must be stored in Metamphora to retain their magical attributes.
+
+**Venom:** Can be harvested from venomous **animals** with an Animal Husbandry roll of 18+. Can be harvested from **other creature types** using Animal Husbandry at a -4 penalty. Each level of Animal Husbandry gives a +4 bonus to the roll. Note that this means an Animal Husbandry proficiency of at least level 2 is required to harvest venom from **other creature types**. Note that venom must be harvested directly from the creature. You can't cut off fangs to harvest venom from later.
+
+
 ## Session 4
 
 The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He pointed them to the old fortress, where the beastmen were said to be lairing. The site was found, and a lurking spider was slain.
