@@ -22,18 +22,30 @@ id: "dm-assistant"
     <div>
         <div>Actions</div>
         <button type="button" onclick="openTorchModal()">Torch</button>
-        <button type="button" onclick="addSpell()">Spell</button>
+        <button type="button" onclick="openSpellModal()">Spell</button>
         <button type="button" onclick="advanceTurn()">Turn</button>
     </div>
 </div>
 
 <dialog id="torch-modal">
     <form method="dialog" onsubmit="addTorch(event)">
-        <div>New Torch</div>
         <label for="characterName">Character Name:</label>
         <input name="characterName" type="text" />
         <br>
-        <input type="submit" value="Close Modal"/>
+        <input type="submit" value="Light Torch"/>
+    </form>
+</dialog>
+
+<dialog id="spell-modal">
+    <form method="dialog" onsubmit="addSpell(event)">
+        <label for="characterName">Character Name:</label>
+        <input name="characterName" type="text" />
+        <label for="spellName">Spell:</label>
+        <input name="spellName" type="text" />
+        <label for="spellDuration">Turns:</label>
+        <input name="spellDuration" type="number" />
+        <br>
+        <input type="submit" value="Cast Spell"/>
     </form>
 </dialog>
 
