@@ -7,7 +7,9 @@ tags: ttrpg settlement
 
 ### Rule Clarifications
 
-**Familiars: ** Familiars provide their master with one proficiency related to their nature and +1 to all throws while in range. There is no supposed ability to communicate with your familiar ? Rats have superior olfaction.
+**Familiars:** Familiars provide their master with one proficiency related to their nature and +1 to all throws while in range. There is no supposed ability to communicate with your familiar ? Rats have superior olfaction.
+
+**Vehicular Combat:** If the vehicle does not charge (moving normally is ok), the vehicle driver and any passengers can make an attack, but the transporter cannot. If the vehicle does charge, the driver is too busy to make an attack, but the passengers and transporter can. Taking the example of Conversos and his mule driven cart: Conversos was the driver, the cart was the vehicle and the mule was the transporter. There were no concious passengers. Conversos could have opted to move the mule and cart to the enemy, and perform an attack himself. His other option would have been to charge with the mule and cart, removing his own opportunity to attack, but allowing the mule to attack. The mule could perform a regular attack upon reaching the enemy, or perform an overrun or force back maneuver. The former would allow Conversos and his mule and cart to charge through and past the enemy.
 
 ## Session 6
 The party disagree over whether to kill or free the captured leader of Zhaafique's ex-compatriots, but freedom wins out. They meet Rat Girl and her lovely family, before getting into a terrible tussle with a pair of Green Slimes.
