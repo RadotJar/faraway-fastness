@@ -3,6 +3,12 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Session 7
+
+### Rule Clarifications
+
+**Familiars: ** Familiars provide their master with one proficiency related to their nature and +1 to all throws while in range. There is no supposed ability to communicate with your familiar ? Rats have superior olfaction.
+
 ## Session 6
 The party disagree over whether to kill or free the captured leader of Zhaafique's ex-compatriots, but freedom wins out. They meet Rat Girl and her lovely family, before getting into a terrible tussle with a pair of Green Slimes.
 
