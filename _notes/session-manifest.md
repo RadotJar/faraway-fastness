@@ -122,6 +122,11 @@ The party batter a sleeping giant lizard to death and steal its treasure. Return
       </thead>
       <tbody>
         <tr>
+            <td>Short sword with a pearlescent glow<td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
             <td>Beautifully carved wooden heater shield</td>
             <td>1</td>
             <td>?</td>
