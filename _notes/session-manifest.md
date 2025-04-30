@@ -4,12 +4,175 @@ tags: ttrpg settlement
 ---
 
 ## Session 7
+The party batter a sleeping giant lizard to death and steal its treasure. Returning to Hommus, they encounter a group robbers on the main road. Bodash explodes three before falling to an arrow. Alberron's horse is downed and he is run through with a pearlescent sword. Victory is still won through surrender and rout.
 
-### Rule Clarifications
+📆 Date - 3rd and 4th days of the First Month of the Imperial Year 325
 
-**Familiars:** Familiars provide their master with one proficiency related to their nature and +1 to all throws while in range. There is no supposed ability to communicate with your familiar ? Rats have superior olfaction.
+🗺️ Location - The Old Fortress and Hommus
 
-**Vehicular Combat:** If the vehicle does not charge (moving normally is ok), the vehicle driver and any passengers can make an attack, but the transporter cannot. If the vehicle does charge, the driver is too busy to make an attack, but the passengers and transporter can. Taking the example of Conversos and his mule driven cart: Conversos was the driver, the cart was the vehicle and the mule was the transporter. There were no concious passengers. Conversos could have opted to move the mule and cart to the enemy, and perform an attack himself. His other option would have been to charge with the mule and cart, removing his own opportunity to attack, but allowing the mule to attack. The mule could perform a regular attack upon reaching the enemy, or perform an overrun or force back maneuver. The former would allow Conversos and his mule and cart to charge through and past the enemy.
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alberron</td>
+                <td>Crusader of Leviathea</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Bodash Bar Eshmunazaar</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Binabus</td>
+                <td>Mage</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Conversos Crypt</td>
+                <td>Venturer</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Tiche</td>
+                <td>Assassin</td>
+                <td>1</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Rat Girl</td>
+                <td>Shaman</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Balien</td>
+                <td>Fisherman</td>
+                <td>0</td>
+                <td>Bodash bar Eshmunazar</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Giant Lizard</td>
+            <td>1</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Ugly Human</td>
+            <td>7</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>135</td>
+        </tr>   
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Beautifully carved wooden heater shield</td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Silver Rod</td>
+            <td>1</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>30</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Alberron</td>
+            <td>Puckered abdominal scar (minor scarring)</td>
+            <td>Run through with a pearlescent sword</td>
+        </tr>
+        <tr>
+            <td>Bodash bar Eshmunazaar</td>
+            <td>A long scar down the chest (-2 to impersonate others)</td>
+            <td>Gouged by a falling arrow, targeted well at the party's earth exploder</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+### 📖 Rule Clarifications
+
+**Familiars:** Familiars provide their master with one proficiency related to their nature and +1 to all throws while in range. There is no assumed ability to communicate with your familia. Also, rats have superior olfaction, meaning they would serve well as a scent based lookout.
+
+**Vehicular Combat:** If the vehicle does not charge (moving normally is ok), the vehicle driver and any passengers can make an attack, but the transporter cannot. If the vehicle does charge, the driver is too busy to make an attack, but the passengers and transporter can. Taking the example of Conversos and his mule driven cart: Conversos was the driver, the cart was the vehicle and the mule was the transporter. There were no conscious passengers. Conversos could have opted to move the mule and cart to the enemy, and perform an attack himself. His other option would have been to charge with the mule and cart, removing his own opportunity to attack, but allowing the mule to attack. The mule could perform a regular attack upon reaching the enemy, or perform an overrun or force back maneuver. The former would allow Conversos and his mule and cart to charge through and past the enemy.
+
+
+---
+
 
 ## Session 6
 The party disagree over whether to kill or free the captured leader of Zhaafique's ex-compatriots, but freedom wins out. They meet Rat Girl and her lovely family, before getting into a terrible tussle with a pair of Green Slimes.
@@ -19,7 +182,6 @@ The party disagree over whether to kill or free the captured leader of Zhaafique
 📆 Date - 3rd day of the First Month of the Imperial Year 325
 
 🗺️ Location - The Old Fortress
-
 
 <responsive-table>
     <table class="table-striped">
@@ -152,6 +314,9 @@ The party disagree over whether to kill or free the captured leader of Zhaafique
       </tbody>
   </table>
 </responsive-table>
+
+
+---
 
 
 ## Session 5
@@ -298,7 +463,6 @@ Zhaafique Bar Khan, venturer, was found bound by the spider's web. The party del
   </table>
 </responsive-table>
 
-
 ### 📖 Rule Clarifications
 
 **Harvesting Monsters**
@@ -315,6 +479,9 @@ The requirements to identify and harvest each of these differ.
 **Magical Components:** External components (antlers, fangs, toes etc) can usually be harvested in the same way as their mundane equivalent. Internal organs such as a dragon's fire producing gland may require particular proficiencies. Magical components, unlike mundane components, do require a successful proficiency roll to even identify that a component is magical. Alchemy, Collegiate Wizardry, Magical Engineering, Naturalism and Loremastery can all be used for this identify roll, and can be stacked. Spells/abilities like detect magic can also help. Magical components must be stored in Metamphora to retain their magical attributes.
 
 **Venom:** Can be harvested from venomous **animals** with an Animal Husbandry roll of 18+. Can be harvested from **other creature types** using Animal Husbandry at a -4 penalty. Each level of Animal Husbandry gives a +4 bonus to the roll. Note that this means an Animal Husbandry proficiency of at least level 2 is required to harvest venom from **other creature types**. Note that venom must be harvested directly from the creature. You can't cut off fangs to harvest venom from later.
+
+
+---
 
 
 ## Session 4
@@ -408,6 +575,36 @@ The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He poin
       </tbody>
   </table>
 </responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Large ivory box</td>
+            <td>1</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Silver Pieces</td>
+            <td>38</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>54</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
 
 ---
 
@@ -915,10 +1112,6 @@ The party began exploring the Vaults of Volokarnos. They ambushed a group of all
         <tr>
             <td>Silver Pieces</td>
             <td>25</td>
-        </tr>
-        <tr>
-            <td>Copper Pieces</td>
-            <td>10</td>
         </tr>
       </tbody>
   </table>
