@@ -1,9 +1,14 @@
+# TODO
+
 ## General
 
 - Table of contents
 - Dark mode
+- Move all rules clarifications to their own page
+- Make dev guide
 
 ## DM Assistant
+
 - Fix torch bug
 - Uplift spell feature to match torch
 - Add turn prompts to roll encounters etc

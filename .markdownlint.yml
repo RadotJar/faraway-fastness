@@ -1,0 +1,10 @@
+{
+  # No inline HTML
+  "MD033": false, 
+  # Max line length
+  "MD013": {
+    "line_length": 160
+  },
+  # No duplicate heading
+  "MD024": false
+}
