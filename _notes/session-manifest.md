@@ -131,6 +131,35 @@ Unwilling to accept the guild's draconian terms, the party slaughters many a man
   </table>
 </responsive-table>
 
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+      <tr>
+            <td>Alberron</td>
+            <td>Punctured lung (Must rest 2 of every 6 turns, wilderness move speed reduced by 1/3, cannot force march, CON reduced by 1/3)</td>
+            <td>A dagger between the helmet and pauldron went deep, thrust by an opportunistic Ursiry Guild Grunt</td>
+        </tr>
+        <tr>
+            <td>Bodash</td>
+            <td>Deep wound that eternally aches (-1 initiative)</td>
+            <td>Brought low once again by a well aimed arrow</td>
+        </tr>
+        <tr>
+            <td>Balien</td>
+            <td>K.I.A</td>
+            <td>Collapsed over the edge of Conversos' cart after an arrow struck his chest. Cast out of the cart by Aleksei and left for dead</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
 ### 📖 Rule Clarifications
 
 #### Picking up/Dragging other characters
