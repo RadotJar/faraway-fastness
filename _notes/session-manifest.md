@@ -5,6 +5,8 @@ tags: ttrpg settlement
 
 ## Session 9
 
+{% assign session_number = 9 %}
+
 The party receive a bloody message informing them that they owe the Ursiry Guild a blood debt. They are to meet at the Bear's Head to discuss terms.
 After spending an inordinate amount of time shopping for military oil, they bluff their way past the gate guards and convene at the Inn.
 
@@ -15,7 +17,7 @@ Unwilling to accept the guild's draconian terms, the party slaughters many a man
 
 🗺️ Location - Althier, Geminos District
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -26,42 +28,17 @@ Unwilling to accept the guild's draconian terms, the party slaughters many a man
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Aleksei</td>
-                <td>Bladedancer of Ianna</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Bodash</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-             <tr>
-                <td>Jozaferin</td>
-                <td>Dwarven Furnacewife</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -183,6 +160,8 @@ Aleksei hears rumours of increasing beastman activity on the roads and in the mo
 
 ## Session 8
 
+{% assign session_number = 8 %}
+
 The party is confronted by a local militiaman and asked to stay put for questioning. They decide to ditch town and return to Althier to heal their wounded.
 Having a vendetta now for the Bear's Head Inn in the slum part of town, they opt to stay for 2 weeks at The Smiling Man Inn.
 
@@ -190,7 +169,7 @@ Having a vendetta now for the Bear's Head Inn in the slum part of town, they opt
 
 🗺️ Location - Hommus and Althier
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -201,42 +180,17 @@ Having a vendetta now for the Bear's Head Inn in the slum part of town, they opt
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Binabus</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+10%</td>
-            </tr>
-            <tr>
-                <td>Kalf Varsson</td>
-                <td>Cleric of Lux Dynamicus</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Tetiana</td>
-                <td>Thief</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -376,6 +330,8 @@ If a character wants to learn a new language, they would spend the requisite tim
 
 ## Session 7
 
+{% assign session_number = 7 %}
+
 The party batter a sleeping giant lizard to death and steal its treasure.
 Returning to Hommus, they encounter a group robbers on the main road.
 Bodash explodes three before falling to an arrow.
@@ -388,7 +344,7 @@ Victory is still won through surrender and rout.
 
 🗺️ Location - The Old Fortress and Hommus
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -399,42 +355,17 @@ Victory is still won through surrender and rout.
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Bodash Bar Eshmunazaar</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Binabus</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Rat Girl</td>
-                <td>Shaman</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -566,6 +497,8 @@ The former would allow Conversos and his mule and cart to charge through and pas
 
 ## Session 6
 
+{% assign session_number = 6 %}
+
 The party disagree over whether to kill or free the captured leader of Zhaafique's ex-compatriots, but freedom wins out.
 They meet Rat Girl and her lovely family, before getting into a terrible tussle with a pair of Green Slimes.
 
@@ -575,7 +508,7 @@ They meet Rat Girl and her lovely family, before getting into a terrible tussle 
 
 🗺️ Location - The Old Fortress
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -586,54 +519,17 @@ They meet Rat Girl and her lovely family, before getting into a terrible tussle 
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Bodash Bar Eshmunazaar</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Binabus</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+10%</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Kalf Varsson</td>
-                <td>Crusader of Lux Dynamicus</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tetiana</td>
-                <td>Thief</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Rat Girl</td>
-                <td>Shaman</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -714,13 +610,15 @@ They meet Rat Girl and her lovely family, before getting into a terrible tussle 
 
 ## Session 5
 
+{% assign session_number = 5 %}
+
 Zhaafique Bar Khan, venturer, was found bound by the spider's web. The party delved deeper into the old fortress, interrupting the escape of his treacherous ex-compatriots.
 
 📆 Date - 3rd day of the First Month of the Imperial Year 325
 
 🗺️ Location - The Old Fortress
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -731,60 +629,17 @@ Zhaafique Bar Khan, venturer, was found bound by the spider's web. The party del
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Aleksei</td>
-                <td>Bladedancer</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Binabus</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+10%</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Jozaferin</td>
-                <td>Dwarven Furnacewife</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Kalf Varsson</td>
-                <td>Crusader of Lux Dynamicus</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tetiana</td>
-                <td>Thief</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Zhaafique Bar Khan</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -888,6 +743,8 @@ Note that venom must be harvested directly from the creature. You can't cut off 
 
 ## Session 4
 
+{% assign session_number = 4 %}
+
 The party traveled to Hommus, meeting the local priest of Lux Dynamicus. He pointed them to the old fortress, where the beastmen were said to be lairing.
 The site was found, and a lurking spider was slain.
 
@@ -897,7 +754,7 @@ The site was found, and a lurking spider was slain.
 
 🗺️ Location - Althier, Hommus and The Old Fortress
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -908,48 +765,17 @@ The site was found, and a lurking spider was slain.
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Binabus</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Jozaferin</td>
-                <td>Dwarven Furnacewife</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Kalf Varsson</td>
-                <td>Crusader of Lux Dynamicus</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tetiana</td>
-                <td>Thief</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -1011,6 +837,8 @@ The site was found, and a lurking spider was slain.
 
 ## Session 3
 
+{% assign session_number = 3 %}
+
 The party traveled to Althier, interring Conversos in the local Hospital while they shopped and gathered job opportunities.
 The local mercenary guild had a posting for clearing beastmen from the village of Hommus. 'Malaceb', the cacodemon was summoned by Binabus.
 
@@ -1020,7 +848,7 @@ The local mercenary guild had a posting for clearing beastmen from the village o
 
 🗺️ Location - Althier
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -1031,42 +859,17 @@ The local mercenary guild had a posting for clearing beastmen from the village o
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Binabus</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Bodash bar Eshmunazar</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Jozaferin</td>
-                <td>Dwarven Furnacewife</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Kalf Varsson</td>
-                <td>Crusader of Lux Dynamicus</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -1185,6 +988,8 @@ they may cast the same spell multiple times in a day.
 
 ## Session 2
 
+{% assign session_number = 2 %}
+
 The party interrogated the captive with impunity, learning that multiple score of Orc dwell within the Vaults of Volokarnos.
 A disastrous battle was had with the Orcs and the party was forced to flee, sacrificing Conversos' guts and henchmen.
 
@@ -1197,7 +1002,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 🗺️ Location - Vaults of Volokarnos
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -1208,42 +1013,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Alberron</td>
-                <td>Crusader of Leviathea</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Aleksei</td>
-                <td>Bladedancer of Ianna</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+10%</td>
-            </tr>
-            <tr>
-                <td>Jozaferin</td>
-                <td>Dwarven Furnacewife</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tetiana</td>
-                <td>Thief</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Theonus</td>
-                <td>Fighter</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -1377,6 +1157,8 @@ If a thief is in bright light, they cannot use their shadowy senses.
 
 ## Session 1
 
+{% assign session_number = 1 %}
+
 The party began exploring the Vaults of Volokarnos. They ambushed a group of alleged bandits, killing all but one poor soul and snatching the loot!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/orEZQ6zpy3k?si=7Kbrq61_4y2CnxIe" title="YouTube video player" frameborder="0"
@@ -1386,7 +1168,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 🗺️ Location - Vaults of Volokarnos
 
-<responsive-table>
+<responsive-table class="character-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -1397,30 +1179,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Aleksei</td>
-                <td>Bladedancer</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Conversos Crypt</td>
-                <td>Venturer</td>
-                <td>1</td>
-                <td>+5%</td>
-            </tr>
-            <tr>
-                <td>Tiche</td>
-                <td>Assassin</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>Bodash bar Eshmunazar</td>
-                <td>Mage</td>
-                <td>1</td>
-                <td>-</td>
-            </tr>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>

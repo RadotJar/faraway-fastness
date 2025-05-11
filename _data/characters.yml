@@ -1,0 +1,177 @@
+- name: Alberron
+  class: Crusader of Leviathea
+  level: 1
+  sessions:
+    - session_number: 2
+      xp_bonus: "-"
+    - session_number: 4
+      xp_bonus: "-"
+    - session_number: 5
+      xp_bonus: "+5%"
+    - session_number: 6
+      xp_bonus: "-"
+    - session_number: 7
+      xp_bonus: "+5%"
+    - session_number: 8
+      xp_bonus: "-"
+    - session_number: 9
+      xp_bonus: +5%
+
+- name: Aleksei
+  class: Bladedancer of Ianna
+  level: 1
+  sessions:
+    - session_number: 1
+      xp_bonus: "-"
+    - session_number: 2
+      xp_bonus: "-"
+    - session_number: 5
+      xp_bonus: "-"
+    - session_number: 9
+      xp_bonus: "-"
+
+- name: Binabus
+  class: Mage
+  level: 1
+  sessions:
+    - session_number: 3
+      xp_bonus: "+5%"
+    - session_number: 4
+      xp_bonus: "+5%"
+    - session_number: 5
+      xp_bonus: "+10%"
+    - session_number: 6
+      xp_bonus: "+10%"
+    - session_number: 7
+      xp_bonus: "+5%"
+    - session_number: 8
+      xp_bonus: +5%
+
+- name: Bodash bar Eshmunazaar
+  class: Mage
+  level: 1
+  sessions:
+    - session_number: 1
+      xp_bonus: "-"
+    - session_number: 3
+      xp_bonus: "-"
+    - session_number: 6
+      xp_bonus: "+5%"
+    - session_number: 7
+      xp_bonus: "+5%"
+    - session_number: 9
+      xp_bonus: +5%
+
+- name: Conversos Crypt
+  class: Venturer
+  level: 1
+  sessions:
+    - session_number: 1
+      xp_bonus: "+5%"
+    - session_number: 2
+      xp_bonus: "+10%"
+    - session_number: 3
+      xp_bonus: "+10%"
+    - session_number: 4
+      xp_bonus: "+5%"
+    - session_number: 5
+      xp_bonus: "+5%"
+    - session_number: 6
+      xp_bonus: "+5%"
+    - session_number: 7
+      xp_bonus: "-"
+    - session_number: 8
+      xp_bonus: +10%
+    - session_number: 9
+      xp_bonus: +5%
+
+- name: Jozaferin
+  class: Dwarven Furnacewife
+  level: 1
+  sessions:
+    - session_number: 2
+      xp_bonus: "+5%"
+    - session_number: 3
+      xp_bonus: "-"
+    - session_number: 4
+      xp_bonus: "+5%"
+    - session_number: 5
+      xp_bonus: "+5%"
+    - session_number: 9
+      xp_bonus: "-"
+
+- name: Kalf Varsson
+  class: Crusader of Lux Dynamicus
+  level: 1
+  sessions:
+    - session_number: 3
+      xp_bonus: "-"
+    - session_number: 4
+      xp_bonus: "+5%"
+    - session_number: 5
+      xp_bonus: "+5%"
+    - session_number: 6
+      xp_bonus: "+5%"
+    - session_number: 8
+      xp_bonus: "-"
+
+- name: Rat Girl
+  class: Shaman
+  level: 1
+  sessions:
+    - session_number: 6
+      xp_bonus: "+5%"
+    - session_number: 7
+      xp_bonus: "-"
+    - session_number: 9
+      xp_bonus: "-"
+
+- name: Tetiana Buntovnic
+  class: Thief
+  level: 1
+  sessions:
+    - session_number: 2
+      xp_bonus: "+5%"
+    - session_number: 4
+      xp_bonus: "-"
+    - session_number: 5
+      xp_bonus: "+5%"
+    - session_number: 6
+      xp_bonus: "+5%"
+    - session_number: 8
+      xp_bonus: "-"
+
+- name: Theonus Erwin
+  class: Fighter
+  level: 1
+  sessions:
+    - session_number: 2
+      xp_bonus: "-"
+
+- name: Tiche
+  class: Assassin
+  level: 1
+  sessions:
+    - session_number: 1
+      xp_bonus: "-"
+    - session_number: 3
+      xp_bonus: "-"
+    - session_number: 4
+      xp_bonus: "-"
+    - session_number: 5
+      xp_bonus: "+5%"
+    - session_number: 6
+      xp_bonus: "+5%"
+    - session_number: 7
+      xp_bonus: "+5%"
+    - session_number: 8
+      xp_bonus: "+5%"
+    - session_number: 9
+      xp_bonus: "-"
+
+- name: Zhaafique Bar Khan
+  class: Assassin
+  level: 1
+  sessions:
+    - session_number: 5
+      xp_bonus: "+5%"
