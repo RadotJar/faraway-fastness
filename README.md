@@ -21,7 +21,7 @@ as well as serving as a hub for my Adventurer Conquerer King campaign.
 3. Navigate into the project's root directory and run `rbenv install`. This will instruct your machine to install and use the ruby version specified in `.ruby-version`.
 4. [`Install ruby gems`](https://rubygems.org/pages/download).
 5. Navigate into the project's root directory and run `bundle` to install all required gems.
-6. Run `bundle exec jekyll serve` to serve a page on localhost. The page will refresh automatically on changes.
+6. Run `bundle exec jekyll serve --livereload` to serve a page on localhost. The page will refresh automatically on changes.
 7. Check `TODO.md` if you want to work on one of my ideas for the project.
 8. Open a PR to main once you have changes you'd like to contribute.
 
