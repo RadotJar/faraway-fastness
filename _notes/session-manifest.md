@@ -3,6 +3,67 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Session 10
+
+{% assign session_number = 10 %}
+
+The party takes an old pilgrimage route into the mountains West of Althier in search of Lux Dynamicus, and the dwarven vault _Sanjikar_.
+They camp at the base of the mountains and, awoken in the middle of the night by fire and screams from the peaks, opt to go back to sleep.
+The next day, they climb the mountains and reach the pilgrimage destination of Whispering Chasm, only to find the aftermath of an overnight Orc raid...
+
+📆 Date - 6th and 7th day of the First Month of the Imperial Year 325 (Yes this is before the time skip)
+
+🗺️ Location - Althier, Whispering Chasm
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rigatocus</td>
+                <td>Initiate of Lux Dynamicus</td>
+                <td>0</td>
+                <td>Kalf Varsson</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+---
+
 ## Session 9
 
 {% assign session_number = 9 %}
@@ -1084,23 +1145,6 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             <td>Total</td>
             <td></td>
             <td>121</td>
-        </tr>
-      </tbody>
-  </table>
-</responsive-table>
-
-<responsive-table>
-  <table class="table-striped">
-      <thead>
-          <tr>
-              <th scope="col">🪙 Treasure</th>
-              <th scope="col">Quantity</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr>
-            <td> Nothing 😞 </td>
-            <td>0</td>
         </tr>
       </tbody>
   </table>

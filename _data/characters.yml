@@ -46,6 +46,8 @@
       xp_bonus: "+5%"
     - session_number: 8
       xp_bonus: +5%
+    - session_number: 10
+      xp_bonus: +10%
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -114,6 +116,8 @@
       xp_bonus: "+5%"
     - session_number: 8
       xp_bonus: "-"
+    - session_number: 10
+      xp_bonus: "-"
 
 - name: Rat Girl
   class: Shaman
@@ -124,6 +128,20 @@
     - session_number: 7
       xp_bonus: "-"
     - session_number: 9
+      xp_bonus: "-"
+
+- name: Sven Svensson
+  class: Bard
+  level: 1
+  sessions:
+    - session_number: 10
+      xp_bonus: "-"
+
+- name: Tassos
+  class: Fighter
+  level: 1
+  sessions:
+    - session_number: 10
       xp_bonus: "-"
 
 - name: Tetiana Buntovnic
