@@ -45,7 +45,6 @@ You may not reduce any stat below 9 when doing this.
 5. You must play this character in at least 1 session.
 6. Following this session, you may retire the character to me as an NPC or keep it as a backup, and roll another character.
 
-
 ## Session Schedule
 
 - Sessions will be run at my house every Friday from 6:30pm to 10:30pm.

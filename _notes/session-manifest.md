@@ -3,6 +3,158 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Session 11
+
+{% assign session_number = 11 %}
+
+After gathering more intel from the villagers of Whispering Chasm and collecting some new members, the party make tracks for Sanjikar on the Old Dwarven Way,
+following the trail of the Orc raiders.
+
+Coming across an abandoned Orc camp in a cave at the entry to an old Dwarven tunnel, they opt to camp themselves for the night.
+The party are awoken by foul, grey-skinned, pale-eyed creatures emerging from the ground seeking to devour their flesh.
+With the aid of Binabus' firebreathing cacodemon, [Emnooli, the dream that devours](https://peteranastasiou.github.io/acks-roller/?demon=%7B%22name%22%3A%22Emnooli%2C%20the%20Dream%20That%20Devours%22%2C%22rank%22%3A0%2C%22bodyForm%22%3A%22Arachnine%22%2C%22winged%22%3Afalse%2C%22flying%22%3Afalse%2C%22ac%22%3A4%2C%22hd%22%3A2%2C%22save%22%3A%22F2%22%2C%22morale%22%3A0%2C%22maxSpecialAbilities%22%3A2%2C%22hasSpeech%22%3Afalse%2C%22casterLevel%22%3A2%2C%22acModifier%22%3A1%2C%22landCombatSpeed%22%3A20%2C%22landRunningSpeed%22%3A60%2C%22flyingCombatSpeed%22%3A40%2C%22flyingRunningSpeed%22%3A120%2C%22climbingCombatSpeed%22%3A20%2C%22climbingRunningSpeed%22%3A60%2C%22swimmingCombatSpeed%22%3A0%2C%22swimmingRunningSpeed%22%3A0%2C%22bme%22%3A1.5%2C%22ccf%22%3A0.3%2C%22attacks%22%3A%5B%7B%22name%22%3A%22Bite%22%2C%22qty%22%3A1%2C%22damageType%22%3A%22Extraordinary%20piercing%22%2C%22roll%22%3A%221d8%22%7D%5D%2C%22mass%22%3A89%2C%22height%22%3A5%2C%22size%22%3A1%2C%22carryingCap%22%3A27%2C%22isSpellCaster%22%3Afalse%2C%22numSpecialAbilities%22%3A2%2C%22specialAbilities%22%3A%5B%7B%22name%22%3A%22Breath%20Weapon%22%2C%22value%22%3A1%2C%22description%22%3A%22The%20cacodemon%20gains%20a%20dragon-like%20breath%20weapon%20usable%203%2Fday.%20The%20breath%20weapon%20deals%201d6%20extraordinary%5Cndamage%20per%20HD%20of%20the%20cacodemon%2C%20with%20a%20successful%20Blast%20save%20reducing%20damage%20by%20half.%20Type%20of%20breath%3A%20%5Bflame%20(fire)%5D.%20Area%20of%20effect%20and%20special%20properties%20are%20as%20per%20a%20dragon.%22%7D%2C%7B%22name%22%3A%22Immunity%22%2C%22value%22%3A0.5%2C%22description%22%3A%22The%20cacodemon%20gains%20immunity%20to%20%5Ball%20mundane%20physical%20damage%5D%22%7D%2C%7B%22name%22%3A%22Stealth%22%2C%22value%22%3A0.125%2C%22description%22%3A%22The%20cacodemon%20is%20difficult%20to%20notice.%20Characters%20encountering%20the%20cacodemon%20at%20any%20time%20suffer%20a%20-2%20penalty%20to%20surprise%20rolls.%22%7D%2C%7B%22name%22%3A%22Special%20Senses%22%2C%22value%22%3A0.25%2C%22description%22%3A%22Echolocation%22%7D%2C%7B%22name%22%3A%22Spell-like%20Abilities%22%2C%22value%22%3A0.125%2C%22description%22%3A%22The%20cacodemon%20gains%20spell-like%20abilities%22%7D%5D%2C%22spellLikeAbilities%22%3A%5B%7B%22level%22%3A3%2C%22name%22%3A%22Bewitch%20Crowd%20enc%22%2C%22usage%22%3A%22once%20per%20season%22%2C%22numAbilities%22%3A0.07500000000000001%7D%5D%7D), and the rage of Kalf's henchman, Rigatocus, the party win a Pyyrhic victory, capturing one of the creatures for questioning.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6TbyFTH03g?si=ZLzBrXICBgtWZDr-" title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+📆 Date - 7th and 8th day of the First Month of the Imperial Year 325 (Yes this is before the time skip)
+
+🗺️ Location - Whispering Chasm, Old Dwarven Way
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rigatocus</td>
+                <td>Initiate of Lux Dynamicus</td>
+                <td>0</td>
+                <td>Kalf Varsson</td>
+            </tr>
+            <tr>
+                <td>Johnus Joe</td>
+                <td>Peasant - Uncle of the Groom</td>
+                <td>0</td>
+                <td>Tassos</td>
+            </tr>
+            <tr>
+                <td>Jornus</td>
+                <td>Peasant - Grandson of the wife of the uncle of the groom</td>
+                <td>0</td>
+                <td>Tassos</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Grey-skinned warrior</td>
+            <td>14</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <td>Grey-skinned champion</td>
+            <td>2</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Grey-skinned sub-chieftan</td>
+            <td>1</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>190</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+      <tr>
+            <td>Centurion Draxtor</td>
+            <td>Unharmed aside from the spear protruding from his gut</td>
+            <td>Skewered by the sub-chieftan of the grey-skinned creatures</td>
+        </tr>
+        <tr>
+            <td>Gustav</td>
+            <td>Skull split open, brain fluid leaked out (-2 to magic research and proficiency rolls, -10% XP earned)</td>
+            <td>Cleaved in the back of a head by an axe-wielding, grey-skinned warrior</td>
+        </tr>
+        <tr>
+            <td>Kalf Varsson</td>
+            <td>Aristocratic scar accross the forehead (Notable scarring)</td>
+            <td>Glancing blow from axe-wielding, grey-skinned warrior</td>
+        </tr>
+        <tr>
+            <td>Johnus Joe</td>
+            <td>K.I.A.</td>
+            <td>Decapitated, head flying through the cave in a bloody arc</td>
+        </tr>
+        <tr>
+            <td>Jornus</td>
+            <td>K.I.A.</td>
+            <td>Impaled on the spear of a grey-skinned warrior</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
 ## Session 10
 
 {% assign session_number = 10 %}
@@ -10,6 +162,9 @@ tags: ttrpg settlement
 The party takes an old pilgrimage route into the mountains West of Althier in search of Lux Dynamicus, and the dwarven vault _Sanjikar_.
 They camp at the base of the mountains and, awoken in the middle of the night by fire and screams from the peaks, opt to go back to sleep.
 The next day, they climb the mountains and reach the pilgrimage destination of Whispering Chasm, only to find the aftermath of an overnight Orc raid...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NeJsCaFPVAE?si=3fXXBwlP_SqBOGWu" title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 📆 Date - 6th and 7th day of the First Month of the Imperial Year 325 (Yes this is before the time skip)
 
@@ -394,12 +549,14 @@ If a character wants to learn a new language, they would spend the requisite tim
 {% assign session_number = 7 %}
 
 The party batter a sleeping giant lizard to death and steal its treasure.
-Returning to Hommus, they encounter a group robbers on the main road.
+Returning to Hommus, they encounter a group of robbers on the main road.
 Bodash explodes three before falling to an arrow.
 Alberron's horse is downed and he is run through with a pearlescent sword.
 Victory is still won through surrender and rout.
 
 !['Bonk', depicting the crusader Alberron smashing a giant lizard over the head with his two-handed mace.](/assets/pete_lizard_bonk.jpg)
+
+![AI interpretation. Foreground: Muleson, mule of Conversos Crypt. Background: Bodash bar Eshmunazaar casting Earth's Excrescence on robbers in the streets of Hommus.](/assets/bodash_earth_excrescence.png)
 
 📆 Date - 3rd and 4th days of the First Month of the Imperial Year 325
 

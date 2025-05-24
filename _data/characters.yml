@@ -15,7 +15,7 @@
     - session_number: 8
       xp_bonus: "-"
     - session_number: 9
-      xp_bonus: +5%
+      xp_bonus: "+5%"
 
 - name: Aleksei
   class: Bladedancer of Ianna
@@ -45,9 +45,11 @@
     - session_number: 7
       xp_bonus: "+5%"
     - session_number: 8
-      xp_bonus: +5%
+      xp_bonus: "+5%"
     - session_number: 10
-      xp_bonus: +10%
+      xp_bonus: "+10%"
+    - session_number: 11
+      xp_bonus: "-"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -62,7 +64,14 @@
     - session_number: 7
       xp_bonus: "+5%"
     - session_number: 9
-      xp_bonus: +5%
+      xp_bonus: "+5%"
+
+- name: Centurion Draxtor
+  class: Dwarven Machinist
+  level: 1
+  sessions:
+    - session_number: 11
+      xp_bonus: "-"
 
 - name: Conversos Crypt
   class: Venturer
@@ -83,9 +92,16 @@
     - session_number: 7
       xp_bonus: "-"
     - session_number: 8
-      xp_bonus: +10%
+      xp_bonus: "+10%"
     - session_number: 9
-      xp_bonus: +5%
+      xp_bonus: "+5%"
+
+- name: Gustav
+  class: Eldritch Rogue
+  level: 1
+  sessions:
+    - session_number: 11
+      xp_bonus: "+10%"
 
 - name: Jozaferin
   class: Dwarven Furnacewife
@@ -118,6 +134,8 @@
       xp_bonus: "-"
     - session_number: 10
       xp_bonus: "-"
+    - session_number: 11
+      xp_bonus: "+5%"
 
 - name: Rat Girl
   class: Shaman
@@ -136,12 +154,16 @@
   sessions:
     - session_number: 10
       xp_bonus: "-"
+    - session_number: 11
+      xp_bonus: "+10%"
 
 - name: Tassos
   class: Fighter
   level: 1
   sessions:
     - session_number: 10
+      xp_bonus: "-"
+    - session_number: 11
       xp_bonus: "-"
 
 - name: Tetiana Buntovnic
