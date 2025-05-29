@@ -7,16 +7,12 @@ id: "dm-assistant"
 <div>
     <div>
         <div>Hour <span id ="hour">0</span></div>
-        <div>Turn  <span id="turn">1</span></div>
+        <div>Turn <span id="turn">1</span></div>
     </div>
     <br>   
     <div>
         <div>Durations</div>
-        <div id="durations">
-            <button class="duration-torch">Torch <span class=".turns-remaining">6</span></button>
-            <button class="duration-torch">Torch <span class=".turns-remaining">4</span></button>
-            <button class="duration-spell">Spell <span class=".turns-remaining">2</span></button>
-        </div>
+        <div id="durations"></div>
     </div>
     <br>
     <div>
@@ -48,5 +44,21 @@ id: "dm-assistant"
         <input type="submit" value="Cast Spell"/>
     </form>
 </dialog>
+
+<dialog id="encounter-modal">
+    <p>Roll an encounter!</p>
+    <button onclick="closeEncounterModal()">Done</button>
+</dialog>
+
+<dialog id="rest-modal">
+    <p>Party must rest a turn!</p>
+    <button onclick="closeRestModal()">Done</button>
+</dialog>
+
+<dialog id="duration-expired-modal">
+    <p id="expiry-message">Placeholder</p>
+    <button onclick="closeDurationExpiredModal()">Done</button>
+</dialog>
+
 
 <script defer src="{{ site.baseurl }}/scripts/dm-assistant.js"></script>

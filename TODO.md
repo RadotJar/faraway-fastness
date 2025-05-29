@@ -7,6 +7,8 @@
 - Move all rules clarifications to their own page
 
 ## DM Assistant
+
+- Validate form data
 - Add turn prompts to roll encounters etc
 - Allow custom turn prompts on a given timer
 - Build turn structure in

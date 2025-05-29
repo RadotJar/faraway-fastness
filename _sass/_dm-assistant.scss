@@ -1,6 +1,11 @@
 $torch-colour: rgb(255, 81, 0);
 $spell-colour: rgb(133, 10, 125);
 
+$warning-colour: rgb(221, 22, 22);
+
+$rest-bg: rgb(122, 22, 221);
+$rest-fg: rgb(221, 165, 22);
+
 #durations {
     display: flex;
     flex-flow: row wrap;
@@ -19,4 +24,13 @@ $spell-colour: rgb(133, 10, 125);
         border-color: $spell-colour;
         border-radius: 1em;
     }
+}
+
+#encounter-modal {
+    background-color: $warning-colour;
+}
+
+#rest-modal {
+    background-color: $rest-bg;
+    color: $rest-fg;
 }
