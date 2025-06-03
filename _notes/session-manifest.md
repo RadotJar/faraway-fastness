@@ -3,6 +3,97 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Session 12
+
+{% assign session_number = 12 %}
+
+After being unable to communicate with the captured creature, the party set off on The Old Dwarven Way for Sanjikar.
+The tunnel takes them out onto a wide causeway in a deep, verdant valley.
+Emnooli makes charcoal of a small group of skeletons and the party make camp.
+Their sleep is interrupted by a foul demon-wolf promising to eat them and their bloodlines eternal, lest they bring him the Sanjikar Orcs' overlord to feast on.
+With that, the party continue the trek to Sanjikar, probing a shimmering cave filled with foul water behind a waterfall.
+
+📆 Date - 9th and 10th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Old Dwarven Way, Sanjikar
+
+![Depiction of the demon-wolf attack at camp](/assets/barghest_at_camp.jpg)
+
+![Map found scrawled in the dirt by some potato skins](/assets/map_in_dirt.png)
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rigatocus</td>
+                <td>Initiate of Lux Dynamicus</td>
+                <td>0</td>
+                <td>Kalf Varsson</td>
+            </tr>
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Skeleton</td>
+            <td>14</td>
+            <td>182</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>182</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
 ## Session 11
 
 {% assign session_number = 11 %}

@@ -50,6 +50,8 @@
       xp_bonus: "+10%"
     - session_number: 11
       xp_bonus: "-"
+    - session_number: 12
+      xp_bonus: "+5%"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -136,6 +138,15 @@
       xp_bonus: "-"
     - session_number: 11
       xp_bonus: "+5%"
+    - session_number: 12
+      xp_bonus: "-"
+
+- name: Questoni
+  class: Explorer
+  level: 1
+  sessions:
+    - session_number: 12
+      xp_bonus: "+5%"
 
 - name: Rat Girl
   class: Shaman
@@ -155,6 +166,8 @@
     - session_number: 10
       xp_bonus: "-"
     - session_number: 11
+      xp_bonus: "+10%"
+    - session_number: 12
       xp_bonus: "+10%"
 
 - name: Tassos
@@ -208,6 +221,13 @@
       xp_bonus: "+5%"
     - session_number: 9
       xp_bonus: "-"
+
+- name: Verso
+  class: Mage
+  level: 1
+  sessions:
+    - session_number: 12
+      xp_bonus: "+5%"
 
 - name: Zhaafique Bar Khan
   class: Assassin
