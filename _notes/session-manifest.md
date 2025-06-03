@@ -3,6 +3,26 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
+## Campaign Awards
+
+<p>
+    {% assign most_sessions_char = site.data.characters[0] %}
+    {% assign num_sessions = most_sessions_char.sessions.size %}
+    {% for character in site.data.characters %}
+        {% if character.sessions.size > num_sessions %}
+            {% assign most_sessions_char = character %}
+            {% assign num_sessions = character.sessions.size %}
+        {% endif %}
+    {% endfor %}
+    <span><strong>Bad smell award: </strong></span>
+    <span> 👃 {{ most_sessions_char.name }} with {{ num_sessions }} sessions attended.</span>
+    <br>
+    <span><strong>Bane of happy families award: </strong></span>
+    <span> 💀 Conversos Crypt and 💀 Tassos with 2 henchmen lost each.</span>
+</p>
+
+---
+
 ## Session 12
 
 {% assign session_number = 12 %}

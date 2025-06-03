@@ -221,6 +221,8 @@
       xp_bonus: "+5%"
     - session_number: 9
       xp_bonus: "-"
+    - session_number: 10
+      xp_bonus: "-"
 
 - name: Verso
   class: Mage
