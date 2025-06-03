@@ -47,7 +47,7 @@ With that, the party continue the trek to Sanjikar, probing a shimmering cave fi
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -58,12 +58,17 @@ With that, the party continue the trek to Sanjikar, probing a shimmering cave fi
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Rigatocus</td>
-                <td>Initiate of Lux Dynamicus</td>
-                <td>0</td>
-                <td>Kalf Varsson</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -103,7 +108,8 @@ following the trail of the Orc raiders.
 
 Coming across an abandoned Orc camp in a cave at the entry to an old Dwarven tunnel, they opt to camp themselves for the night.
 The party are awoken by foul, grey-skinned, pale-eyed creatures emerging from the ground seeking to devour their flesh.
-With the aid of Binabus' firebreathing cacodemon, [Emnooli, the dream that devours](https://peteranastasiou.github.io/acks-roller/?demon=%7B%22name%22%3A%22Emnooli%2C%20the%20Dream%20That%20Devours%22%2C%22rank%22%3A0%2C%22bodyForm%22%3A%22Arachnine%22%2C%22winged%22%3Afalse%2C%22flying%22%3Afalse%2C%22ac%22%3A4%2C%22hd%22%3A2%2C%22save%22%3A%22F2%22%2C%22morale%22%3A0%2C%22maxSpecialAbilities%22%3A2%2C%22hasSpeech%22%3Afalse%2C%22casterLevel%22%3A2%2C%22acModifier%22%3A1%2C%22landCombatSpeed%22%3A20%2C%22landRunningSpeed%22%3A60%2C%22flyingCombatSpeed%22%3A40%2C%22flyingRunningSpeed%22%3A120%2C%22climbingCombatSpeed%22%3A20%2C%22climbingRunningSpeed%22%3A60%2C%22swimmingCombatSpeed%22%3A0%2C%22swimmingRunningSpeed%22%3A0%2C%22bme%22%3A1.5%2C%22ccf%22%3A0.3%2C%22attacks%22%3A%5B%7B%22name%22%3A%22Bite%22%2C%22qty%22%3A1%2C%22damageType%22%3A%22Extraordinary%20piercing%22%2C%22roll%22%3A%221d8%22%7D%5D%2C%22mass%22%3A89%2C%22height%22%3A5%2C%22size%22%3A1%2C%22carryingCap%22%3A27%2C%22isSpellCaster%22%3Afalse%2C%22numSpecialAbilities%22%3A2%2C%22specialAbilities%22%3A%5B%7B%22name%22%3A%22Breath%20Weapon%22%2C%22value%22%3A1%2C%22description%22%3A%22The%20cacodemon%20gains%20a%20dragon-like%20breath%20weapon%20usable%203%2Fday.%20The%20breath%20weapon%20deals%201d6%20extraordinary%5Cndamage%20per%20HD%20of%20the%20cacodemon%2C%20with%20a%20successful%20Blast%20save%20reducing%20damage%20by%20half.%20Type%20of%20breath%3A%20%5Bflame%20(fire)%5D.%20Area%20of%20effect%20and%20special%20properties%20are%20as%20per%20a%20dragon.%22%7D%2C%7B%22name%22%3A%22Immunity%22%2C%22value%22%3A0.5%2C%22description%22%3A%22The%20cacodemon%20gains%20immunity%20to%20%5Ball%20mundane%20physical%20damage%5D%22%7D%2C%7B%22name%22%3A%22Stealth%22%2C%22value%22%3A0.125%2C%22description%22%3A%22The%20cacodemon%20is%20difficult%20to%20notice.%20Characters%20encountering%20the%20cacodemon%20at%20any%20time%20suffer%20a%20-2%20penalty%20to%20surprise%20rolls.%22%7D%2C%7B%22name%22%3A%22Special%20Senses%22%2C%22value%22%3A0.25%2C%22description%22%3A%22Echolocation%22%7D%2C%7B%22name%22%3A%22Spell-like%20Abilities%22%2C%22value%22%3A0.125%2C%22description%22%3A%22The%20cacodemon%20gains%20spell-like%20abilities%22%7D%5D%2C%22spellLikeAbilities%22%3A%5B%7B%22level%22%3A3%2C%22name%22%3A%22Bewitch%20Crowd%20enc%22%2C%22usage%22%3A%22once%20per%20season%22%2C%22numAbilities%22%3A0.07500000000000001%7D%5D%7D), and the rage of Kalf's henchman, Rigatocus, the party win a Pyyrhic victory, capturing one of the creatures for questioning.
+With the aid of Binabus' firebreathing cacodemon, [Emnooli, the dream that devours](https://tinyurl.com/4b5ne623),
+and the rage of Kalf's henchman, Rigatocus, the party win a Pyyrhic victory, capturing one of the creatures for questioning.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6TbyFTH03g?si=ZLzBrXICBgtWZDr-" title="YouTube video player" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -138,7 +144,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -149,24 +155,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Rigatocus</td>
-                <td>Initiate of Lux Dynamicus</td>
-                <td>0</td>
-                <td>Kalf Varsson</td>
-            </tr>
-            <tr>
-                <td>Johnus Joe</td>
-                <td>Peasant - Uncle of the Groom</td>
-                <td>0</td>
-                <td>Tassos</td>
-            </tr>
-            <tr>
-                <td>Jornus</td>
-                <td>Peasant - Grandson of the wife of the uncle of the groom</td>
-                <td>0</td>
-                <td>Tassos</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -287,7 +286,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -298,12 +297,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Rigatocus</td>
-                <td>Initiate of Lux Dynamicus</td>
-                <td>0</td>
-                <td>Kalf Varsson</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -350,7 +354,7 @@ Unwilling to accept the guild's draconian terms, the party slaughters many a man
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -361,12 +365,17 @@ Unwilling to accept the guild's draconian terms, the party slaughters many a man
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Balien</td>
-                <td>Fisherman</td>
-                <td>0</td>
-                <td>Bodash bar Eshmunazar</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -679,7 +688,7 @@ Victory is still won through surrender and rout.
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -690,12 +699,17 @@ Victory is still won through surrender and rout.
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Balien</td>
-                <td>Fisherman</td>
-                <td>0</td>
-                <td>Bodash bar Eshmunazar</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -843,7 +857,7 @@ They meet Rat Girl and her lovely family, before getting into a terrible tussle 
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -854,12 +868,17 @@ They meet Rat Girl and her lovely family, before getting into a terrible tussle 
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Balien</td>
-                <td>Fisherman</td>
-                <td>0</td>
-                <td>Bodash bar Eshmunazar</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -1183,7 +1202,7 @@ The local mercenary guild had a posting for clearing beastmen from the village o
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -1194,12 +1213,17 @@ The local mercenary guild had a posting for clearing beastmen from the village o
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Balien</td>
-                <td>Fisherman</td>
-                <td>0</td>
-                <td>Bodash bar Eshmunazar</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -1337,7 +1361,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -1348,18 +1372,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Kriva</td>
-                <td>Heavy Infantry</td>
-                <td>0</td>
-                <td>Conversos Crypt</td>
-            </tr>
-            <tr>
-                <td>Karvos</td>
-                <td>Heavy Infantry</td>
-                <td>0</td>
-                <td>Conversos Crypt</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>
@@ -1486,7 +1509,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
     </table>
 </responsive-table>
 
-<responsive-table>
+<responsive-table class="henchman-table">
     <table class="table-striped">
         <thead>
             <tr>
@@ -1497,24 +1520,17 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Kriva</td>
-                <td>Heavy Infantry</td>
-                <td>0</td>
-                <td>Conversos Crypt</td>
-            </tr>
-            <tr>
-                <td>Karvos</td>
-                <td>Heavy Infantry</td>
-                <td>0</td>
-                <td>Conversos Crypt</td>
-            </tr>
-            <tr>
-                <td>Balien</td>
-                <td>Fisherman</td>
-                <td>0</td>
-                <td>Bodash bar Eshmunazar</td>
-            </tr>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
         </tbody>
     </table>
 </responsive-table>

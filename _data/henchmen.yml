@@ -1,0 +1,49 @@
+- name: Balien
+  occupation: Fisherman
+  level: 0
+  employer: Bodash bar Eshmunazaar
+  sessions:
+    - session_number: 1
+    - session_number: 3
+    - session_number: 6
+    - session_number: 7
+    - session_number: 9
+
+- name: Johnus Joe
+  occupation: Peasant - Uncle of the Groom
+  level: 0
+  employer: Tassos
+  sessions:
+    - session_number: 11
+
+- name: Jornus
+  occupation: Peasant - Grandson of the wife of the uncle of the groom
+  level: 0
+  employer: Tassos
+  sessions:
+    - session_number: 11
+
+- name: Karvos
+  occupation: Heavy Infantry - Brother of Kriva
+  level: 0
+  employer: Conversos Crypt
+  sessions:
+    - session_number: 1
+    - session_number: 2
+
+- name: Kriva
+  occupation: Heavy Infantry - Brother of Karvos
+  level: 0
+  employer: Conversos Crypt
+  sessions:
+    - session_number: 1
+    - session_number: 2
+
+- name: Rigatocus
+  occupation: Initiate of Lux Dynamicus
+  level: 0
+  employer: Kalf Varsson
+  sessions:
+    - session_number: 10
+    - session_number: 11
+    - session_number: 12
