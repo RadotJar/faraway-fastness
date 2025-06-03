@@ -65,11 +65,11 @@ and I think we went from stupid foreigners to slightly nicer foreigners in their
 
 ## German (WIP)
 
-Heute sind wir sehr spät gekommen. Wir musste von die Rolltreppe zum Zug gerannt. Die Durchfartsysteme waren Komplex, aber haben wir sie endlich verstanden.
-Ich habe gefunden, dass das Fahrkartesystem am schwierigsten war. Mann muss im Bahnhofstor zwei Zugfahrkarten setzen.
-Die Zugfahrkarten sind verschiedene Größen und die Orientierung ist anscheinend nicht wichtig. Ich habe mich gefragt, wie die Bahnhofstore funktioniert.
+Heute sind wir sehr spät angekommen. Wir mussten von der Rolltreppe zum Zug rennen. Die Durchfartsysteme waren komplex, aber haben wir sie endlich verstanden.
+Ich habe gefunden, dass das Fahrkartesystem am schwierigsten war. Man muss im Bahnhofstor zwei Zugfahrkarten einfügen.
+Die Zugfahrkarten sind verschiedene Größen und die Orientierung ist anscheinend nicht wichtig. Ich habe mich gefragt, wie die Bahnhofstore funktionieren.
 
 Der Spaziergang zum Gästehaus war sehr schön.
-Die Stadt war sehr friedfertig und es gibt eine leichte Brise.
-Das Wetter war nicht so heiss wie das Wetter, dass ich am Reddit gelesen habe.
-Alles in Japan sind klein und süß. Die Autos wie die Gebäuden wie die Menschen.
+Die Stadt war sehr friedlich und es hat eine leichte Brise geweht.
+Das Wetter war nicht so heiss wie das Wetter, über das ich auf Reddit gelesen habe.
+Alles in Japan sind klein und süß; Die Autos, wie die Gebäuden, wie die Menschen.
