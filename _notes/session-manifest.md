@@ -23,6 +23,12 @@ tags: ttrpg settlement
 
 ---
 
+<div class="calendar-container">
+    <div class="calendar"></div>
+</div>
+
+---
+
 ## Session 12
 
 {% assign session_number = 12 %}
@@ -1644,3 +1650,11 @@ Opponents **do not** get a free attack a la 'opportunity attack'.
 **Ammunition Retrieval:** Spent ammunition cannot be retrieved.
 
 <script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
+
+<script src='https://app.fantasy-calendar.com/js/embed.js'></script>
+<script>
+FantasyCalendar({
+    hash: '8dbad326a6d87a56ed73508fb49d1b8d',
+    selector: 'div.calendar',
+});
+</script>
