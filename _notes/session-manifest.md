@@ -14,11 +14,11 @@ tags: ttrpg settlement
             {% assign num_sessions = character.sessions.size %}
         {% endif %}
     {% endfor %}
-    <span><strong>Bad smell award: </strong></span>
-    <span> 👃 {{ most_sessions_char.name }} with {{ num_sessions }} sessions attended.</span>
+    <span><strong>👃 Bad smell award: </strong></span>
+    <span>{{ most_sessions_char.name }} with {{ num_sessions }} sessions attended.</span>
     <br>
-    <span><strong>Bane of happy families award: </strong></span>
-    <span> 💀 Conversos Crypt and 💀 Tassos with 2 henchmen lost each.</span>
+    <span><strong>💀 Bane of happy families award: </strong></span>
+    <span>Conversos Crypt and Tassos with 2 henchmen lost each.</span>
 </p>
 
 ---
@@ -26,6 +26,97 @@ tags: ttrpg settlement
 <div class="calendar-container">
     <div class="calendar"></div>
 </div>
+
+---
+
+## Session 13
+
+{% assign session_number = 13 %}
+
+After making camp by the fallen down tree where they found the map, the party hatch a plan for the heist of Sanjikar.
+Verso and Questoni (the rizzlers) enter the Orc den with promises of gifts for the Orc leader Guurgen, while the rest of the party (sigma squad) wait for an opening.
+The rizzlers emerge some time later with a horde of 35 Orcs, having convinced Guurgen that he must fight the great demon wolf to truly become king of the humans.
+Sigma squad slip in behind them and begin exploring Sanjikar, slaying an elderly Orc and taking a gem encrusted pickaxe as their prize.
+
+📆 Date - 11th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Pickaxe coated in white gold and encrusted with jewels</td>
+            <td>1</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>350</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
 
 ---
 
@@ -1652,7 +1743,7 @@ Opponents **do not** get a free attack a la 'opportunity attack'.
 <script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
 
 <script src='https://app.fantasy-calendar.com/js/embed.js'></script>
-<script>
+<script defer>
 FantasyCalendar({
     hash: '8dbad326a6d87a56ed73508fb49d1b8d',
     selector: 'div.calendar',

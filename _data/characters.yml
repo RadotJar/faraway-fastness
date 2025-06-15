@@ -105,6 +105,13 @@
     - session_number: 11
       xp_bonus: "+10%"
 
+- name: Hergon
+  class: Dwarven Vaultguard
+  level: 1
+  sessions:
+    - session_number: 13
+      xp_bonus: "+5%"
+
 - name: Jozaferin
   class: Dwarven Furnacewife
   level: 1
@@ -140,12 +147,16 @@
       xp_bonus: "+5%"
     - session_number: 12
       xp_bonus: "-"
+    - session_number: 13
+      xp_bonus: "+5%"
 
 - name: Questoni
   class: Explorer
   level: 1
   sessions:
     - session_number: 12
+      xp_bonus: "+5%"
+    - session_number: 13
       xp_bonus: "+5%"
 
 - name: Rat Girl
@@ -169,6 +180,8 @@
       xp_bonus: "+10%"
     - session_number: 12
       xp_bonus: "+10%"
+    - session_number: 13
+      xp_bonus: "+10%"
 
 - name: Tassos
   class: Fighter
@@ -178,6 +191,9 @@
       xp_bonus: "-"
     - session_number: 11
       xp_bonus: "-"
+    - session_number: 13
+      xp_bonus: "-"
+
 
 - name: Tetiana Buntovnic
   class: Thief
@@ -229,6 +245,8 @@
   level: 1
   sessions:
     - session_number: 12
+      xp_bonus: "+5%"
+    - session_number: 13
       xp_bonus: "+5%"
 
 - name: Zhaafique Bar Khan
