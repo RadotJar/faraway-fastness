@@ -29,6 +29,355 @@ tags: ttrpg settlement
 
 ---
 
+## Session 16
+
+{% assign session_number = 16 %}
+
+Just as the party are recovering from the attack of the bat-owl swarm, they see a group of three enter Sanjikar's gates.
+A huge Opplander, balding cultist and thin, frail looking woman with a buzzcut. Leaving the sporified slaves to dance a grisly jig, the party
+continue their long route back towards the gates, watching out for the interlopers. They come upon them as they stand between the party
+and the previously de-trapped chest. Sven charges in, slaughtering both the men as the woman slinks off into the shadows.
+The party give chase, finding the woman pounding desperately on a locked door. They tie her up and take her back to the chest,
+where Sven finds a magic ring and a bottle of black-brown liquid.
+
+📆 Date - 11th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Brown-black potion</td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Magical Mauvhani ring</td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>?</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Humans</td>
+            <td>3</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>30</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
+## Session 15
+
+{% assign session_number = 15 %}
+
+The strange dwarf "Mr Sporeglazer" emerges from the catacombs of Sanjikar and joins the party, offering knowledge of the places he has been within.
+The party lead the slaves back the way they came, towards the entrance of Sanjikar. Outside the forge room,
+they are ambushed by a flock of owl-bat creatures. Three slaves and Rigatocus are struck down in the frenzy, but Mr Sporeglazer brings them all back,
+as fungal husks of their former being. The party resolve to delve ever deeper, to find the special mushrooms Mr Sporeglazer will need to save Rigatocus.
+
+📆 Date - 11th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Bat-Owls</td>
+            <td>10</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>60</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rigatocus</td>
+            <td>Chewed off lips and tongue</td>
+            <td>Feasted upon by a hungry owl-bat creature</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
+## Session 14
+
+{% assign session_number = 14 %}
+
+Leaving the elderly orc to fester in the waste of his fellows, the party continue to delve Sanjikar. They find potions,
+a forge containing an extremely hot stone and a pair of giant centipedes feasting on rotting vegetables.
+After making quick work of the creatures, the party continue on to find a chain-gang of human slaves.
+The party rest a while as Sven tries to identify the potions and gem-encrusted pickaxe from last session, to no avail.
+
+📆 Date - 11th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Lime green potions</td>
+            <td>2</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>?</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Giant Centipede</td>
+            <td>2</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>12</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
 ## Session 13
 
 {% assign session_number = 13 %}

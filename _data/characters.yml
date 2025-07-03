@@ -52,6 +52,8 @@
       xp_bonus: "-"
     - session_number: 12
       xp_bonus: "+5%"
+    - session_number: 16
+      xp_bonus: "-"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -111,6 +113,8 @@
   sessions:
     - session_number: 13
       xp_bonus: "+5%"
+    - session_number: 15
+      xp_bonus: "+10%"
 
 - name: Jozaferin
   class: Dwarven Furnacewife
@@ -149,6 +153,12 @@
       xp_bonus: "-"
     - session_number: 13
       xp_bonus: "+5%"
+    - session_number: 14
+      xp_bonus: "+5%"
+    - session_number: 15
+      xp_bonus: "-"
+    - session_number: 16
+      xp_bonus: "+5%"
 
 - name: Questoni
   class: Explorer
@@ -158,6 +168,8 @@
       xp_bonus: "+5%"
     - session_number: 13
       xp_bonus: "+5%"
+    - session_number: 14
+      xp_bonus: "-"
 
 - name: Rat Girl
   class: Shaman
@@ -168,6 +180,15 @@
     - session_number: 7
       xp_bonus: "-"
     - session_number: 9
+      xp_bonus: "-"
+
+- name: "? Sporeglazer"
+  class: Dwarven Sporecaster
+  level: 1
+  sessions:
+    - session_number: 15
+      xp_bonus: "-"
+    - session_number: 16
       xp_bonus: "-"
 
 - name: Sven Svensson
@@ -182,6 +203,12 @@
       xp_bonus: "+10%"
     - session_number: 13
       xp_bonus: "+10%"
+    - session_number: 14
+      xp_bonus: "-"
+    - session_number: 15
+      xp_bonus: "-"
+    - session_number: 16
+      xp_bonus: "+5%"
 
 - name: Tassos
   class: Fighter
@@ -192,6 +219,8 @@
     - session_number: 11
       xp_bonus: "-"
     - session_number: 13
+      xp_bonus: "-"
+    - session_number: 14
       xp_bonus: "-"
 
 
@@ -247,6 +276,10 @@
     - session_number: 12
       xp_bonus: "+5%"
     - session_number: 13
+      xp_bonus: "+5%"
+    - session_number: 14
+      xp_bonus: "+5%"
+    - session_number: 15
       xp_bonus: "+5%"
 
 - name: Zhaafique Bar Khan
