@@ -14,10 +14,10 @@ tags: ttrpg settlement
             {% assign num_sessions = character.sessions.size %}
         {% endif %}
     {% endfor %}
-    <span><strong>👃 Bad smell award: </strong></span>
-    <span>{{ most_sessions_char.name }} with {{ num_sessions }} sessions attended.</span>
+    <span><strong>👃 Bad smell - </strong></span>
+    <span>{{ most_sessions_char.name }} with {{ num_sessions }} sessions attended. <b>Honorary Mention -</b> Conversos Crypt</span>
     <br>
-    <span><strong>💀 Bane of happy families award: </strong></span>
+    <span><strong>💀 Bane of happy families - </strong></span>
     <span>Conversos Crypt and Tassos with 2 henchmen lost each.</span>
 </p>
 
@@ -29,21 +29,21 @@ tags: ttrpg settlement
 
 ---
 
-## Session 16
+## Session 18
 
-{% assign session_number = 16 %}
+{% assign session_number = 18 %}
 
-Just as the party are recovering from the attack of the bat-owl swarm, they see a group of three enter Sanjikar's gates.
-A huge Opplander, balding cultist and thin, frail looking woman with a buzzcut. Leaving the sporified slaves to dance a grisly jig, the party
-continue their long route back towards the gates, watching out for the interlopers. They come upon them as they stand between the party
-and the previously de-trapped chest. Sven charges in, slaughtering both the men as the woman slinks off into the shadows.
-The party give chase, finding the woman pounding desperately on a locked door. They tie her up and take her back to the chest,
-where Sven finds a magic ring and a bottle of black-brown liquid.
+With members revived and Versos caring for the unconscious Sven, the party march down the staircase, deeper into Sanjikar.
+They mount a tedious equipment transfer across a perilous drop before encountering a group of helpful goblins. The party trade information and 'mulch' for turnips.
+Continuing deeper, they are confronted with a vast underground lake, and the sounds of an active bee hive somewhere overhead.
+Rounding the lake, the much sought after Clubhead mushrooms are located, as well as an ancient Dwarven sword and great gem encrusted pillars.
+Binabus bravely smashes one open, sending gems and himself flying across the room. As the cave ceiling begins to buckle, he and Gaius snatch up what gems they can...
 
-📆 Date - 11th day of the First Month of the Imperial Year 325
+📆 Date - 12th day of the First Month of the Imperial Year 325
 
 🗺️ Location - Sanjikar
 
+![Portrait of 'Binabus', mad demon summoning wizard of the woods. Drawn by his player](/assets/binabus.jpg)
 
 <responsive-table class="character-table">
     <table class="table-striped">
@@ -97,6 +97,223 @@ where Sven finds a magic ring and a bottle of black-brown liquid.
     </table>
 </responsive-table>
 
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Oxidized copper masks depicting the three pillars of Dwarven theatre: Tranquility, Pain, Duty</td>
+            <td>3</td>
+            <td>210</td>
+        </tr>
+        <tr>
+            <td>Magic Sword - Girdenya, the Preserver</td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Gems</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>?</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
+## Session 17
+
+{% assign session_number = 17 %}
+
+The party rest overnight and become aware of the return of the Orc horde, led by Versos and Questoni. In a rush, they decide to untie the thief woman, known as Gaius,
+so that she can unlock the door for them that she was pounding on last session! Within, the party find an occult room clearly used for a dark summoning.
+Pressing on through the next locked door, they come into a grand staircase room and are immediately ambushed by a swarm of giant bees.
+Gaius, Sporeglazer and Versos fall to the venom, but Sven hastily takes up a dark amulet to a frog god and makes a contract with the demon for their revival.
+
+📆 Date - 12th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Amulet to Tsaggotha - Demonic frog god</td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>?</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Giant Bee</td>
+            <td>12</td>
+            <td>72</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>72</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
+## Session 16
+
+{% assign session_number = 16 %}
+
+Just as the party are recovering from the attack of the bat-owl swarm, they see a group of three enter Sanjikar's gates.
+A huge Opplander, balding cultist and thin, frail looking woman with a buzzcut. Leaving the sporified slaves to dance a grisly jig, the party
+continue their long route back towards the gates, watching out for the interlopers. They come upon them as they stand between the party
+and the previously de-trapped chest. Sven charges in, slaughtering both the men as the woman slinks off into the shadows.
+The party give chase, finding the woman pounding desperately on a locked door. They tie her up and take her back to the chest,
+where Sven finds a magic ring and a bottle of black-brown liquid.
+
+📆 Date - 11th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
 
 <responsive-table>
   <table class="table-striped">

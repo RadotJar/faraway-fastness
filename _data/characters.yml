@@ -54,6 +54,8 @@
       xp_bonus: "+5%"
     - session_number: 16
       xp_bonus: "-"
+    - session_number: 18
+      xp_bonus: "+10%"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -100,6 +102,13 @@
     - session_number: 9
       xp_bonus: "+5%"
 
+- name: Gaius
+  class: Thief
+  level: 1
+  sessions:
+    - session_number: 18
+      xp_bonus: "-"
+
 - name: Gustav
   class: Eldritch Rogue
   level: 1
@@ -115,6 +124,8 @@
       xp_bonus: "+5%"
     - session_number: 15
       xp_bonus: "+10%"
+    - session_number: 17
+      xp_bonus: "+5%"
 
 - name: Jozaferin
   class: Dwarven Furnacewife
@@ -159,6 +170,10 @@
       xp_bonus: "-"
     - session_number: 16
       xp_bonus: "+5%"
+    - session_number: 17
+      xp_bonus: "-"
+    - session_number: 18
+      xp_bonus: "+5%"
 
 - name: Questoni
   class: Explorer
@@ -190,6 +205,10 @@
       xp_bonus: "-"
     - session_number: 16
       xp_bonus: "-"
+    - session_number: 17
+      xp_bonus: "+5%"
+    - session_number: 18
+      xp_bonus: "+5%"
 
 - name: Sven Svensson
   class: Bard
@@ -209,6 +228,8 @@
       xp_bonus: "-"
     - session_number: 16
       xp_bonus: "+5%"
+    - session_number: 17
+      xp_bonus: "+5%"
 
 - name: Tassos
   class: Fighter
@@ -222,6 +243,9 @@
       xp_bonus: "-"
     - session_number: 14
       xp_bonus: "-"
+    - session_number: 18
+      xp_bonus: "-"
+    
 
 
 - name: Tetiana Buntovnic
@@ -269,7 +293,7 @@
     - session_number: 10
       xp_bonus: "-"
 
-- name: Verso
+- name: Versos
   class: Mage
   level: 1
   sessions:
@@ -281,6 +305,8 @@
       xp_bonus: "+5%"
     - session_number: 15
       xp_bonus: "+5%"
+    - session_number: 17
+      xp_bonus: "-"
 
 - name: Zhaafique Bar Khan
   class: Assassin
