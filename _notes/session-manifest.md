@@ -29,6 +29,172 @@ tags: ttrpg settlement
 
 ---
 
+## Session 20
+
+{% assign session_number = 20 %}
+
+Following the burning of the Ursury Guild headquarters, the Ovum society flee Althier,
+charging along the Prince's Highway with the intention of reaching the large town of Regevia.
+Along the way, they encounter two separate patrols of the Regevian Guard, draped in blue with gilt trimmings.
+The party push through the night, coming upon the second patrol repelling a dawn invasion of their camp by a group of Elves.
+After exchanging tales of enemies on all sides, the Guard offer to escort the Ovum Society the rest of the way to Regevia.
+But alas, the party are forced to flee into the woods towards Hommus to escape an ambush by disgruntled Rornish rebels.
+They meet with their old "friend" the priest who suggests they'd best talk to the village's guardian Rufus. It seems a siege is to come to Hommus.
+
+📆 Date - 18th and 19th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Althier and Hommus
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+---
+
+## Session 19
+
+{% assign session_number = 19 %}
+
+Binabus summons Malaceb, who in turn summons a spectral staircase to prevent the ceiling of the cave from collapsing long enough for the entire party
+to fill their sacks with gems. Opting to flee these cursed caves, they trace their path back around the underground lake and up the tunnel toward the Orc Lair.
+Reaching the crevasse bisecting the tunnel, the party witness a group of Troglodytes swimming below, searching for the source of the noisy collapse...
+Rigatocus and Conan are nowhere to be seen. Gaius sneaks ahead only to alert the troop of Orcs guarding the staircase to their lair. A brief
+battle is fought in the tough confines, laying Tassos, Gaius and their gem sacks low, while Binabus, Kalf and Sporeglazer are forced to leap down the crevice
+into a dark, cold river to destinations unknown.
+
+📆 Date - 12th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+      <tr>
+            <td>Gaius</td>
+            <td>Unknown</td>
+            <td>Lain low by an orcish blade</td>
+        </tr>
+        <tr>
+            <td>Tassos</td>
+            <td>Unknown</td>
+            <td>Lain low by an orcish blade</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Giant Bee</td>
+            <td>4</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Beastman, Orc</td>
+            <td>3</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>54</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+---
+
 ## Session 18
 
 {% assign session_number = 18 %}
@@ -37,7 +203,7 @@ With members revived and Versos caring for the unconscious Sven, the party march
 They mount a tedious equipment transfer across a perilous drop before encountering a group of helpful goblins. The party trade information and 'mulch' for turnips.
 Continuing deeper, they are confronted with a vast underground lake, and the sounds of an active bee hive somewhere overhead.
 Rounding the lake, the much sought after Clubhead mushrooms are located, as well as an ancient Dwarven sword and great gem encrusted pillars.
-Binabus bravely smashes one open, sending gems and himself flying across the room. As the cave ceiling begins to buckle, he and Gaius snatch up what gems they can...
+Binabus bravely smashes one open, sending gems and himself flying across the room. The cave ceiling begins to buckle...
 
 📆 Date - 12th day of the First Month of the Imperial Year 325
 
@@ -125,7 +291,7 @@ Binabus bravely smashes one open, sending gems and himself flying across the roo
         <tr>
             <td>Total</td>
             <td></td>
-            <td>?</td>
+            <td>210 + ?</td>
         </tr>
       </tbody>
   </table>

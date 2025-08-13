@@ -29,6 +29,8 @@
       xp_bonus: "-"
     - session_number: 9
       xp_bonus: "-"
+    - session_number: 20
+      xp_bonus: "-"
 
 - name: Binabus
   class: Mage
@@ -56,6 +58,8 @@
       xp_bonus: "-"
     - session_number: 18
       xp_bonus: "+10%"
+    - session_number: 19
+      xp_bonus: "+5%"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -71,6 +75,8 @@
       xp_bonus: "+5%"
     - session_number: 9
       xp_bonus: "+5%"
+    - session_number: 20
+      xp_bonus: "-"
 
 - name: Centurion Draxtor
   class: Dwarven Machinist
@@ -108,6 +114,8 @@
   sessions:
     - session_number: 18
       xp_bonus: "-"
+    - session_number: 19
+      xp_bonus: "-"
 
 - name: Gustav
   class: Eldritch Rogue
@@ -141,6 +149,8 @@
       xp_bonus: "+5%"
     - session_number: 9
       xp_bonus: "-"
+    - session_number: 20
+      xp_bonus: "+5%"
 
 - name: Kalf Varsson
   class: Crusader of Lux Dynamicus
@@ -174,6 +184,8 @@
       xp_bonus: "-"
     - session_number: 18
       xp_bonus: "+5%"
+    - session_number: 19
+      xp_bonus: "-"
 
 - name: Questoni
   class: Explorer
@@ -209,6 +221,8 @@
       xp_bonus: "+5%"
     - session_number: 18
       xp_bonus: "+5%"
+    - session_number: 19
+      xp_bonus: "-"
 
 - name: Sven Svensson
   class: Bard
@@ -245,8 +259,8 @@
       xp_bonus: "-"
     - session_number: 18
       xp_bonus: "-"
-    
-
+    - session_number: 19
+      xp_bonus: "-"
 
 - name: Tetiana Buntovnic
   class: Thief
@@ -290,7 +304,14 @@
       xp_bonus: "+5%"
     - session_number: 9
       xp_bonus: "-"
-    - session_number: 10
+    - session_number: 20
+      xp_bonus: "-"
+
+- name: TM Opera O
+  class: Dwarven Machinist
+  level: 1
+  sessions:
+    - session_number: 20
       xp_bonus: "-"
 
 - name: Versos
