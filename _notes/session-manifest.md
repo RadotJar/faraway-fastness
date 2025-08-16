@@ -3,9 +3,7 @@ title: Session Manifest
 tags: ttrpg settlement
 ---
 
-## Campaign Awards
-
-<p>
+<div>
     {% assign most_sessions_char = site.data.characters[0] %}
     {% assign num_sessions = most_sessions_char.sessions.size %}
     {% for character in site.data.characters %}
@@ -14,14 +12,15 @@ tags: ttrpg settlement
             {% assign num_sessions = character.sessions.size %}
         {% endif %}
     {% endfor %}
-    <span><strong>👃 Bad smell - </strong></span>
-    <span>{{ most_sessions_char.name }} with {{ num_sessions }} sessions attended. <b>Honorary Mention -</b> Conversos Crypt</span>
+    <div can-move id="bad-smell-award" class="award bad-smell">
+        <strong>👃 Bad smell: </strong>{{ most_sessions_char.name }} - {{ num_sessions }} sessions
+    </div>
     <br>
-    <span><strong>💀 Bane of happy families - </strong></span>
-    <span>Conversos Crypt and Tassos with 2 henchmen lost each.</span>
-</p>
-
----
+    <div can-move id="bane-of-happy-families-award" class="award bane-of-happy-families">
+        <span><strong>💀 Bane of happy families - </strong></span>
+        <span>Conversos Crypt and Tassos with 2 henchmen lost</span>
+    </div>
+</div>
 
 <div class="calendar-container">
     <div class="calendar"></div>
@@ -2473,6 +2472,12 @@ Opponents **do not** get a free attack a la 'opportunity attack'.
 **Ammunition Retrieval:** Spent ammunition cannot be retrieved.
 
 <script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
+
+<script
+    defer
+    type="module"
+    src="https://unpkg.com/playhtml@latest/dist/init.es.js"
+></script>
 
 <script src='https://app.fantasy-calendar.com/js/embed.js'></script>
 <script defer>
