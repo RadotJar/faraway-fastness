@@ -32,6 +32,10 @@ This is my [[digital-gardening|digital garden]]. Please peruse at your leisure.
   {% endfor %}
 </ul>
 
+<a href="https://github.com/RadotJar" rel="me" class="no-arrow">
+  <img src="/assets/github-mark.svg" height=30px class="margin-horizontal-none" />
+</a>
+
 <style>
   .wrapper {
     max-width: 46em;

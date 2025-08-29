@@ -99,6 +99,7 @@ a {
     content: "↗";
     color: #aaaaaa;
   }
+  &.no-arrow:after,
   &.internal-link:after,
   &.footnote:after,
   &.reversefootnote:after {
@@ -150,4 +151,9 @@ code {
 .invalid-link-brackets {
   color: #ccc;
   cursor: help;
+}
+
+.margin-horizontal-none {
+  margin-left: 0;
+  margin-right: 0;
 }
