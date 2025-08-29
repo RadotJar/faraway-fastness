@@ -43,3 +43,6 @@ defaults:
       layout: "note"
       tags:
        - outpost
+
+# Web Mentions
+webmention_link: https://webmention.io/faraway-fastness.netlify.app/webmention
