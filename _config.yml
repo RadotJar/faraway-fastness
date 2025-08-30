@@ -48,5 +48,5 @@ defaults:
 # Web Mentions
 webmention_link: https://webmention.io/faraway-fastness.netlify.app/webmention
 
-webmention:
+webmentions:
   username: https://faraway-fastness.netlify.app
