@@ -22,6 +22,7 @@ relative_permalinks: false
 
 plugins:
   - jekyll-last-modified-at
+  - jekyll-webmention_io
 
 sass:
   sass_dir:          _sass
@@ -46,3 +47,6 @@ defaults:
 
 # Web Mentions
 webmention_link: https://webmention.io/faraway-fastness.netlify.app/webmention
+
+webmention:
+  username: https://faraway-fastness.netlify.app
