@@ -49,3 +49,4 @@ defaults:
 webmentions:
   username: faraway-fastness.netlify.app
   debug: true
+  pages: true
