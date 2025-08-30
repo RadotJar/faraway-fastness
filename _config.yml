@@ -46,7 +46,5 @@ defaults:
        - outpost
 
 # Web Mentions
-webmention_link: https://webmention.io/faraway-fastness.netlify.app/webmention
-
 webmentions:
-  username: https://faraway-fastness.netlify.app
+  username: faraway-fastness.netlify.app
