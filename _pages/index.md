@@ -36,6 +36,8 @@ This is my [[digital-gardening|digital garden]]. Please peruse at your leisure.
   <img src="/assets/github-mark.svg" height=30px class="margin-horizontal-none" />
 </a>
 
+{% webmentions page.url %}
+
 <style>
   .wrapper {
     max-width: 46em;
