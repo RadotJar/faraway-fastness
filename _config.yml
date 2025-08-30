@@ -51,3 +51,4 @@ webmentions:
   debug: true
   collections:
     - notes
+    - pages
