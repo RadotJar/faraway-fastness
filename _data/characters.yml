@@ -1,6 +1,7 @@
 - name: Alberron
   class: Crusader of Leviathea
   level: 1
+  alive: true
   sessions:
     - session_number: 2
       xp_bonus: "-"
@@ -20,6 +21,7 @@
 - name: Aleksei
   class: Bladedancer of Ianna
   level: 1
+  alive: true
   sessions:
     - session_number: 1
       xp_bonus: "-"
@@ -35,6 +37,7 @@
 - name: Binabus
   class: Mage
   level: 1
+  alive: true
   sessions:
     - session_number: 3
       xp_bonus: "+5%"
@@ -64,6 +67,7 @@
 - name: Bodash bar Eshmunazaar
   class: Mage
   level: 1
+  alive: true
   sessions:
     - session_number: 1
       xp_bonus: "-"
@@ -81,6 +85,7 @@
 - name: Centurion Draxtor
   class: Dwarven Machinist
   level: 1
+  alive: true
   sessions:
     - session_number: 11
       xp_bonus: "-"
@@ -88,6 +93,7 @@
 - name: Conversos Crypt
   class: Venturer
   level: 1
+  alive: true
   sessions:
     - session_number: 1
       xp_bonus: "+5%"
@@ -111,6 +117,7 @@
 - name: Gaius
   class: Thief
   level: 1
+  alive: false
   sessions:
     - session_number: 18
       xp_bonus: "-"
@@ -120,6 +127,7 @@
 - name: Gustav
   class: Eldritch Rogue
   level: 1
+  alive: true
   sessions:
     - session_number: 11
       xp_bonus: "+10%"
@@ -127,6 +135,7 @@
 - name: Hergon
   class: Dwarven Vaultguard
   level: 1
+  alive: true
   sessions:
     - session_number: 13
       xp_bonus: "+5%"
@@ -138,6 +147,7 @@
 - name: Jozaferin
   class: Dwarven Furnacewife
   level: 1
+  alive: true
   sessions:
     - session_number: 2
       xp_bonus: "+5%"
@@ -154,7 +164,8 @@
 
 - name: Kalf Varsson
   class: Crusader of Lux Dynamicus
-  level: 1
+  level: 2
+  alive: true
   sessions:
     - session_number: 3
       xp_bonus: "-"
@@ -187,9 +198,15 @@
     - session_number: 19
       xp_bonus: "-"
 
+- name: Meat
+  class: Shaman
+  level: 2
+  alive: true
+
 - name: Questoni
   class: Explorer
   level: 1
+  alive: true
   sessions:
     - session_number: 12
       xp_bonus: "+5%"
@@ -201,6 +218,7 @@
 - name: Rat Girl
   class: Shaman
   level: 1
+  alive: true
   sessions:
     - session_number: 6
       xp_bonus: "+5%"
@@ -212,6 +230,7 @@
 - name: "? Sporeglazer"
   class: Dwarven Sporecaster
   level: 1
+  alive: false
   sessions:
     - session_number: 15
       xp_bonus: "-"
@@ -224,9 +243,15 @@
     - session_number: 19
       xp_bonus: "-"
 
+- name : Suiipu Toosho
+  class: Witch
+  level: 2
+  alive: true
+
 - name: Sven Svensson
   class: Bard
   level: 1
+  alive: false
   sessions:
     - session_number: 10
       xp_bonus: "-"
@@ -248,6 +273,7 @@
 - name: Tassos
   class: Fighter
   level: 1
+  alive: false
   sessions:
     - session_number: 10
       xp_bonus: "-"
@@ -265,6 +291,7 @@
 - name: Tetiana Buntovnic
   class: Thief
   level: 1
+  alive: true
   sessions:
     - session_number: 2
       xp_bonus: "+5%"
@@ -280,6 +307,7 @@
 - name: Theonus Erwin
   class: Fighter
   level: 1
+  alive: true
   sessions:
     - session_number: 2
       xp_bonus: "-"
@@ -287,6 +315,7 @@
 - name: Tiche
   class: Assassin
   level: 1
+  alive: true
   sessions:
     - session_number: 1
       xp_bonus: "-"
@@ -310,6 +339,7 @@
 - name: TM Opera O
   class: Dwarven Machinist
   level: 1
+  alive: true
   sessions:
     - session_number: 20
       xp_bonus: "-"
@@ -317,6 +347,7 @@
 - name: Versos
   class: Mage
   level: 1
+  alive: false
   sessions:
     - session_number: 12
       xp_bonus: "+5%"
@@ -332,6 +363,7 @@
 - name: Zhaafique Bar Khan
   class: Assassin
   level: 1
+  alive: true
   sessions:
     - session_number: 5
       xp_bonus: "+5%"

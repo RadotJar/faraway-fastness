@@ -157,3 +157,34 @@ code {
   margin-left: 0;
   margin-right: 0;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.narrow-margin {
+  margin: 0.5em 0.5em;
+}
+
+.round-badge {
+  border-radius: 1em;
+  border: 0.2rem solid $color-border ;
+  padding: 0.25em;
+}

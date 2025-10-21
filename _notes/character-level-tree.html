@@ -1,0 +1,38 @@
+---
+title: Character Level Tree
+tags: ttrpg
+---
+
+{% assign characters = site.data.characters %}
+{% assign highestLevel = 1 %}
+{% for character in characters %}
+    {% if character.level > highestLevel %}
+        {% assign highestLevel = character.level %}
+    {% endif %}
+{% endfor %}
+{% assign levelRange = (1..highestLevel)%}
+
+<h1 class="center-text">Character Levels</h1>
+
+<div class="flex-container-column">
+    <img src="assets/heraldricSun.svg.png" style="width: 20rem;"/>
+    <div class="center-text">"The road is a divine thread"</div>
+    <h2>Level</h2>
+    {% for level in levelRange reversed %}
+        <hr>
+        <h2>{{level}}</h2>
+        <div class="flex-container center flex-wrap">
+            {% for character in characters %}
+                {% if character.level == level and character.alive %}
+                    <div>
+                        <div class="narrow-margin round-badge">{{ character.name }}</div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+
+
+
+
