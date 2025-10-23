@@ -96,6 +96,25 @@ id: "dm-assistant"
     </tbody>
 </table>
 
+{% for encounterRegion in site.data.encounters %}
+<h2>{{ encounterRegion.region }}</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Roll</th>
+            <th>Encounter</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for encounter in encounterRegion.encounters %}
+        <tr>
+            <td>{{ encounter.roll }}</td>
+            <td>{{ encounter.encounter }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
 
 <dialog id="encounter-modal">
     <p>Roll an encounter!</p>

@@ -1,0 +1,112 @@
+- region: The Prince's Highway
+  encounters:
+    - roll: 2
+      encounter: Kreyzabane
+    - roll: 3
+      encounter: Faction
+    - roll: 4
+      encounter: Faction
+    - roll: 5
+      encounter: Elves that are sick (rift sickness?). Ask for return to the forrest.
+    - roll: 6
+      encounter: Patrol of Regevian Guard (patrollers) fleeing a fight with elves. Ask for escort/take message to Regevia.
+    - roll: 7
+      encounter: Recurring Character
+    - roll: 8
+      encounter: Monster encounter
+    - roll: 9
+      encounter: Lawful or Chaotic or Water rift creature (in lair means place of power)
+    - roll: 10
+      encounter: Rebels bathing (brigands)
+    - roll: 11
+      encounter: Caravan of monster hunters returning to Orius
+    - roll: 12
+      encounter: Althier's wizard plant
+
+- region: Hommus
+  encounters:
+    - roll: 2
+      encounter: Kreyzabane eating a carcass
+    - roll: 3
+      encounter: Werebears that lair in the forest are found planning out their next trap for travelers.
+    - roll: 4
+      encounter: Party come across tracks of adventuring party that lead to the ancient elven fastness.
+    - roll: 5
+      encounter: Rebels sleeping in their camp. Guard spots them.
+    - roll: 6
+      encounter: Elves are cornered by rebels and their hunting dogs against a boulder. One dog spots the party and gives them away.
+    - roll: 7
+      encounter: Recurring Character
+    - roll: 8
+      encounter: Monster encounter
+    - roll: 9
+      encounter: Lawful or Chaotic or Water rift creature (in lair means place of power)
+    - roll: 10
+      encounter: Rebels bathing (brigands)
+    - roll: 11
+      encounter: Caravan of monster hunters returning to Orius
+    - roll: 12
+      encounter: Burne is badly hurt and unconscious after a destructive single-handed battle against a rift creature/elves. Note his belongings and spell book.
+
+- region: D30 for Intelligent or D12
+  encounters:
+    - roll: 1
+      encounter: Lost
+    - roll: 2
+      encounter: Hurt
+    - roll: 3
+      encounter: Trapped
+    - roll: 4
+      encounter: Sleeping
+    - roll: 5
+      encounter: Eating
+    - roll: 6
+      encounter: Sick
+    - roll: 7
+      encounter: Tracking Prey
+    - roll: 8
+      encounter: Lying in Ambush
+    - roll: 9
+      encounter: Mating Behavior
+    - roll: 10
+      encounter: Starving
+    - roll: 11
+      encounter: Returning Home
+    - roll: 12
+      encounter: Fleeing
+    - roll: 13
+      encounter: Plotting
+    - roll: 14
+      encounter: Holding Captives
+    - roll: 15
+      encounter: Scavenging
+    - roll: 16
+      encounter: Building a Camp
+    - roll: 17
+      encounter: Demolishing
+    - roll: 18
+      encounter: Doing drugs or drinking
+    - roll: 19
+      encounter: Artistic pursuits
+    - roll: 20
+      encounter: Spying
+    - roll: 21
+      encounter: Committing a crime
+    - roll: 22
+      encounter: Searching
+    - roll: 23
+      encounter: Religious ritual
+    - roll: 24
+      encounter: Setting, putting out, or fleeing a fire
+    - roll: 25
+      encounter: Weeping
+    - roll: 26
+      encounter: Excreting
+    - roll: 27
+      encounter: Bathing
+    - roll: 28
+      encounter: Socializing
+    - roll: 29
+      encounter: Gloating
+    - roll: 30
+      encounter: Something that is not on this table.
