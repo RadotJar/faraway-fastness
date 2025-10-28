@@ -158,6 +158,8 @@ code {
   margin-right: 0;
 }
 
+// Flexbox
+
 .flex-container {
   display: flex;
 }
@@ -170,6 +172,24 @@ code {
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+// Flex grid
+.grid-container {
+  display: grid;
+
+  // grid-auto-flow: row;
+}
+
+// .grid-span-row-1 {
+//   display: grid;
+//   grid-template-columns: subgrid;
+
+//   grid-auto-flow: row;
+// }
+
+// .grid-span-col-1 {
+//   grid-column: 1;
+// }
 
 .center {
   justify-content: center;

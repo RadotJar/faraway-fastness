@@ -1,0 +1,17 @@
+---
+title: Character lifespans
+tags: ttrpg
+---
+
+{% assign uniqueSessionNumbers = site.data.characters | map: "sessions" | map: "session_number" | uniq  %}
+{% assign numUniqueSessions = uniqueSessionNumbers | size %}
+
+<h1>Character Lifespans</h1>
+
+<div class="grid-container">
+    {% assign iteratorEnd = numUniqueSessions | minus: 1 %}
+    {% assign sessionIterator = (1..iteratorEnd) %}
+    {% for session in sessionIterator %}
+        <div>{{session}}</div>
+    {% endfor %}
+</div>
