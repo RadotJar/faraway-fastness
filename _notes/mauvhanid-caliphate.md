@@ -14,6 +14,8 @@ When they pass out of living memory, they become one with the powers they champi
 Thus, the war hero "Alishar bar Munaazar the defender of Nazub" will eventually become one of the immortal Shah of battle.
 
 It is the practice of Theurges to intercede with the immortal Shah, asking them for miracles and protection and in turn enacting their will on the world.
+Theurges may intercede with any of the immortal Shah, but they tend to carry holy relics associated with their most favoured. These relics provide a physical connection between the Shah and the mortal realm, and make communing easier.
+The dress of Theurges vary wildly, from the local cure-all to organised sects of warrior priests. Often their raiment will feature colours and iconography associated with their favoured Shah.
 
 The Mauvhani see wizardry in the studious sense as sacreligious. An unwelcome interference in the natural order which the Shah so carefully balance.
 Studying and practitioning magic outside of religious instruction is outlawed throughout the Caliphate. Those who are caught are pursued and punished by disciplinary orders and typical believers alike.
