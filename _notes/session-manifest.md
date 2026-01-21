@@ -496,7 +496,7 @@ where Sven finds a magic ring and a bottle of black-brown liquid.
             <td>?</td>
         </tr>
         <tr>
-            <td>Magical Mauvhani ring</td>
+            <td>Magical Mauvani ring</td>
             <td>1</td>
             <td>?</td>
         </tr>
