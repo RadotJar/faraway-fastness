@@ -19,3 +19,10 @@ I do not share the following design goals with the original:
 -  Low Power Level. Each level gives you diminishing returns. The power curve flattens out drastically after 4th level. No supermen.
 
 While the game will likely initially be designed for low levels, it should be flexible enough to grow with a campaign and support all levels of play.
+
+## Ideas
+
+- Classes are unlockable.
+- The default adventurer is bad at everything but has some utility that means it remains as a viable choice.
+- Other classes specialize you. Making you good at one thing at the expense of others.
+ 
