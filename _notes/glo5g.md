@@ -25,4 +25,13 @@ While the game will likely initially be designed for low levels, it should be fl
 - Classes are unlockable.
 - The default adventurer is bad at everything but has some utility that means it remains as a viable choice.
 - Other classes specialize you. Making you good at one thing at the expense of others.
- 
+- Classes are unlocked by the acting player only. The only way to pass the class on is to train a henchman or found an institution. Many institutions already exist, of course.
+
+### Common Classes
+Common classes can be unlockes by performing a specific deed, or joining an appropriate organisation (with an appropriate quest)
+- Fighter: Narrowly escape death or enlist.
+- Slayer/Ranger: Kill something large or seek out a mysterious order.
+- Thief: Steal something of great value or join a guild.
+
+### Rare classes
+Rare classes can only be unlocked by finding one off treasures.
