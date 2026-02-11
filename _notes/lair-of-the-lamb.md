@@ -36,3 +36,19 @@ your survival requires you to take the time to
 investigate all the suspicious phenomena. You must
 learn to balance these competing needs if you wish to
 be good at dungeoncrawling.
+
+## Levelling up
+
+To reach level 1 and select a class, you must do one of:
+- Complete a Milestone
+- Find a Treasure
+
+The initial available classes are:
+- Fighter
+- Explorer
+- Thief
+- Venturer
+
+Other classes are unlocked through play.
+Some classes can be unlocked by being accepted into an organisation after completing some quest for them. (e.g. join a temple to unlock crusader).
+Some classes can only be unlocked through finding unique treasures or secret lore. (e.g. find a book of necromancy to unlock wizard).
