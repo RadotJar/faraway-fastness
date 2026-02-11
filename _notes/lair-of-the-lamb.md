@@ -50,5 +50,3 @@ The initial available classes are:
 - Venturer
 
 Other classes are unlocked through play.
-Some classes can be unlocked by being accepted into an organisation after completing some quest for them. (e.g. join a temple to unlock crusader).
-Some classes can only be unlocked through finding unique treasures or secret lore. (e.g. find a book of necromancy to unlock wizard).
