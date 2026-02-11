@@ -1,0 +1,40 @@
+---
+title: Lair of the Lamb
+tags: ttrpg
+---
+
+## Advice for Players
+
+- You will spend more time choosing and planning
+battles than fighting. Running away is often the right
+choice. The most reliable ways to kill a monster don't
+rely on attack rolls.
+- Social skills will make your life easier, but there are no
+social stats or abilities. To be effective you must learn
+what creatures want (usually by just asking them).
+- There are over a dozen secret doors and hidden
+treasures in this adventure. They range from the
+obvious to the cryptic. None of these are essential, but
+they all improve your odds of survival. 
+- Information is the fuel that powers your exploits. It is
+a resource that you spend to find secrets, solve
+puzzles, and sidestep combats. To acquire more
+information, you must ask more questions about your
+environment. Try to ask a question in every room.
+- Many of the puzzles are solved by recognizing patterns
+and/or using mundane objects in clever ways. Many
+puzzles have 3 or more solutions. A shocking amount
+of problems can be solved with enough rope.
+- The rooms in this dungeon are tightly interlinked, and
+are designed to work in harmony with each other.
+This includes backtracking, looping, and mapping.
+Sometimes the solution to a puzzle or a combat can be
+found in a later room. Encounters are not always best
+handled in the room where they occur.
+- Time is the enemy. Your torches are burning down.
+You have no food and no water. Every 30 minutes
+brings with the risk of a Random Encounter. And yet,
+your survival requires you to take the time to
+investigate all the suspicious phenomena. You must
+learn to balance these competing needs if you wish to
+be good at dungeoncrawling.
