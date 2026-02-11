@@ -9,9 +9,8 @@ tags: ttrpg
 battles than fighting. Running away is often the right
 choice. The most reliable ways to kill a monster don't
 rely on attack rolls.
-- Social skills will make your life easier, but there are no
-social stats or abilities. To be effective you must learn
-what creatures want (usually by just asking them).
+- Social skills will make your life easier, but reaction rolls won't do you any good in this adventure where most creatures already have a preordained reaction to you. 
+To be effective you must learn what creatures want (usually by just asking them).
 - There are over a dozen secret doors and hidden
 treasures in this adventure. They range from the
 obvious to the cryptic. None of these are essential, but
@@ -32,8 +31,7 @@ Sometimes the solution to a puzzle or a combat can be
 found in a later room. Encounters are not always best
 handled in the room where they occur.
 - Time is the enemy. Your torches are burning down.
-You have no food and no water. Every 30 minutes
-brings with the risk of a Random Encounter. And yet,
+You have no food and no water. Every hour brings with the risk of a Random Encounter. And yet,
 your survival requires you to take the time to
 investigate all the suspicious phenomena. You must
 learn to balance these competing needs if you wish to
