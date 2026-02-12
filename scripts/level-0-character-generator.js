@@ -291,7 +291,7 @@ function rollLaborerOccupation() {
     };
 }
 
-function rollHenchmanOccupation() {
+function rollHenchmanOccupation( allowMercenary = true ) {
   const table = [
     { min: 1, max: 26, result: "Laborer", special: "-" },
     { min: 27, max: 45, result: "Artisan", special: "-" },
@@ -319,7 +319,11 @@ function rollHenchmanOccupation() {
   do {
     roll = Math.floor(Math.random() * 100) + 1;
     entry = table.find(row => roll >= row.min && roll <= row.max);
-  } while (entry.result === "NPC Class and NPC Level" || entry.result === "See Villa entry (p. 224)");
+  } while (
+    entry.result === "NPC Class and NPC Level" 
+    || entry.result === "See Villa entry (p. 224)"
+    || ( entry.result ) === "Mercenary" && !allowMercenary
+  );
 
     let occupation = entry.result; 
 
@@ -714,7 +718,7 @@ function getPersonalDetailsString(beautyDescriptor, age, physicalFeatures) {
 }
 
 function generateCharacter() {
-    const occupation = rollHenchmanOccupation()
+    const occupation = rollHenchmanOccupation( false )
     const stats = rollHenchmanStats()
     const statModifiers = getStatModifiers( stats )
     const armourClass = getArmourClass( statModifiers.dexterity );
