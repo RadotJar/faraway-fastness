@@ -729,20 +729,24 @@ function generateCharacter() {
     const beautyDescriptor = getBeautyDescriptor(statModifiers.charisma);
     const physicalFeatures = getPhysicalFeatureString( statModifiers.charisma );
 
-    const occupationElement = document.getElementById("henchman-occupation");
-    occupationElement.innerText = occupation.occupation;
+    const henchmanContainerEl = document.createElement('div');
+    henchmanContainerEl.className = "henchman-card"
 
-    const personalDetailsContainerElement = document.getElementById("henchman-personal-details");
-    const personalDetailsElement = document.createElement('span');
+    const nameElement = document.createElement('div');
+    nameElement.innerText = 'Name: '
+
+    const occupationElement = document.createElement('div');
+    occupationElement.innerText = `Occupation: ${occupation.occupation}`;
+
+    const personalDetailsElement = document.createElement("div");
     const personalDetailsString = getPersonalDetailsString(beautyDescriptor, age, physicalFeatures);
     personalDetailsElement.innerText = personalDetailsString;
-    personalDetailsContainerElement.replaceChildren(personalDetailsElement)
 
-    const statsContainerElement = document.getElementById("henchman-stats");
+    const statsContainerElement = document.createElement("div");
     const statElements = generateStatElements(stats, statModifiers);
     statsContainerElement.replaceChildren(...statElements);
 
-    const combatAttributesElement = document.getElementById("henchman-combat-attributes");
+    const combatAttributesElement = document.createElement('div');
 
     const hpElement = document.createElement('span');
     hpElement.innerText = 'HP: 0';
@@ -762,8 +766,22 @@ function generateCharacter() {
 
     combatAttributesElement.replaceChildren(hpElement, armourClassElement, meleeAtkThrowElement, rangedAtkThrowElement)
 
-    const savingThrowsContainerElement = document.getElementById("henchman-saving-throws");
+    const savingThrowsContainerElement = document.createElement('div');
     const savingThrowElements = generateSavingThrowElements(savingThrows);
     savingThrowsContainerElement.replaceChildren(...savingThrowElements);
 
+    henchmanContainerEl.replaceChildren(nameElement, occupationElement, personalDetailsElement, combatAttributesElement, savingThrowsContainerElement);
+    return henchmanContainerEl;
+}
+
+function generateCharacters( number ) {
+  const henchmanContainerEl = document.getElementById("henchman-container");
+
+  let henchmanElements = [];
+  for( let i=0; i < number; i++ ) {
+    const henchmanEl = generateCharacter();
+    henchmanElements.push(henchmanEl)
+  };
+
+  henchmanContainerEl.replaceChildren(...henchmanElements)
 }
