@@ -113,7 +113,6 @@ function rollMinorMagicianOccupation() {
   };
 }
 
-
 function rollMercenaryOccupation() {
   const roll = Math.floor(Math.random() * 100) + 1;
 
@@ -241,7 +240,6 @@ function rollSpecialistOccupation() {
   };
 }
 
-
 function rollHostellerOccupation() {
   const roll = Math.floor(Math.random() * 100) + 1;
 
@@ -259,7 +257,6 @@ function rollHostellerOccupation() {
     special: entry.special
   };
 }
-
 
 function rollLaborerOccupation() {
     const table = [
@@ -296,23 +293,23 @@ function rollLaborerOccupation() {
 
 function rollHenchmanOccupation() {
   const table = [
-    { min: 1, max: 26, result: "Laborer Occupation", special: "-" },
-    { min: 27, max: 45, result: "Artisan Occupation", special: "-" },
-    { min: 46, max: 55, result: "Artisan Occupation", special: "-" },
-    { min: 56, max: 60, result: "Artisan Occupation", special: "-" },
-    { min: 61, max: 68, result: "Merchant Occupation", special: "-" },
-    { min: 69, max: 72, result: "Merchant Occupation", special: "-" },
-    { min: 73, max: 74, result: "Merchant Occupation", special: "25% are venturers" },
-    { min: 75, max: 76, result: "Specialist Occupation", special: "See sub-table" },
-    { min: 77, max: 81, result: "Hosteller Occupation", special: "See sub-table" },
-    { min: 82, max: 83, result: "Entertainer Occupation", special: "25% are bards" },
+    { min: 1, max: 26, result: "Laborer", special: "-" },
+    { min: 27, max: 45, result: "Artisan", special: "-" },
+    { min: 46, max: 55, result: "Artisan", special: "-" },
+    { min: 56, max: 60, result: "Artisan", special: "-" },
+    { min: 61, max: 68, result: "Merchant", special: "-" },
+    { min: 69, max: 72, result: "Merchant", special: "-" },
+    { min: 73, max: 74, result: "Merchant", special: "25% are venturers" },
+    { min: 75, max: 76, result: "Specialist", special: "See sub-table" },
+    { min: 77, max: 81, result: "Hosteller", special: "See sub-table" },
+    { min: 82, max: 83, result: "Entertainer", special: "25% are bards" },
     { min: 84, max: 85, result: "NPC Class and NPC Level", special: "-" },
-    { min: 86, max: 88, result: "Mercenary Occupation", special: "25% are veterans" },
-    { min: 89, max: 91, result: "Mercenary Occupation", special: "25% are veterans" },
+    { min: 86, max: 88, result: "Mercenary", special: "25% are veterans" },
+    { min: 89, max: 91, result: "Mercenary", special: "25% are veterans" },
     { min: 92, max: 93, result: "NPC Class and NPC Level", special: "-" },
-    { min: 94, max: 95, result: "Ecclesiastic Occupation", special: "-" },
+    { min: 94, max: 95, result: "Ecclesiastic", special: "-" },
     { min: 96, max: 97, result: "NPC Class and NPC Level", special: "-" },
-    { min: 98, max: 98, result: "Apprentice Mage Occupation", special: "-" },
+    { min: 98, max: 98, result: "Apprentice Mage", special: "-" },
     { min: 99, max: 99, result: "NPC Class and NPC Level", special: "-" },
     { min: 100, max: 100, result: "See Villa entry (p. 224)", special: "25% are fighters" }
   ];
@@ -322,58 +319,447 @@ function rollHenchmanOccupation() {
   do {
     roll = Math.floor(Math.random() * 100) + 1;
     entry = table.find(row => roll >= row.min && roll <= row.max);
-  } while (entry.result === "NPC Class and NPC Level");
+  } while (entry.result === "NPC Class and NPC Level" || entry.result === "See Villa entry (p. 224)");
+
+    let occupation = entry.result; 
 
     // Handle sub-tables
-    if (entry.result === "Laborer Occupation") {
-    return rollLaborerOccupation();
+    if (entry.result === "Laborer") {
+      occupation = rollLaborerOccupation().occupation;
     }
 
-    if (entry.result === "Hosteller Occupation") {
-    return rollHostellerOccupation();
+    else if (entry.result === "Hosteller") {
+      occupation = rollHostellerOccupation().occupation;
     }
 
-    if (entry.result === "Specialist Occupation") {
-    return rollSpecialistOccupation();
+    else if (entry.result === "Specialist") {
+      occupation = rollSpecialistOccupation().occupation;
     }
 
-    if (entry.result === "Mercenary Occupation") {
-        return rollMercenaryOccupation();
+    else if (entry.result === "Mercenary") {
+      occupation = rollMercenaryOccupation().occupation;
     }
 
-    if (entry.result === "Entertainer Occupation") {
-        return rollEntertainerOccupation();
+    else if (entry.result === "Entertainer") {
+      occupation = rollEntertainerOccupation().occupation;
     }
 
-    if (entry.result === "Ecclesiastic Occupation") {
-        return rollMinorEcclesiasticOccupation();
+    else if (entry.result === "Ecclesiastic") {
+      occupation = rollMinorEcclesiasticOccupation().occupation;
     }
 
-    if (entry.result === "Apprentice Mage Occupation") {
-        return rollMinorMagicianOccupation();
+    else if (entry.result === "Apprentice Mage") {
+      occupation = rollMinorMagicianOccupation().occupation;
     }
 
-    if (entry.result === "Merchant Occupation") {
-        return rollMerchantOccupation();
+    else if (entry.result === "Merchant") {
+      occupation = rollMerchantOccupation().occupation;
     }
 
-    if (entry.result === "Artisan Occupation") {
-        return rollArtisanOccupation();
+    else if (entry.result === "Artisan") {
+      occupation = rollArtisanOccupation().occupation;
     }
 
 
     return {
-        occupation: entry.result,
+        occupationCategory: entry.result,
+        occupation,
         special: entry.special
     };
 }
 
+function rollHenchmanStats() {
+    return {
+        strength: rollDice(3, 6),
+        intellect: rollDice(3, 6),
+        will: rollDice(3, 6),
+        dexterity: rollDice(3, 6),
+        constitution: rollDice(3, 6),
+        charisma: rollDice(3, 6),
+    }
+}
+
+function getStatModifier( value ) {
+    const table = [
+        { min: 3, max: 3, result: "-3" },
+        { min: 4, max: 5, result: "-2" },
+        { min: 6, max: 8, result: "-1" },
+        { min: 9, max: 12, result: "0"},
+        { min: 13, max: 15, result: "+1" },
+        { min: 16, max: 17, result: "+2" },
+        { min: 18, max: 18, result: "+3" },
+    ]
+
+    const entry = table.find(row => value >= row.min && value <= row.max);
+    return entry.result;
+}
+
+function getStatModifiers( stats ) {
+    return {
+        strength: getStatModifier(stats.strength),
+        intellect: getStatModifier(stats.intellect),
+        will: getStatModifier(stats.will),
+        dexterity: getStatModifier(stats.dexterity),
+        constitution: getStatModifier(stats.constitution),
+        charisma: getStatModifier(stats.charisma),
+    }
+}
+
+function generateStatElements( stats, statModifiers ) {
+    const elements = [];
+    for ( stat in stats ) {
+        const statNameEl = document.createElement('span');
+        statNameEl.innerText = String(stat).charAt(0).toUpperCase() + String(stat).slice(1) + ':';
+        statNameEl.className = "small-right-margin";
+        elements.push(statNameEl);
+
+        const statValueEl = document.createElement('span');
+        statValueEl.innerText = stats[stat];
+        elements.push(statValueEl);
+
+        const statModifierEl = document.createElement('span');
+        statModifierEl.innerText = `(${statModifiers[stat]})`;
+        statModifierEl.className = "small-right-margin";
+        elements.push(statModifierEl);
+    }
+    return elements;
+}
+
+function getArmourClass( dexterityModifier ) {
+    return Number(dexterityModifier);
+}
+
+function getMeleeAttackThrow( strengthModifier ) {
+    // For non-combatants only (0HD)!
+    return String(12 - Number(strengthModifier)) + "+"
+}
+
+function getRangedAttackThrow( dexterityModifier ) {
+    // For non-combatants only (0HD)!
+    return String(12 - Number(dexterityModifier)) + "+"
+}
+
+function getSavingThrows( willModifier ) {
+    return {
+        paralysis: String(14 - Number(willModifier)) + "+",
+        death: String(15 - Number(willModifier)) + "+",
+        blast: String(16 - Number(willModifier)) + "+",
+        implements: String(17 - Number(willModifier)) + "+",
+        spells: String(18 - Number(willModifier)) + "+"
+    }
+}
+
+function generateSavingThrowElements( savingThrows ) {
+    const elements = [];
+    for ( savingThrow in savingThrows ) {
+        const throwNameEl = document.createElement('span');
+        throwNameEl.innerText = String(savingThrow).charAt(0).toUpperCase() + String(savingThrow).slice(1) + ':';
+        throwNameEl.className = "small-right-margin";
+        elements.push(throwNameEl);
+
+        const throwValueEl = document.createElement('span');
+        throwValueEl.innerText = savingThrows[savingThrow];
+        throwValueEl.className = "small-right-margin";
+        elements.push(throwValueEl);
+    }
+    return elements;
+}
+
+function getAge(occupationType, additionalRanks = 0) {
+  // TODO: This table does not have level of detail as in book
+  const ageTable = {
+    "Artisan": { base: 17, dice: [1, 6] },
+    "Laborer": { base: 17, dice: [1, 6] },
+    "Hosteller": { base: 21, dice: [1, 6] },
+    "Mercenary": { base: 17, dice: [1, 6] },
+    "Ecclesiastic": { base: 17, dice: [2, 6] },
+    "Apprentice Mage": { base: 17, dice: [2, 6] },
+    "Entertainer": { base: 17, dice: [1, 6] },
+    "Specialist": { base: 21, dice: [1, 6] },
+    "Merchant": { base: 21, dice: [1, 6] }
+  };
+
+  const entry = ageTable[occupationType];
+
+  if (!entry) {
+    throw new Error(`Unknown occupation type: ${occupationType}`);
+  }
+
+  let age = entry.base + rollDice(entry.dice[0], entry.dice[1]);
+
+  // Additional ranks
+  // TODO: Make this only for particular ones
+  if (additionalRanks === 1) {
+    age += rollDice(1, 10);
+  } else if (additionalRanks >= 2) {
+    age += rollDice(3, 10);
+  }
+
+  return age;
+}
+
+function getBeautyDescriptor(charismaModifier) {
+  const descriptorDict = {
+    "-3": "repulsive",
+    "-2": "unsightly",
+    "-1": "ugly",
+    "0":  "plain-looking",
+    "+1": "fetching",
+    "+2": "beauteous",
+    "+3": "gorgeous"
+  }
+
+  return descriptorDict[charismaModifier]
+}
+
+function rollNegativePhysicalFeature() {
+  const table = [
+    { min: 1, max: 2, text: "obese build" },
+    { min: 3, max: 4, text: "a hunched back" },
+    { min: 5, max: 6, text: "a skeletal build" },
+    { min: 7, max: 8, text: "crumpled ears" },
+    { min: 9, max: 10, text: "unusually large ears" },
+    { min: 11, max: 12, text: "missing ears" },
+    { min: 13, max: 14, text: "torn ears" },
+    { min: 15, max: 16, text: "bulging eyes" },
+    { min: 17, max: 18, text: "crossed eyes" },
+    { min: 19, max: 20, text: "one eye covered in heavy scar tissue" },
+    { min: 21, max: 22, text: "one stitched-shut eye" },
+    { min: 23, max: 24, text: "a wall-eyed gaze" },
+    { min: 25, max: 26, text: "wandering eyes" },
+    { min: 27, max: 28, text: "misshapen hands" },
+    { min: 29, max: 30, text: "missing several fingers" },
+    { min: 31, max: 32, text: "a badly burned face" },
+    { min: 33, max: 34, text: "a chinless face" },
+    { min: 35, max: 36, text: "a disfiguring facial scar" },
+    { min: 37, max: 38, text: "patchy facial hair" },
+    { min: 39, max: 40, text: "wispy facial hair" },
+    { min: 41, max: 42, text: "dirty, greasy hair" },
+    { min: 43, max: 44, text: "thin, lank hair" },
+    { min: 45, max: 46, text: "lice-ridden hair" },
+    { min: 47, max: 48, text: "tangled, knotted hair" },
+    { min: 49, max: 50, text: "a club foot" },
+    { min: 51, max: 52, text: "misshapen legs" },
+    { min: 53, max: 54, text: "a constantly drooling mouth" },
+    { min: 55, max: 56, text: "discolored teeth" },
+    { min: 57, max: 58, text: "filed teeth" },
+    { min: 59, max: 60, text: "a frog-like mouth" },
+    { min: 61, max: 62, text: "a pronounced overbite" },
+    { min: 63, max: 64, text: "a pronounced underbite" },
+    { min: 65, max: 66, text: "large buck teeth" },
+    { min: 67, max: 68, text: "large snaggle teeth" },
+    { min: 69, max: 70, text: "missing many teeth" },
+    { min: 71, max: 72, text: "no teeth" },
+    { min: 73, max: 74, text: "a crusted, encrusted nose" },
+    { min: 75, max: 76, text: "an unusually large nose" },
+    { min: 77, max: 78, text: "a smashed nose" },
+    { min: 79, max: 80, text: "a missing nose" },
+    { min: 81, max: 82, text: "a warty nose" },
+    { min: 83, max: 84, text: "skin covered in boils" },
+    { min: 85, max: 86, text: "skin marked with crude scarification" },
+    { min: 87, max: 88, text: "skin covered in crude tattoos" },
+    { min: 89, max: 90, text: "heavily scarred skin" },
+    { min: 91, max: 92, text: "filthy skin" },
+    { min: 93, max: 94, text: "peeling skin" },
+    { min: 95, max: 96, text: "scabrous skin" },
+    { min: 97, max: 98, text: "pock-marked skin" },
+    { min: 99, max: 100, text: "warty skin" },
+  ];
+
+  const roll = Math.floor(Math.random() * 100) + 1;
+  const result = table.find(entry => roll >= entry.min && roll <= entry.max);
+
+  return result.text;
+}
+
+function rollAveragePhysicalFeature() {
+  const table = [
+    { min: 1, max: 2, text: "a barrel-chested build" },
+    { min: 3, max: 4, text: "a chubby build" },
+    { min: 5, max: 6, text: "a skinny build" },
+    { min: 7, max: 8, text: "a stocky build" },
+    { min: 9, max: 10, text: "a tiny build" },
+    { min: 11, max: 12, text: "large ears" },
+    { min: 13, max: 14, text: "small ears" },
+    { min: 15, max: 16, text: "eyes of different colors" },
+    { min: 17, max: 18, text: "large eyes" },
+    { min: 19, max: 20, text: "narrow eyes" },
+    { min: 21, max: 22, text: "one eye covered by an eye patch" },
+    { min: 23, max: 24, text: "unusually colored eyes" },
+    { min: 25, max: 26, text: "heavy frown or laugh lines" },
+    { min: 27, max: 28, text: "an obvious birthmark" },
+    { min: 29, max: 30, text: "an obvious mole" },
+    { min: 31, max: 32, text: "a facial piercing" },
+    { min: 33, max: 34, text: "a tattooed face" },
+    { min: 35, max: 36, text: "a mallen streak in their hair" },
+    { min: 37, max: 38, text: "prematurely greying hair" },
+    { min: 39, max: 40, text: "receding or thinning hair" },
+    { min: 41, max: 42, text: "callused hands" },
+    { min: 43, max: 44, text: "long fingernails" },
+    { min: 45, max: 46, text: "a missing finger" },
+    { min: 47, max: 48, text: "a capped missing hand" },
+    { min: 49, max: 50, text: "a carved prosthetic hand" },
+    { min: 51, max: 52, text: "a hook in place of one hand" },
+    { min: 53, max: 54, text: "tattooed knuckles (e.g., words like 'Hold Fast' or 'Love/Hate')" },
+    { min: 55, max: 56, text: "a peg leg" },
+    { min: 57, max: 58, text: "skinny legs" },
+    { min: 59, max: 60, text: "short legs" },
+    { min: 61, max: 62, text: "a deviated septum" },
+    { min: 63, max: 64, text: "a noticeable gap between their teeth" },
+    { min: 65, max: 66, text: "a lip piercing" },
+    { min: 67, max: 68, text: "a missing tooth" },
+    { min: 69, max: 70, text: "a replacement tooth (bone, wood, etc.)" },
+    { min: 71, max: 72, text: "thin lips" },
+    { min: 73, max: 74, text: "an aquiline nose" },
+    { min: 75, max: 76, text: "a broken nose" },
+    { min: 77, max: 78, text: "a large nose" },
+    { min: 79, max: 80, text: "a pierced nose" },
+    { min: 81, max: 82, text: "a small nose" },
+    { min: 83, max: 84, text: "an upturned nose" },
+    { min: 85, max: 86, text: "deeply tanned skin" },
+    { min: 87, max: 88, text: "freckled skin" },
+    { min: 89, max: 90, text: "unusually hairy skin" },
+    { min: 91, max: 92, text: "minor scars" },
+    { min: 93, max: 94, text: "ruddy skin" },
+    { min: 95, max: 96, text: "tattooed skin" },
+    { min: 97, max: 98, text: "unusually pale skin" },
+    { min: 99, max: 100, text: "weather-beaten skin" }
+  ];
+
+  const roll = Math.floor(Math.random() * 100) + 1;
+  const result = table.find(entry => roll >= entry.min && roll <= entry.max);
+
+  return result.text;
+}
+
+
+function rollPositivePhysicalFeature() {
+  function rollOnce(ignoreRollTwice = false) {
+    const table = [
+      { min: 1, max: 3, text: "an athletic build" },
+      { min: 4, max: 6, text: "a broad-chested or bosomy build" },
+      { min: 7, max: 9, text: "good posture" },
+      { min: 10, max: 12, text: "a slim build" },
+      { min: 13, max: 15, text: "well-proportioned features" },
+      { min: 16, max: 18, text: "clear eyes" },
+      { min: 19, max: 21, text: "a commanding gaze" },
+      { min: 22, max: 24, text: "a mesmerizing gaze" },
+      { min: 25, max: 27, text: "a piercing gaze" },
+      { min: 28, max: 30, text: "striking eye color" },
+      { min: 31, max: 33, text: "graceful hands" },
+      { min: 34, max: 36, text: "strong hands" },
+      { min: 37, max: 39, text: "a beauty mark" },
+      { min: 40, max: 42, text: "a dashing facial scar" },
+      { min: 43, max: 45, text: "distinguished features" },
+      { min: 46, max: 48, text: "chiseled, fine features" },
+      { min: 49, max: 51, text: "a heroic, graceful jawline" },
+      { min: 52, max: 54, text: "an honest face" },
+      { min: 55, max: 57, text: "a striking or beautifying tattoo" },
+      { min: 58, max: 60, text: "a youthful countenance" },
+      { min: 61, max: 63, text: "glossy hair" },
+      { min: 64, max: 66, text: "lustrous hair" },
+      { min: 67, max: 69, text: "luxurious, silken hair" },
+      { min: 70, max: 72, text: "long legs" },
+      { min: 73, max: 75, text: "muscular, well-toned legs" },
+      { min: 76, max: 78, text: "slim legs" },
+      { min: 79, max: 81, text: "a charming, winning smile" },
+      { min: 82, max: 84, text: "a dazzling smile" },
+      { min: 85, max: 87, text: "full, sensuous lips" },
+      { min: 88, max: 90, text: "perfect teeth" },
+      { min: 91, max: 93, text: "flawless skin" },
+      { min: 94, max: 96, text: "glossy skin" },
+      { min: 97, max: 99, text: "a healthy complexion" },
+      { min: 100, max: 100, rollTwice: true }
+    ];
+
+    const roll = Math.floor(Math.random() * 100) + 1;
+    const result = table.find(entry => roll >= entry.min && roll <= entry.max);
+
+    if (result.rollTwice && !ignoreRollTwice) {
+      const first = rollOnce(true);
+      const second = rollOnce(true);
+      return `${first} and ${second}`
+    }
+
+    return result.text;
+  }
+
+  return rollOnce();
+}
+
+function joinWithAnd(items) {
+  if (!items || items.length === 0) return "";
+  if (items.length === 1) return items[0];
+  if (items.length === 2) return `${items[0]} and ${items[1]}`;
+  
+  return `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+}
+
+function getPhysicalFeatureString( charismaModifier ) {
+  const extraRollNum = Math.abs(Number(charismaModifier));
+
+  const averageFeature = rollAveragePhysicalFeature();
+
+  let extraFeatures = [];
+  for ( let i = 0; i < extraRollNum; i++ ) {
+    const extraFeature = Number(charismaModifier) > 0 ? rollPositivePhysicalFeature() : rollNegativePhysicalFeature();
+    extraFeatures.push( extraFeature )
+  }
+
+  return joinWithAnd( [averageFeature].concat(extraFeatures) );
+}
+
+function getPersonalDetailsString(beautyDescriptor, age, physicalFeatures) {
+  return `A(n) ${beautyDescriptor} ${age} year old with ${physicalFeatures}`
+}
 
 function generateCharacter() {
     const occupation = rollHenchmanOccupation()
+    const stats = rollHenchmanStats()
+    const statModifiers = getStatModifiers( stats )
+    const armourClass = getArmourClass( statModifiers.dexterity );
+    const meleeAttackThrow = getMeleeAttackThrow(statModifiers.strength);
+    const rangedAttackThrow = getRangedAttackThrow(statModifiers.dexterity);
+    const savingThrows = getSavingThrows( statModifiers.will );
+    const age = getAge(occupation.occupationCategory);
+    const beautyDescriptor = getBeautyDescriptor(statModifiers.charisma);
+    const physicalFeatures = getPhysicalFeatureString( statModifiers.charisma );
 
-    const displayElement = document.getElementById("henchman-occupation");
-    const occupationDisplay = document.createElement("div");
-    occupationDisplay.innerText = occupation.occupation;
-    displayElement.appendChild(occupationDisplay);
+    const occupationElement = document.getElementById("henchman-occupation");
+    occupationElement.innerText = occupation.occupation;
+
+    const personalDetailsContainerElement = document.getElementById("henchman-personal-details");
+    const personalDetailsElement = document.createElement('span');
+    const personalDetailsString = getPersonalDetailsString(beautyDescriptor, age, physicalFeatures);
+    personalDetailsElement.innerText = personalDetailsString;
+    personalDetailsContainerElement.replaceChildren(personalDetailsElement)
+
+    const statsContainerElement = document.getElementById("henchman-stats");
+    const statElements = generateStatElements(stats, statModifiers);
+    statsContainerElement.replaceChildren(...statElements);
+
+    const combatAttributesElement = document.getElementById("henchman-combat-attributes");
+
+    const hpElement = document.createElement('span');
+    hpElement.innerText = 'HP: 0';
+    hpElement.className = "small-right-margin";
+
+    const armourClassElement = document.createElement('span');
+    armourClassElement.innerText = `AC: ${armourClass}`
+    armourClassElement.className = "small-right-margin";
+
+    const meleeAtkThrowElement = document.createElement('span');
+    meleeAtkThrowElement.innerText = `AtkMel: ${meleeAttackThrow}`;
+    meleeAtkThrowElement.className = "small-right-margin";
+
+    const rangedAtkThrowElement = document.createElement('span');
+    rangedAtkThrowElement.innerText = `AtkRng: ${rangedAttackThrow}`;
+    rangedAtkThrowElement.className = "small-right-margin";
+
+    combatAttributesElement.replaceChildren(hpElement, armourClassElement, meleeAtkThrowElement, rangedAtkThrowElement)
+
+    const savingThrowsContainerElement = document.getElementById("henchman-saving-throws");
+    const savingThrowElements = generateSavingThrowElements(savingThrows);
+    savingThrowsContainerElement.replaceChildren(...savingThrowElements);
+
 }
