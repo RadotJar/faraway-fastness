@@ -717,6 +717,860 @@ function getPersonalDetailsString(beautyDescriptor, age, physicalFeatures) {
   return `A(n) ${beautyDescriptor} ${age} year old with ${physicalFeatures}`
 }
 
+function generateLaborerProficiencies(occupation, intModifier = 0) {
+  const table = {
+    "Barber": [
+      "Labor (barbering)",
+      "Folkways",
+      "Revelry",
+      "Weapon Proficiency (swords/daggers)"
+    ],
+    "Bath Attendant / Masseuse": [
+      "Labor (massage)",
+      "Labor (valeting)",
+      "Folkways",
+      "Revelry"
+    ],
+    "Bricklayer": [
+      "Labor (bricklaying)",
+      "Endurance",
+      "Folkways",
+      "Weapon Proficiency (bludgeons)"
+    ],
+    "Cook": [
+      "Labor (cooking)",
+      "Folkways",
+      "Revelry",
+      "Weapon Proficiency (swords/daggers)"
+    ],
+    "Dockworker": [
+      "Labor (heaving/stowing)",
+      "Folkways",
+      "Streetwise",
+      "Weapon Proficiency (club, hand axe, net, and staff)"
+    ],
+    "Fuller / Launderer": [
+      "Labor (fulling)",
+      "Labor (laundry)",
+      "Folkways",
+      "Revelry"
+    ],
+    "Gondolier / Rower": [
+      "Seafaring",
+      "Folkways",
+      "Revelry",
+      "Weapon Proficiency (club, hand axe, net, and staff)"
+    ],
+    "Gongfarmer / Streetcleaner": [
+      "Labor (gongfarming)",
+      "Endurance",
+      "Folkways",
+      "Revelry"
+    ],
+    "Hawker": [
+      "Labor (hawking)",
+      "Bargaining",
+      "Folkways",
+      "Revelry"
+    ],
+    "Hostler / Stablehand": [
+      "Labor (grooming)",
+      "Driving",
+      "Folkways",
+      "Riding"
+    ],
+    "Maidservant": [
+      "Labor (housekeeping)",
+      "Labor (laundry)",
+      "Folkways",
+      "Revelry"
+    ],
+    "Prostitute": [
+      "Seduction",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ],
+    "Ratcatcher": [
+      "Tracking",
+      "Trapping",
+      "Folkways",
+      "Streetwise"
+    ],
+    "Roofer / Tiler": [
+      "Labor (roofing/tiling)",
+      "Folkways",
+      "Revelry",
+      "Weapon Proficiency (bludgeons)"
+    ],
+    "Sailor / Fisher": [
+      "Seafaring",
+      "Labor (heaving/stowing)",
+      "Revelry",
+      "Weapon Proficiency (club, hand axe, net, and staff)"
+    ],
+    "Scullion": [
+      "Labor (scullery)",
+      "Endurance",
+      "Folkways",
+      "Revelry"
+    ],
+    "Sawyer / Woodcutter": [
+      "Labor (woodcutting)",
+      "Endurance",
+      "Fighting Style (two-handed weapon)",
+      "Weapon Proficiency (axes)"
+    ],
+    "Teamster": [
+      "Driving",
+      "Labor (heaving/stowing)",
+      "Folkways",
+      "Streetwise"
+    ],
+    "Tavernworker": [
+      "Labor (tavernworking)",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ],
+    "Unskilled Laborer": [
+      "Endurance",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ]
+  };
+
+  if (!table[occupation]) {
+    throw new Error(`Unknown occupation: ${occupation}`);
+  }
+
+  const baseProficiencies = table[occupation].slice(0, 4);
+
+  // Convert to structured object with levels
+  const proficiencies = baseProficiencies.map((prof, index) => {
+    let level = 1;
+
+    // Positive INT modifier adds levels to leftmost proficiency
+    if (index === 0 && intModifier > 0) {
+      level += intModifier;
+    }
+
+    return {
+      name: prof,
+      level: level
+    };
+  });
+
+  return proficiencies;
+}
+
+function generateEntertainerProficiencies(occupation, intModifier = 0) {
+  const table = {
+    "Actor": [
+      "Performance (acting)",
+      "Folkways",
+      "Streetwise",
+      "Weapon Proficiency (swords & daggers)"
+    ],
+    "Dancer": [
+      "Performance (dance)",
+      "Folkways",
+      "Seduction",
+      "Streetwise"
+    ],
+    "Musician": [
+      "Performance (sing/instrument)",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ],
+    "Singer": [
+      "Performance (sing/instrument)",
+      "Folkways",
+      "Seduction",
+      "Streetwise"
+    ],
+    "Carouser": [
+      "Gambling",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ]
+  };
+
+  if (!table[occupation]) {
+    throw new Error(`Unknown entertainer occupation: ${occupation}`);
+  }
+
+  const baseProficiencies = table[occupation].slice(0, 4);
+
+  const proficiencies = baseProficiencies.map((prof, index) => {
+    let level = 1;
+
+    // Positive INT modifier adds levels to leftmost proficiency
+    if (index === 0 && intModifier > 0) {
+      level += intModifier;
+    }
+
+    return {
+      name: prof,
+      level: level
+    };
+  });
+
+  return proficiencies;
+}
+
+function generateMerchantProficiencies(occupation, intModifier = 0) {
+  const table = {
+    "Bookseller": [
+      "Profession (merchant)",
+      "Craft (scribe)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Chandler / Upholder": [
+      "Profession (merchant)",
+      "Craft (candlemaking)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Coppermonger": [
+      "Profession (merchant)",
+      "Craft (coppersmithing)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Cornmonger": [
+      "Profession (merchant)",
+      "Labor (farming)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Draper": [
+      "Profession (merchant)",
+      "Craft (weaving)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Fishmonger": [
+      "Profession (merchant)",
+      "Labor (fishing)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Fripperer": [
+      "Profession (merchant)",
+      "Craft (tailoring)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Furrier": [
+      "Profession (merchant)",
+      "Trapping",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Greengrocer": [
+      "Profession (merchant)",
+      "Labor (farming)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Horsemonger": [
+      "Profession (merchant)",
+      "Animal Training",
+      "Bargaining",
+      "Riding"
+    ],
+    "Ironmonger": [
+      "Profession (merchant)",
+      "Craft (blacksmithing)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Lawyer": [
+      "Profession (lawyer)",
+      "Bargaining",
+      "Diplomacy",
+      "Intimidation"
+    ],
+    "Lumbermonger": [
+      "Profession (merchant)",
+      "Bargaining",
+      "Labor (lumberjacking)",
+      "Folkways"
+    ],
+    "Mercer": [
+      "Profession (merchant)",
+      "Craft (weaving)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Oilmonger": [
+      "Profession (merchant)",
+      "Craft (bottling)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Peltmonger / Skinner": [
+      "Profession (merchant)",
+      "Craft (tanning)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Poulterer": [
+      "Profession (merchant)",
+      "Animal Husbandry",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Salter / Pepperer": [
+      "Profession (merchant)",
+      "Craft (cooking)",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Vintner": [
+      "Profession (merchant)",
+      "Craft (winemaking)",
+      "Bargaining",
+      "Folkways"
+    ]
+  };
+
+  if (!table[occupation]) {
+    throw new Error(`Unknown merchant occupation: ${occupation}`);
+  }
+
+  const baseProficiencies = table[occupation].slice(0, 4);
+
+  const proficiencies = baseProficiencies.map((prof, index) => {
+    let level = 1;
+
+    // Positive INT modifier adds levels to leftmost proficiency
+    if (index === 0 && intModifier > 0) {
+      level += intModifier;
+    }
+
+    return {
+      name: prof,
+      level: level
+    };
+  });
+
+  return proficiencies;
+}
+
+function generateArtisanProficiencies(occupation, intModifier = 0) {
+  const table = {
+    "Apothecary": ["Craft (herbalist)", "Folkways", "Naturalism", "Revelry"],
+    "Armorer": ["Craft (armorsmithing)", "Folkways", "Revelry", "Weapon Proficiency (bludgeons)"],
+    "Baker": ["Craft (baking)", "Labor (scullery)", "Folkways", "Revelry"],
+    "Blacksmith": ["Craft (blacksmithing)", "Labor (bellows)", "Folkways", "Weapon Proficiency (bludgeons)"],
+    "Bookbinder": ["Craft (bookbinding)", "Art (embossing)", "Folkways", "Revelry"],
+    "Bowyer / Fletcher": ["Craft (fletching)", "Folkways", "Naturalism", "Weapon Proficiency (bows/crossbows)"],
+    "Brewer": ["Craft (brewing)", "Labor (milling/mashing)", "Folkways", "Revelry"],
+    "Brickmaker": ["Craft (brickmaking)", "Folkways", "Labor (bricklaying)", "Weapon Proficiency (bludgeons)"],
+    "Butcher": ["Labor (butchery)", "Folkways", "Revelry", "Weapon Proficiency (swords/daggers)"],
+    "Cabinetmaker": ["Craft (cabinetmaking)", "Folkways", "Labor (installation)", "Weapon Proficiency (axes, bludgeons)"],
+    "Candlemaker": ["Craft (candlemaking)", "Labor (rendering)", "Folkways", "Revelry"],
+    "Capper / Hatter": ["Craft (hatting)", "Art (ornamentation)", "Folkways", "Revelry"],
+    "Carpenter": ["Craft (carpentry)", "Labor (installation)", "Folkways", "Weapon Proficiency (axes, bludgeons)"],
+    "Chaloner / Tapicer": ["Craft (upholstering)", "Labor (heaving/stowing)", "Folkways", "Weapon Proficiency (bludgeons)"],
+    "Clothmaker": ["Craft (weaving)", "Craft (spinning)", "Folkways", "Revelry"],
+    "Cobbler / Cordwainer": ["Craft (cobbling)", "Art (ornamentation)", "Folkways", "Revelry"],
+    "Confectioner": ["Craft (confectionary)", "Labor (scullery)", "Folkways", "Revelry"],
+    "Cooper": ["Craft (cooping)", "Labor (heaving/stowing)", "Folkways", "Revelry"],
+    "Coppersmith": ["Craft (coppersmithing)", "Folkways", "Revelry", "Weapon Proficiency (bludgeons)"],
+    "Corder / Ropemaker": ["Craft (ropemaking)", "Labor (heaving/stowing)", "Folkways", "Revelry"],
+    "Decorative Artist": ["Art (any)", "Craft (related to art)", "Folkways", "Revelry"],
+    "Florist": ["Art (floral arrangement)", "Folkways", "Naturalism", "Revelry"],
+    "Gemcutter": ["Craft (gemcutting)", "Art (ornamentation)", "Bargaining", "Folkways"],
+    "Glassworker": ["Craft (glassworking)", "Art (ornamentation)", "Folkways", "Revelry"],
+    "Goldsmith": ["Craft (goldsmithing)", "Art (ornamentation)", "Bargaining", "Folkways"],
+    "Hornworker": ["Craft (hornworking)", "Art (ornamentation)", "Folkways", "Revelry"],
+    "Illuminator": ["Art (illumination)", "Craft (scribe)", "Folkways", "Revelry"],
+    "Jeweler": ["Art (jewelry)", "Craft (goldsmithing or silversmithing)", "Bargaining", "Folkways"],
+    "Locksmith": ["Craft (locksmithing)", "Lockpicking (1st level thief)", "Folkways", "Streetwise"],
+    "Mason": ["Craft (masonry)", "Endurance", "Folkways", "Labor (bricklaying)"],
+    "Parchmentmaker": ["Craft (parchmentmaking)", "Labor (butchery)", "Folkways", "Revelry"],
+    "Perfumer": ["Craft (perfumery)", "Folkways", "Naturalism", "Revelry"],
+    "Potter": ["Craft (pottery)", "Folkways", "Revelry", "—"],
+    "Saddler / Fuster": ["Craft (saddlery)", "Folkways", "Revelry", "Riding"],
+    "Scribe": ["Craft (scribe)", "Art (illumination)", "Folkways", "Revelry"],
+    "Shipwright": ["Craft (shipwrighting)", "Folkways", "Seafaring", "Siege Engineering"],
+    "Silversmith": ["Craft (silversmithing)", "Bargaining", "Folkways", "Weapon Proficiency (bludgeons)"],
+    "Spinner": ["Craft (spinning)", "Craft (weaving)", "Folkways", "Revelry"],
+    "Tailor / Seamstress": ["Craft (tailoring)", "Craft (weaving)", "Folkways", "Revelry"],
+    "Tanner / Tawer": ["Craft (tanning)", "Labor (butchery)", "Folkways", "Revelry"],
+    "Taxidermist": ["Craft (taxidermy)", "Labor (butchery)", "Animal Husbandry", "Naturalism"],
+    "Tinker / Toymaker": ["Craft (toymaking)", "Folkways", "Performance (puppetry)", "Revelry"],
+    "Wainwright": ["Craft (wainwrighting)", "Driving", "Folkways", "Revelry"],
+    "Weaponsmith": ["Craft (weaponsmithing)", "Folkways", "Weapon Proficiency (any 2)", "—"],
+    "Wheelwright": ["Craft (wheelwrighting)", "Driving", "Folkways", "Revelry"]
+  };
+
+  if (!table[occupation]) {
+    throw new Error(`Unknown artisan occupation: ${occupation}`);
+  }
+
+  const baseProficiencies = table[occupation].slice(0, 4).filter(p => p !== "—");
+
+  return baseProficiencies.map((prof, index) => {
+    let level = 1;
+
+    if (index === 0 && intModifier > 0) {
+      level += intModifier;
+    }
+
+    return {
+      name: prof,
+      level: level
+    };
+  });
+}
+
+function generateHostellerProficiencies(occupation, intMod = 0) {
+  const HOSTELLER_TABLE = {
+    "Brothelkeeper": [
+      "Profession (brothelkeeper)",
+      "Folkways",
+      "Intimidation",
+      "Streetwise",
+      "Weapon Proficiency (club, dagger, sap, whip)"
+    ],
+    "Cantinakeeper": [
+      "Profession (cantinakeeper)",
+      "Folkways",
+      "Labor (cooking)",
+      "Revelry",
+      "Streetwise"
+    ],
+    "Innkeeper": [
+      "Profession (innkeeper)",
+      "Craft (brewing)",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ],
+    "Tavernkeeper": [
+      "Profession (tavernkeeper)",
+      "Craft (brewing)",
+      "Folkways",
+      "Revelry",
+      "Streetwise"
+    ]
+  };
+
+  const proficiencies = HOSTELLER_TABLE[occupation];
+
+  if (!proficiencies) {
+    throw new Error(`Unknown hosteller occupation: ${occupation}`);
+  }
+
+  // Take first 4 proficiencies
+  const startingProfs = proficiencies.slice(0, 4);
+
+  // Convert to leveled structure
+  const result = startingProfs.map(p => ({
+    name: p,
+    level: 1
+  }));
+
+  // Positive INT modifier increases leftmost proficiency
+  if (intMod > 0) {
+    result[0].level += intMod;
+  }
+
+  return result;
+}
+
+function generateEcclesiastProficiencies(occupation, intMod = 0) {
+  const ECCLESIAST_TABLE = {
+    "Almsgiver/Missionary": [
+      "Divine Health",
+      "Diplomacy",
+      "Theology 2"
+    ],
+    "Anchorite": [
+      "Contemplation",
+      "Endurance",
+      "Survival",
+      "Theology"
+    ],
+    "Cultist/Heretic": [
+      "Syncretism",
+      "Knowledge (occult)",
+      "Theology",
+      "Weapon Proficiency (dagger, dart, staff, whip)"
+    ],
+    "Hospitalist/Medician": [
+      "Laying on Hands",
+      "Healing 2",
+      "Theology"
+    ],
+    "Inquisitor": [
+      "Sensing Evil",
+      "Intimidation",
+      "Theology",
+      "Weapon Proficiency (bludgeons)"
+    ],
+    "Oracle": [
+      "Prophecy",
+      "Performance (storytelling)",
+      "Theology 2"
+    ],
+    "Sacred Courtesan": [
+      "Mystic Aura",
+      "Performance (dance)",
+      "Seduction",
+      "Theology"
+    ],
+    "Seminarian": [
+      "Divine Blessing",
+      "Theology 2",
+      "Weapon Proficiency (bludgeons)"
+    ],
+    "Village Witch": [
+      "Beast Friendship",
+      "Animal Husbandry",
+      "Naturalism",
+      () => (Math.random() < 0.85 ? "Alchemy" : "Poisoning")
+    ]
+  };
+
+  const proficiencies = ECCLESIAST_TABLE[occupation];
+
+  if (!proficiencies) {
+    throw new Error(`Unknown ecclesiast occupation: ${occupation}`);
+  }
+
+  // Resolve any random entries
+  const resolved = proficiencies.map(p =>
+    typeof p === "function" ? p() : p
+  );
+
+  // Take first 4 (some occupations only have 3)
+  const startingProfs = resolved.slice(0, 4);
+
+  const result = startingProfs.map(p => {
+    const match = p.match(/(.+?)\s(\d+)$/);
+    if (match) {
+      return {
+        name: match[1],
+        level: parseInt(match[2], 10)
+      };
+    }
+    return { name: p, level: 1 };
+  });
+
+  // Apply positive INT modifier to leftmost proficiency
+  if (intMod > 0 && result.length > 0) {
+    result[0].level += intMod;
+  }
+
+  return result;
+}
+
+function generateMinorMagicianProficiencies(occupation, intMod = 0) {
+  const MINOR_MAGICIAN_TABLE = {
+    "Apprentice Mage": [
+      "Arcane Dabbling",
+      "Collegiate Wizardry",
+      "Knowledge (history) 2"
+    ],
+    "Apprentice Warlock": [
+      "Black Lore of Zahar",
+      "Knowledge (occultism) 3"
+    ],
+    "Astrologer": [
+      "Soothsaying",
+      "Knowledge (astrology) 3"
+    ],
+    "Augur": [
+      "Soothsaying",
+      "Animal Husbandry",
+      "Performance (chanting) 2"
+    ],
+    "Charlatan": [
+      "Mystic Aura",
+      "Alchemy",
+      "Bargaining",
+      "Folkways"
+    ],
+    "Failed Apprentice": [
+      "Arcane Dabbling",
+      "Collegiate Wizardry",
+      "Knowledge (history)",
+      "Revelry"
+    ],
+    "Hedge Magician": [
+      "Mastery of Enchantment & Illusions",
+      "Healing",
+      "Naturalism",
+      "Folkways"
+    ],
+    "Occultist": [
+      "Mastery of Conjuration & Summoning",
+      "Knowledge (occultism) 3"
+    ],
+    "Prestidigitator": [
+      "Prestidigitation",
+      "Performance (juggling) 2",
+      "Folkways"
+    ]
+  };
+
+  const proficiencies = MINOR_MAGICIAN_TABLE[occupation];
+
+  if (!proficiencies) {
+    throw new Error(`Unknown minor magician occupation: ${occupation}`);
+  }
+
+  // Take first 4 proficiencies (some have fewer)
+  const startingProfs = proficiencies.slice(0, 4);
+
+  const result = startingProfs.map(p => {
+    const match = p.match(/(.+?)\s(\d+)$/);
+    if (match) {
+      return {
+        name: match[1],
+        level: parseInt(match[2], 10)
+      };
+    }
+    return { name: p, level: 1 };
+  });
+
+  // Apply positive INT modifier to leftmost proficiency
+  if (intMod > 0 && result.length > 0) {
+    result[0].level += intMod;
+  }
+
+  return result;
+}
+
+function generateSpecialistProficiencies(occupation, intMod = 0) {
+  const SPECIALIST_TABLE = {
+    "Alchemist (Apprentice)": [
+      "Alchemy 1",
+      "Collegiate Wizardry",
+      "Labor (scullery)",
+      "Naturalism"
+    ],
+    "Alchemist (Assistant)": [
+      "Alchemy 2",
+      "Collegiate Wizardry",
+      "Labor (scullery)",
+      "Naturalism"
+    ],
+    "Alchemist": [
+      "Alchemy 3",
+      "Collegiate Wizardry",
+      "Labor (scullery)",
+      "Naturalism"
+    ],
+
+    "Animal Trainer (Domestic)": [
+      "Animal Training 1",
+      "Animal Husbandry",
+      "Labor (grooming)",
+      "Riding"
+    ],
+    "Animal Trainer (Wild)": [
+      "Animal Training 2",
+      "Animal Husbandry",
+      "Labor (grooming)",
+      "Riding"
+    ],
+    "Animal Trainer (Giant)": [
+      "Animal Training 3",
+      "Animal Husbandry",
+      "Labor (grooming)",
+      "Riding"
+    ],
+    "Animal Trainer (Fantastic)": [
+      "Animal Training 4",
+      "Animal Husbandry",
+      "Labor (grooming)",
+      "Riding"
+    ],
+
+    "Artillerist": [
+      "Siege Engineering",
+      "Fighting Style Proficiency (missile weapon)",
+      "Weapon Proficiency (arbalest, crossbow, sling, sling-staff)"
+    ],
+
+    "Engineer (Apprentice)": [
+      "Engineering 2",
+      "Craft (masonry)",
+      "Knowledge (mathematics)"
+    ],
+    "Engineer (Assistant)": [
+      "Engineering 3",
+      "Craft (masonry)",
+      "Knowledge (mathematics)"
+    ],
+    "Engineer": [
+      "Engineering 4",
+      "Art (drawing)",
+      "Craft (masonry)",
+      "Knowledge (mathematics)"
+    ],
+
+    "Healer": [
+      "Healing 1",
+      "Naturalism",
+      "Folkways",
+      "Theology"
+    ],
+    "Healer (Physicker)": [
+      "Healing 2",
+      "Naturalism",
+      "Folkways",
+      "Theology"
+    ],
+    "Healer (Chirugeon)": [
+      "Healing 3",
+      "Naturalism",
+      "Folkways",
+      "Theology"
+    ],
+
+    "Marshal (Light Infantry)": [
+      "Manual of Arms 2"
+    ],
+    "Marshal (Bow)": [
+      "Manual of Arms 2",
+      "Weapon Focus (bows & crossbows)"
+    ],
+    "Marshal (Heavy Infantry)": [
+      "Manual of Arms 3"
+    ],
+    "Marshal (Light Cavalry)": [
+      "Manual of Arms 2",
+      "Mounted Combat"
+    ],
+    "Marshal (Heavy Cavalry)": [
+      "Manual of Arms 3",
+      "Mounted Combat"
+    ],
+    "Marshal (Horse Archer)": [
+      "Manual of Arms 2",
+      "Mounted Combat",
+      "Weapon Focus (bows & crossbows)"
+    ],
+    "Marshal (Cataphract)": [
+      "Manual of Arms 3",
+      "Mounted Combat",
+      "Weapon Focus (bows & crossbows)"
+    ],
+
+    "Navigator": [
+      "Navigation",
+      "Seafaring 2",
+      "Mapping",
+      "Weapon Proficiency (club, hand axe, net, staff)"
+    ],
+
+    "Quartermaster": [
+      "Manual of Arms 1",
+      "Profession (quartermaster) 3",
+      "Driving"
+    ],
+
+    "Sage (Apprentice)": [
+      "Magical Engineering 1",
+      "Knowledge (chosen field) 1",
+      "Collegiate Wizardry",
+      "Loremastery"
+    ],
+    "Sage (Assistant)": [
+      "Magical Engineering 2",
+      "Knowledge (chosen field) 2",
+      "Collegiate Wizardry",
+      "Loremastery"
+    ],
+    "Sage": [
+      "Magical Engineering 3",
+      "Knowledge (chosen field) 3",
+      "Collegiate Wizardry",
+      "Loremastery"
+    ],
+
+    "Siege Engineer": [
+      "Siege Engineering 2",
+      "Fighting Style Proficiency (missile weapon)",
+      "Weapon Proficiency (arbalest, crossbow, sling, sling-staff)"
+    ],
+
+    "Ship Captain": [
+      "Seafaring 3",
+      "Command",
+      "Leadership",
+      "Weapon Proficiency (club, hand axe, net, staff)"
+    ]
+  };
+
+  const proficiencies = SPECIALIST_TABLE[occupation];
+
+  if (!proficiencies) {
+    throw new Error(`Unknown specialist occupation: ${occupation}`);
+  }
+
+  const startingProfs = proficiencies.slice(0, 4);
+
+  const result = startingProfs.map(p => {
+    const match = p.match(/(.+?)\s(\d+)$/);
+    if (match) {
+      return {
+        name: match[1],
+        level: parseInt(match[2], 10)
+      };
+    }
+    return { name: p, level: 1 };
+  });
+
+  if (intMod > 0 && result.length > 0) {
+    result[0].level += intMod;
+  }
+
+  return result;
+}
+
+function generateProficiencies(category, occupation, intMod = 0) {
+
+  const generators = {
+    Laborer: generateLaborerProficiencies,
+    Entertainer: generateEntertainerProficiencies,
+    Merchant: generateMerchantProficiencies,
+    Artisan: generateArtisanProficiencies,
+    Hosteller: generateHostellerProficiencies,
+    Ecclesiast: generateEcclesiastProficiencies,
+    "Apprentice Mage": generateMinorMagicianProficiencies,
+    Specialist: generateSpecialistProficiencies
+  };
+
+  const generator = generators[category];
+
+  if (!generator) {
+    throw new Error(`Unknown NPC category: ${category}`);
+  }
+
+  return generator(occupation, intMod);
+}
+
+function getProficienciesString(proficiencies) {
+  let profs = []
+  for ( proficiency of proficiencies ) {
+    profs.push( `${proficiency.name} ${proficiency.level}` )
+  }
+  return profs.join(', ')
+}
+
+
 function generateCharacter() {
     const occupation = rollHenchmanOccupation( false )
     const stats = rollHenchmanStats()
@@ -728,6 +1582,7 @@ function generateCharacter() {
     const age = getAge(occupation.occupationCategory);
     const beautyDescriptor = getBeautyDescriptor(statModifiers.charisma);
     const physicalFeatures = getPhysicalFeatureString( statModifiers.charisma );
+    const proficiencies = generateProficiencies( occupation.occupationCategory, occupation.occupation, Number(statModifiers.intellect) )
 
     const henchmanContainerEl = document.createElement('div');
     henchmanContainerEl.className = "henchman-card"
@@ -770,7 +1625,12 @@ function generateCharacter() {
     const savingThrowElements = generateSavingThrowElements(savingThrows);
     savingThrowsContainerElement.replaceChildren(...savingThrowElements);
 
-    henchmanContainerEl.replaceChildren(nameElement, occupationElement, personalDetailsElement, combatAttributesElement, savingThrowsContainerElement);
+    const proficienciesElement = document.createElement('div');
+    const proficienciesString = getProficienciesString(proficiencies);
+    console.log(proficienciesString)
+    proficienciesElement.innerText = `Proficiencies: ${proficienciesString}`
+
+    henchmanContainerEl.replaceChildren(nameElement, occupationElement, personalDetailsElement, combatAttributesElement, savingThrowsContainerElement, proficienciesElement);
     return henchmanContainerEl;
 }
 
