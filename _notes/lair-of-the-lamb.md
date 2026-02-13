@@ -51,6 +51,23 @@ The initial available classes are:
 
 Other classes are unlocked through play.
 
+## Common Knowledge
+### The City of Cyfaraun
+Capital of the Borderlands, a place renowned for its hustle, its bustle and its many powerful temples.
+
+### The White Temple
+The most holy temple of Lux Dynamicus in the Borderlands.
+Lux Dynamicus Offers truth, preservation, peace, light and renewal through graceful adaptation to change and continual learning.
+
+### The Red Temple
+A lesser temple to Shendormu, tolerated but despised by the other temples. 
+Shendormu is the God of Fungus, Mindlessness, and Community.
+
+### The Temple of Justice
+This temple's clerics (known as Templars) administer justice in the courts and the streets of Cyfaraun.
+They follow Krakiva, Goddess of civilization, the oceans, storms, agriculture and industriousness.
+The templars are known to be ruthless punishers of such heinous acts as bribery, adultery, heresy, necromancy etc.
+
 ## How do you know the peasant to your right?
 1. Sibling
 2. Neice/Nephew
