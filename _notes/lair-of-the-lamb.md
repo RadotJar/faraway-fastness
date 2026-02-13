@@ -50,3 +50,21 @@ The initial available classes are:
 - Venturer
 
 Other classes are unlocked through play.
+
+## How do you know the peasant to your right?
+1. Sibling
+2. Neice/Nephew
+3. Customer
+4. Neighbour
+5. In-law
+6. Lover
+7. Rival
+8. Friend
+
+## Why do you think you have been taken?
+1. Theft
+2. Murder
+3. Adultery
+4. Blasphemy
+5. Mistaken Identity
+6. Idleness
