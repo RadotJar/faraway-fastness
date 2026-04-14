@@ -1627,10 +1627,9 @@ function generateCharacter() {
 
     const proficienciesElement = document.createElement('div');
     const proficienciesString = getProficienciesString(proficiencies);
-    console.log(proficienciesString)
     proficienciesElement.innerText = `Proficiencies: ${proficienciesString}`
 
-    henchmanContainerEl.replaceChildren(nameElement, occupationElement, personalDetailsElement, combatAttributesElement, savingThrowsContainerElement, proficienciesElement);
+    henchmanContainerEl.replaceChildren(nameElement, occupationElement, personalDetailsElement, statsContainerElement, combatAttributesElement, savingThrowsContainerElement, proficienciesElement);
     return henchmanContainerEl;
 }
 
