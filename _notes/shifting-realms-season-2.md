@@ -19,7 +19,16 @@ On point 3, the sources of XP in the campaign will now be as follows:
 5. Roleplaying to class or alignment at the expense of optimal game strategy.
 6. Pushing your luck in a dungeon. The more rooms consecutively explored before leaving the more XP gained.
  
+## XP for travel
 
+Xp for travel is individually earned.
+
+| Territory | XP/week |
+|---| --- |
+| Civilized | 10 |
+| Borderlands | 50 |
+| Outlands | 100 |
+| Unsettled | 200 |
 
 # Misc Ideas
 - Good/Evil party
