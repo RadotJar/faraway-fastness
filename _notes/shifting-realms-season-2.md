@@ -21,6 +21,8 @@ On point 3, the sources of XP in the campaign will now be as follows:
  
 ## XP for travel
 
+This represents your growing experience in traversing and surviving dangerous wilderness environments.
+You earn it simply by travelling the game world.
 Xp for travel is individually earned.
 Earned XP is halved if travelling somewhere you've already been.
 Earned XP is halved if travelling somewhere you have no prior knowledge of (No maps, guide, road etc).
@@ -31,6 +33,21 @@ Earned XP is halved if travelling somewhere you have no prior knowledge of (No m
 | Borderlands | 50 |
 | Outlands | 100 |
 | Unsettled | 200 |
+
+## XP for Exploration
+
+This represents your growing reputation as one who has been to the great places and spins fantastic tales.
+You earn it by discovering new notable locations in the game world.
+XP for exploration is individually earned.
+
+| Destination | XP |
+|---| --- |
+| Local Curiosity | 50 |
+| Uncommon | 150 |
+| Rarely Visited | 500 |
+| Unseen for years | 1500 |
+| Unseen for generations | 5000 |
+| Of questionable veracity | 15000 |
 
 # Misc Ideas
 - Good/Evil party
