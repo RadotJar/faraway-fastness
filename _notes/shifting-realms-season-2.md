@@ -22,6 +22,8 @@ On point 3, the sources of XP in the campaign will now be as follows:
 ## XP for travel
 
 Xp for travel is individually earned.
+Earned XP is halved if travelling somewhere you've already been.
+Earned XP is halved if travelling somewhere you have no prior knowledge of (No maps, guide, road etc).
 
 | Territory | XP/week |
 |---| --- |
