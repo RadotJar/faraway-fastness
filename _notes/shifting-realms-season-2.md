@@ -51,7 +51,17 @@ XP for exploration is individually earned.
 
 # Misc Ideas
 - Good/Evil party
+    - Feedback wasn't fantastic on splitting the party.
+    - Concerns were raised regarding scheduling
+
 - Unwieldy party size
 - Table chatter is always in game - punish it, up the tension
+    - Consider using the tension pool for meta-itis to push things along. Make it clear WHY wandering monsters are annoying them (itis)
+
 - Unlockable classes
+    - Not super warm feedback either. Concerned about how hard it would be to unlock.
+    - Perhaps have clear goals available for each class. Plus additional for creative players
+
 - Kreyzabane unleashed, Althier fallen
+
+- More XP desired for faster levelling
