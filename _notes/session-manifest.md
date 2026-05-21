@@ -22,10 +22,6 @@ tags: ttrpg settlement
     </div>
 </div>
 
-<div class="calendar-container">
-    <div class="calendar"></div>
-</div>
-
 ---
 
 ## Session 20
@@ -2478,11 +2474,3 @@ Opponents **do not** get a free attack a la 'opportunity attack'.
     type="module"
     src="https://unpkg.com/playhtml@latest/dist/init.es.js"
 ></script>
-
-<script src='https://app.fantasy-calendar.com/js/embed.js'></script>
-<script defer>
-FantasyCalendar({
-    hash: '8dbad326a6d87a56ed73508fb49d1b8d',
-    selector: 'div.calendar',
-});
-</script>
