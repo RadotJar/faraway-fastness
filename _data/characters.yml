@@ -36,7 +36,7 @@
 
 - name: Binabus
   class: Mage
-  level: 1
+  level: 2
   alive: true
   sessions:
     - session_number: 3
@@ -63,6 +63,10 @@
       xp_bonus: "+10%"
     - session_number: 19
       xp_bonus: "+5%"
+    - session_number: 21
+      xp_bonus: "-"
+    - session_number: 23
+      xp_bonus: "-"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -89,6 +93,12 @@
   sessions:
     - session_number: 11
       xp_bonus: "-"
+    - session_number: 21
+      xp_bonus: "-"
+    - session_number: 23
+      xp_bonus: "-"
+    - session_number: 24
+      xp_bonus: "+5%"
 
 - name: Conversos Crypt
   class: Venturer
@@ -142,6 +152,10 @@
     - session_number: 15
       xp_bonus: "+10%"
     - session_number: 17
+      xp_bonus: "+5%"
+    - session_number: 22
+      xp_bonus: "+5%"
+    - session_number: 24
       xp_bonus: "+5%"
 
 - name: Jozaferin
@@ -197,11 +211,38 @@
       xp_bonus: "+5%"
     - session_number: 19
       xp_bonus: "-"
+    - session_number: 21
+      xp_bonus: "-"
+    - session_number: 23
+      xp_bonus: "-"
+    - session_number: 24
+      xp_bonus: "-"
+
+- name: Ludwig
+  class: Mage
+  level: 1
+  alive: true
+  sessions:
+    - session_number: 23
+      xp_bonus: "-"
 
 - name: Meat
   class: Shaman
   level: 2
   alive: true
+  sessions:
+    - session_number: 21
+      xp_bonus: "+5%"
+    - session_number: 22
+      xp_bonus: "-"
+
+- name: Merlin Cakes
+  class: Mage
+  level: 1
+  alive: true
+  sessions:
+    - session_number: 21
+      xp_bonus: "-"
 
 - name: Questoni
   class: Explorer
@@ -213,6 +254,8 @@
     - session_number: 13
       xp_bonus: "+5%"
     - session_number: 14
+      xp_bonus: "-"
+    - session_number: 23
       xp_bonus: "-"
 
 - name: Rat Girl
@@ -242,11 +285,16 @@
       xp_bonus: "+5%"
     - session_number: 19
       xp_bonus: "-"
+    - session_number: 21
+      xp_bonus: "-"
 
 - name : Suiipu Toosho
   class: Witch
   level: 2
   alive: true
+  sessions:
+    - session_number: 24
+      xp_bonus: "+5%"
 
 - name: Sven Svensson
   class: Bard
@@ -268,6 +316,10 @@
     - session_number: 16
       xp_bonus: "+5%"
     - session_number: 17
+      xp_bonus: "+5%"
+    - session_number: 21
+      xp_bonus: "-"
+    - session_number: 22
       xp_bonus: "+5%"
 
 - name: Tassos
@@ -359,6 +411,18 @@
       xp_bonus: "+5%"
     - session_number: 17
       xp_bonus: "-"
+    - session_number: 21
+      xp_bonus: "-"
+    - session_number: 22
+      xp_bonus: "+5%"
+
+- name: Verzo
+  class: Mage
+  level: 1
+  alive: false
+  sessions:
+    - session_number: 24
+      xp_bonus: "+5%"
 
 - name: Zhaafique Bar Khan
   class: Assassin

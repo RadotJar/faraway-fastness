@@ -15,14 +15,212 @@ tags: ttrpg settlement
     <div can-move id="bad-smell-award" class="award bad-smell">
         <strong>👃 Bad smell: </strong>{{ most_sessions_char.name }} - {{ num_sessions }} sessions
     </div>
-    <br>
-    <div can-move id="bane-of-happy-families-award" class="award bane-of-happy-families">
-        <span><strong>💀 Bane of happy families - </strong></span>
-        <span>Conversos Crypt and Tassos with 2 henchmen lost</span>
-    </div>
 </div>
 
 ---
+
+## Session 24
+
+{% assign session_number = 24 %}
+
+The party awaken in a dark mausoleum as prisoners. Meat's snake familiar is able to find a crawlway through to the cavern in which the party encountered the giant slime. They hurry to the slimy hole and reunite with Binabus!
+
+📆 Date - 12th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+## Session 23
+
+{% assign session_number = 23 %}
+
+The party find a slimy hole that exits Sanjikar! Binabus cleverly escapes with a fat sack of gems, but the rest of the party opt to heed the cries of help coming from further into the dungeon. They attempt to get a young wizard out of a pit, but are ambushed by a Troglodyte patrol and captured!
+
+📆 Date - 12th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">💀 Casualties</th>
+              <th scope="col">Fate</th>
+              <th scope="col">Cause</th>
+          </tr>
+      </thead>
+      <tbody>
+      <tr>
+            <td>Centurion Draxtor</td>
+            <td>In shock</td>
+            <td>Skewered by Troglodyte javelins</td>
+        </tr>
+        <tr>
+            <td>Hergon</td>
+            <td>Punctured, ruined hand. Cannot dual wield or use two-handed weapons</td>
+            <td>Skewered by Troglodyte javelins</td>
+        </tr>
+        <tr>
+            <td>Kalf Varsson</td>
+            <td>Ruined eye. -2 to missile attacks at medium and long range</td>
+            <td>Skewered by Troglodyte javelins</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+## Session 22
+
+{% assign session_number = 22 %}
+
+The party continue searching for an exit from Sanjikar. Hurgon meditates in some ancient dwarven prayer rooms and a Goblin ambush is dealt with swiftly. The Troglodyte prisoner attempts to flee in the chaos but is knocked senseless by a careful sling shot.
+
+📆 Date - 12th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Goblin champion</td>
+            <td>1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Goblin grunt</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>35</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+## Session 21
+
+{% assign session_number = 21 %}
+
+Back at Sanjikar, the party flow downriver in darkness to a great cavern. They encounter a huge slime creature, freeing the magic-users 'Merlin' and 'Meat' and a Troglodyte from its servitude.
+Merlin lights up the cavern with his burning hands, allowing them to find the exit and flee from the slime.
+
+📆 Date - 12th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
 
 ## Session 20
 
