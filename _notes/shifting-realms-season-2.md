@@ -3,7 +3,25 @@ title: Shifting Realms Season 2
 tags: ttrpg
 ---
 
-## More XP!
+## Current XP Sources 
+
+ACKS has many sources of XP beyond treasure and monsters, which are not immediately obvious without reading the tomes a couple of times! They are as follows:
+
+- Kill monsters
+- Bring treasure back to civilization
+- Perform hijinks (carousing, racketeering, assassination etc.) **[Requires applicable thief skill]**
+- Rule over a realm that is making a budget surplus
+- Run a criminal syndicate
+- Trade goods for profit
+- Transport passengers for profit
+- Build strongholds in unclaimed territory
+- Amass religious followers **[Requires lawful crusader]** OR perform human sacrifice **[Requires chaotic crusader]** 
+- Harvest monsters in your dungeon **[Requires level 9 magic-user]**
+- Magical research/ item creation **[Requires level 5 magic-user/crusader]**
+
+TODO: Add page numbers 
+
+## More XP! [WIP]
 
 Everyone wants to speed up advancement a bit, including me, so I'm planning to increase XP access in three ways:
 
