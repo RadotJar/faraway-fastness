@@ -3,6 +3,16 @@ title: Shifting Realms Season 2
 tags: ttrpg
 ---
 
+## Wilderness Encounter Tables
+- ACKS wilderness encounter rolls use a table by settled category, then sub table into civilized, terrain and monster encounters
+- Civilized and terrain encounters can work for us pretty much as is
+- Monster encounters sub-table into common, uncommon, rare, very rare etc and then each terrain type has a column for each rarity.
+- We can create our own sub-table for each rarity based on what we know of the setting so far
+- Also attach a territory range based on monster size/HD and % in lair (% in lair = change of getting 0 on the roll).
+- ACKS has rules for number of lairs per hex. Can pre-roll for hexes so we know the capacities in advance as we generate the dynamic lairs.
+- Lair intersection with surprise and distance rules?
+- See welsh piper
+
 ## Current XP Sources 
 
 ACKS has many sources of XP beyond treasure and monsters, which are not immediately obvious without reading the tomes a couple of times! They are as follows:
