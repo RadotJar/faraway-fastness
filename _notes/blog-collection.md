@@ -1,0 +1,17 @@
+---
+title: Blog Collection
+tags: ttrpg
+---
+
+A collection of blog posts for future reference.
+
+## Narration secrets hidden in plain sight
+
+Hiding clues and secrets is hard in ttrpg narration because anything you mention has attention drawn to it, but anything you don't mention is completely unknown to players.
+A good strategy is to:
+
+1. Describe the situation/scene with adjectives
+2. List three items that seem like they are fluff fleshing out the scene you just mentioned. Actually they are hooks for further exploration
+3. Adjust how obvious the secret is. The middle list item will be most easily forgotten, the last item will be most easily remembered
+
+[Link to Angry GM's post](https://theangrygm.com/early-access/latest-feature/)
