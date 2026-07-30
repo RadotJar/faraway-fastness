@@ -3,6 +3,25 @@ title: Shifting Realms Season 2
 tags: ttrpg
 ---
 
+## Starting Situation
+
+Location: The Welcome Wench
+
+Background: The PCs fled to Hommus following Sanjikar and the fire bombing. They stashed their loot at the local bank before taking a job from Burne.
+Failing this task, the PCs returned to Hommus and now suffer the patronising eye of Burne. They have set themselves up at the Welcome Wench for [ some number ] of weeks and are now seeking their next job.
+
+Rumours:
+
+| 1d6   | Rumour  |
+| ----- | ------  |
+| 1     | Grog's town offering safe passage free of charge into a safe outpost in the Wastes, for adventurers seeking to unearth relics and riches long lost under the dark lady's reign |
+| 2     | The Ursury guildhouse was burnt down in Althier, but they live on and are seeking the arsonists. Watch out for bears, they are known spies for the guild |
+| 3     | Centurion in Turos Tem is seeking brave men and women to investigate the growing beastman problem in the woods. Report to the barracks in Turos Tem for information |
+| 4     | Althier has fallen. The lords of the region have given up on it just as a dragon has been sighted in the skies around Sanjikar. The prince's highway is no longer patrolled by the Regevian Guard, only fools would take that route now |
+| 5     | Two brothers now lead a warband of orcs. They're on the hunt for a traitor, and will pay a high price for his whereabouts |
+| 6     | |
+
+
 ## Wilderness Encounter Tables
 - ACKS wilderness encounter rolls use a table by settled category, then sub table into civilized, terrain and monster encounters
 - Civilized and terrain encounters can work for us pretty much as is
