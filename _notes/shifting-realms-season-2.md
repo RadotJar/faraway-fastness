@@ -19,7 +19,7 @@ Rumours:
 | 3     | Centurion in Turos Tem is seeking brave men and women to investigate the growing beastman problem in the woods. Report to the barracks in Turos Tem for information |
 | 4     | Althier has fallen. The lords of the region have given up on it just as a dragon has been sighted in the skies around Sanjikar. The prince's highway is no longer patrolled by the Regevian Guard, only fools would take that route now |
 | 5     | Two brothers now lead a warband of orcs. They're on the hunt for a traitor, and will pay a high price for his whereabouts |
-| 6     | |
+| 6     | Some old dreamer has decided to listen to the folklore about the lost isle of Thracia. He's looking for a crew and then putting out to sea. Ha! Good luck to him |
 
 
 ## Wilderness Encounter Tables
