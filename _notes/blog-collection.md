@@ -15,3 +15,9 @@ A good strategy is to:
 3. Adjust how obvious the secret is. The middle list item will be most easily forgotten, the last item will be most easily remembered
 
 [Link to Angry GM's post](https://theangrygm.com/early-access/latest-feature/)
+
+## Rumour rules for ACKS
+
+Rules for making good rumours and proliferating them across the map.
+
+[Patreon post with rules pdf](https://www.patreon.com/Autarch/posts/whats-word-in-ii-156545914?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=web_share)
