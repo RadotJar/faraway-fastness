@@ -40,19 +40,46 @@ be good at dungeoncrawling.
 ## Levelling up
 
 To reach level 1 and select a class, you must do one of:
+
 - Complete a Milestone
 - Find a Treasure
 
-The initial available classes are:
-- Fighter
-- Explorer
-- Thief
-- Venturer
+You may then choose a class from any that you have unlocked. Each class below lists a few ways you might unlock the class. Discuss with your DM if you think your character has done something else that warrants the unlocking of a class.
 
-Other classes are unlocked through play.
+- Fighter:
+    - Survive deadly combat
+    - Kill another creature in cold blood
+    - Put your life on the line to protect another party member
+
+- Explorer:
+    - Guide your party to safety in unknown places
+    - Alert the party to peril before it notices you
+    - Find an unexpected route
+
+- Thief:
+    - Steal something of value
+    - Gain access to an area you weren't meant to have access to
+    - Disable a trap or make it safe for the rest of the party
+
+- Mage:
+    - Learn arcane secrets
+    - Be exposed to arcane powers and do not resist them
+    - Produce a physical record of unknown phenomena for future research
+
+- Crusader:
+    - Contact or feel the presence of a higher power
+    - Banish undead or make then bow to your will
+    - Let faith guide you in a time of great peril
+
+- Venturer:
+    - Strike a deal with or trick another intelligent creature
+    - Sacrifice something in the short term for long term gain
+    - Go out of your way to transport an awkward treasure/good for later sale
 
 ## Common Knowledge
+
 ### The City of Cyfaraun
+
 Capital of the Borderlands, a place renowned for its hustle, its bustle and its many powerful temples.
 
 ### The White Temple
