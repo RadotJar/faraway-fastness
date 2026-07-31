@@ -19,6 +19,279 @@ tags: ttrpg settlement
 
 ---
 
+## Session 28 - Kalf wants Venom
+
+{% assign session_number = 28 %}
+
+The party enter the fastness through the front doors and enter a large chamber with a domed glass ceiling and a fountain in the centre. The glass ceiling is covered in spiderwebs and web sacks. One of the henchmen cuts a sack open and a meaty pulp pours down upon him. Kalf ignites the webs while Meat snatches some coins from the fountain. The burning webs cause the spiders to flee, and the party gives chase. They run into an ambush, managing to kill 3 of the 4 spiders, but Meat and Suiipu are taken out in the process. Kalf prays to Lux Dynamicus and heals Meat who in turn heals Suiipu. The party flee back to Hommus with nothing to show for their efforts.
+
+📆 Date - 20th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Ruined elven fastness
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Giant Spider</td>
+            <td>3</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>77</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+## Session 27 - Brick
+
+{% assign session_number = 27 %}
+
+The party recruit some willing men from the ranks of Burne and Rufus' town guards, and head off in search of the elven fastness. They come across a small group of Rornish bandits holding an elf up against a boulder. The party slaughter the men, and in thanks the elf guides them to the fastness, noting that it is forbidden for him to go all the way. Bidding him farewell, the party begin to navigate the ruined place.
+
+📆 Date - 19th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Hommus, Forest around Hommus
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🐉 Monster</th>
+              <th scope="col">Number</th>
+              <th scope="col">XP</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Brigand</td>
+            <td>5</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Hunting Dog</td>
+            <td>4</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>110</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
+## Session 26
+
+{% assign session_number = 26 %}
+
+The party make it back to Hommus after a brief stop over in Althier and are recruited for a job by Burne, Hommus' wizard. He asks them to find an ancient elven fastness in the forest and find out what happened to his good friend and her party. The original party were sent to investigate a monster said to be lairing there, preying on travelers and merchants. The party agree, but first decide to leave their gems with the moneychanger for a fee of 100gp per week.
+
+📆 Date - 19th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Althier, Hommus
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+## Session 25
+
+{% assign session_number = 25 %}
+
+The party trudge back to Whispering Chasm under the weight of their gemstone sack. They return to find the village pillaged, with the priest barely surviving. With his last breath, he entrusts his holy symbol to Kalf. Meat communes with the local spirits in an attempt to learn of what happened. Instead, he connects with a spirit under the temple who helps the party recover a fine Fabergé egg from the belly of a frog inside a goose. Kalf keeps the frog as a pet, and Suiipu takes the goose on board.
+
+📆 Date - 13th day of the First Month of the Imperial Year 325
+
+🗺️ Location - Sanjikar, Whispering Chasm
+
+<responsive-table class="character-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧑‍🦽 Character</th>
+                <th scope="col">Class</th>
+                <th scope="col">Level</th>
+                <th scope="col">Session XP Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for character in site.data.characters %}
+                {% assign session = character.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ character.name }}</td>
+                        <td>{{ character.class }}</td>
+                        <td>{{ character.level }}</td>
+                        <td>{{ session.xp_bonus }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>
+
+<responsive-table>
+  <table class="table-striped">
+      <thead>
+          <tr>
+              <th scope="col">🪙 Treasure</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Value (gp)</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Fabergé egg</td>
+            <td>1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>?</td>
+        </tr>
+      </tbody>
+  </table>
+</responsive-table>
+
 ## Session 24
 
 {% assign session_number = 24 %}

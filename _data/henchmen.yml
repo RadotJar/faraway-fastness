@@ -1,3 +1,11 @@
+- name: Ambrictitus
+  occupation: Mercenary
+  level: 0
+  employer: '?'
+  sessions:
+    - session_number: 27
+    - session_number: 28
+
 - name: Balien
   occupation: Fisherman
   level: 0
@@ -8,6 +16,14 @@
     - session_number: 6
     - session_number: 7
     - session_number: 9
+
+- name: Crion
+  occupation: Mercenary
+  level: 0
+  employer: '?'
+  sessions:
+    - session_number: 27
+    - session_number: 28
 
 - name: Johnus Joe
   occupation: Peasant - Uncle of the Groom
@@ -54,3 +70,11 @@
     - session_number: 17
     - session_number: 18
     - session_number: 19
+
+- name: Telete
+  occupation: Mercenary
+  level: 0
+  employer: '?'
+  sessions:
+    - session_number: 27
+    - session_number: 28

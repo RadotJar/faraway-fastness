@@ -67,6 +67,10 @@
       xp_bonus: "-"
     - session_number: 23
       xp_bonus: "-"
+    - session_number: 25
+      xp_bonus: "+5%"
+    - session_number: 26
+      xp_bonus: "+5%"
 
 - name: Bodash bar Eshmunazaar
   class: Mage
@@ -98,6 +102,8 @@
     - session_number: 23
       xp_bonus: "-"
     - session_number: 24
+      xp_bonus: "+5%"
+    - session_number: 27
       xp_bonus: "+5%"
 
 - name: Conversos Crypt
@@ -156,6 +162,10 @@
     - session_number: 22
       xp_bonus: "+5%"
     - session_number: 24
+      xp_bonus: "+5%"
+    - session_number: 26
+      xp_bonus: "-"
+    - session_number: 27
       xp_bonus: "+5%"
 
 - name: Jozaferin
@@ -217,6 +227,14 @@
       xp_bonus: "-"
     - session_number: 24
       xp_bonus: "-"
+    - session_number: 25
+      xp_bonus: "-"
+    - session_number: 26
+      xp_bonus: "-"
+    - session_number: 27
+      xp_bonus: "-"
+    - session_number: 28
+      xp_bonus: "+10%"
 
 - name: Ludwig
   class: Mage
@@ -234,6 +252,14 @@
     - session_number: 21
       xp_bonus: "+5%"
     - session_number: 22
+      xp_bonus: "-"
+    - session_number: 25
+      xp_bonus: "+5%"
+    - session_number: 26
+      xp_bonus: "-"
+    - session_number: 27
+      xp_bonus: "-"
+    - session_number: 28
       xp_bonus: "-"
 
 - name: Merlin Cakes
@@ -295,6 +321,12 @@
   sessions:
     - session_number: 24
       xp_bonus: "+5%"
+    - session_number: 25
+      xp_bonus: "-"
+    - session_number: 27
+      xp_bonus: "+5%"
+    - session_number: 28
+      xp_bonus: "-"
 
 - name: Sven Svensson
   class: Bard
