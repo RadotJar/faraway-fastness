@@ -1,4 +1,4 @@
-customElements.define('responsive-table', class extends HTMLElement {
+class ResponsiveTable extends HTMLElement {
 
 	/**
 	 * Instantiate the Web Component
@@ -74,4 +74,6 @@ customElements.define('responsive-table', class extends HTMLElement {
 
 	}
 
-});
+};
+
+customElements.define('responsive-table', ResponsiveTable)
