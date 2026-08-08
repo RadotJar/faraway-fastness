@@ -1,0 +1,25 @@
+<responsive-table class="henchman-table">
+    <table class="table-striped">
+        <thead>
+            <tr>
+                <th scope="col">🧎 Henchman</th>
+                <th scope="col">Occupation</th>
+                <th scope="col">Level</th>
+                <th scope="col">Employer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for henchman in site.data.henchmen %}
+                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
+                {% if session %}
+                    <tr>
+                        <td>{{ henchman.name }}</td>
+                        <td>{{ henchman.occupation }}</td>
+                        <td>{{ henchman.level }}</td>
+                        <td>{{ henchman.employer }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</responsive-table>

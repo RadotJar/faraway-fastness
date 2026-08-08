@@ -29,57 +29,9 @@ The party enter the fastness through the front doors and enter a large chamber w
 
 🗺️ Location - Ruined elven fastness
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -115,57 +67,9 @@ The party recruit some willing men from the ranks of Burne and Rufus' town guard
 
 🗺️ Location - Hommus, Forest around Hommus
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -206,31 +110,7 @@ The party make it back to Hommus after a brief stop over in Althier and are recr
 
 🗺️ Location - Althier, Hommus
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 ## Session 25
 
@@ -242,31 +122,7 @@ The party trudge back to Whispering Chasm under the weight of their gemstone sac
 
 🗺️ Location - Sanjikar, Whispering Chasm
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -302,31 +158,7 @@ The party awaken in a dark mausoleum as prisoners. Meat's snake familiar is able
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 ## Session 23
 
@@ -338,31 +170,7 @@ The party find a slimy hole that exits Sanjikar! Binabus cleverly escapes with a
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -403,31 +211,7 @@ The party continue searching for an exit from Sanjikar. Hurgon meditates in some
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -469,31 +253,7 @@ Merlin lights up the cavern with his burning hands, allowing them to find the ex
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 ## Session 20
 
@@ -511,31 +271,7 @@ They meet with their old "friend" the priest who suggests they'd best talk to th
 
 🗺️ Location - Althier and Hommus
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 ---
 
@@ -554,57 +290,9 @@ into a dark, cold river to destinations unknown.
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -677,57 +365,9 @@ Binabus bravely smashes one open, sending gems and himself flying across the roo
 
 ![Portrait of 'Binabus', mad demon summoning wizard of the woods. Drawn by his player](/assets/binabus.jpg)
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -778,57 +418,9 @@ Gaius, Sporeglazer and Versos fall to the venom, but Sven hastily takes up a dar
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -895,57 +487,9 @@ where Sven finds a magic ring and a bottle of black-brown liquid.
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1015,57 +559,9 @@ as fungal husks of their former being. The party resolve to delve ever deeper, t
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1125,57 +621,9 @@ The party rest a while as Sven tries to identify the potions and gem-encrusted p
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1240,57 +688,9 @@ Sigma squad slip in behind them and begin exploring Sanjikar, slaying an elderly
 
 🗺️ Location - Sanjikar
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1336,57 +736,9 @@ With that, the party continue the trek to Sanjikar, probing a shimmering cave fi
 
 ![Map found scrawled in the dirt by some potato skins](/assets/map_in_dirt.png)
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1433,57 +785,9 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 🗺️ Location - Whispering Chasm, Old Dwarven Way
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1575,57 +879,9 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 🗺️ Location - Althier, Whispering Chasm
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 ---
 
@@ -1643,57 +899,9 @@ Unwilling to accept the guild's draconian terms, the party slaughters many a man
 
 🗺️ Location - Althier, Geminos District
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1800,31 +1008,7 @@ Having a vendetta now for the Bear's Head Inn in the slum part of town, they opt
 
 🗺️ Location - Hommus and Althier
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -1977,57 +1161,9 @@ Victory is still won through surrender and rout.
 
 🗺️ Location - The Old Fortress and Hommus
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2146,57 +1282,9 @@ They meet Rat Girl and her lovely family, before getting into a terrible tussle 
 
 🗺️ Location - The Old Fortress
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2261,31 +1349,7 @@ Zhaafique Bar Khan, venturer, was found bound by the spider's web. The party del
 
 🗺️ Location - The Old Fortress
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2397,31 +1461,7 @@ The site was found, and a lurking spider was slain.
 
 🗺️ Location - Althier, Hommus and The Old Fortress
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2491,57 +1531,9 @@ The local mercenary guild had a posting for clearing beastmen from the village o
 
 🗺️ Location - Althier
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2650,57 +1642,9 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 🗺️ Location - Vaults of Volokarnos
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2798,57 +1742,9 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
 🗺️ Location - Vaults of Volokarnos
 
-<responsive-table class="character-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧑‍🦽 Character</th>
-                <th scope="col">Class</th>
-                <th scope="col">Level</th>
-                <th scope="col">Session XP Bonus</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for character in site.data.characters %}
-                {% assign session = character.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ character.name }}</td>
-                        <td>{{ character.class }}</td>
-                        <td>{{ character.level }}</td>
-                        <td>{{ session.xp_bonus }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include character-table.html %}
 
-<responsive-table class="henchman-table">
-    <table class="table-striped">
-        <thead>
-            <tr>
-                <th scope="col">🧎 Henchman</th>
-                <th scope="col">Occupation</th>
-                <th scope="col">Level</th>
-                <th scope="col">Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for henchman in site.data.henchmen %}
-                {% assign session = henchman.sessions | where: "session_number", session_number | first %}
-                {% if session %}
-                    <tr>
-                        <td>{{ henchman.name }}</td>
-                        <td>{{ henchman.occupation }}</td>
-                        <td>{{ henchman.level }}</td>
-                        <td>{{ henchman.employer }}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-</responsive-table>
+{% include henchman-table.html %}
 
 <responsive-table>
   <table class="table-striped">
@@ -2939,6 +1835,7 @@ Opponents **do not** get a free attack a la 'opportunity attack'.
 **Ammunition Retrieval:** Spent ammunition cannot be retrieved.
 
 <script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
+<script defer src="{{ site.baseurl }}/scripts/character-table.js"></script>
 
 <script
     defer
