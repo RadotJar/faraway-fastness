@@ -1835,7 +1835,6 @@ Opponents **do not** get a free attack a la 'opportunity attack'.
 **Ammunition Retrieval:** Spent ammunition cannot be retrieved.
 
 <script defer src="{{ site.baseurl }}/scripts/responsive-table.js"></script>
-<script defer src="{{ site.baseurl }}/scripts/character-table.js"></script>
 
 <script
     defer
