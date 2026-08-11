@@ -32,3 +32,4 @@ Tome of Worldbuilding - Seems best for the atlas scale hex map and high level re
 
 Filling in the Blanks - More amateurish but I have enjoyed it in the past. Maybe the rolls are too many and too detailed.
 
+Raging Swan Press, Wilderness Dressing - Seems really good for events on a crawl. Stocking may also be decent.
