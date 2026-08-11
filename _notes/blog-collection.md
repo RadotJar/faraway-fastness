@@ -21,3 +21,14 @@ A good strategy is to:
 Rules for making good rumours and proliferating them across the map.
 
 [Patreon post with rules pdf](https://www.patreon.com/Autarch/posts/whats-word-in-ii-156545914?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=web_share)
+
+## Hex Stocking
+
+ACKS II JJ "Clearing the Wilderness" - Provides lair density values (though noted to be quite high by Arbrethil). Also nice integration with ACKS encounter tables.
+
+D30 Sandbox Companion - Cool map icon reference sheets and work sheets. Terse, highly readable pages for generating settlements, heraldry, taverns etc.
+
+Tome of Worldbuilding - Seems best for the atlas scale hex map and high level realm details.
+
+Filling in the Blanks - More amateurish but I have enjoyed it in the past. Maybe the rolls are too many and too detailed.
+
