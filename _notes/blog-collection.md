@@ -38,4 +38,7 @@ Raging Swan Press, Wilderness Dressing - Seems really good for events on a crawl
 
 A few key dotpoints on what you need in a hex to make it good. [Video](https://youtu.be/ZvtpLCcN6FY?si=p5k_PaaNx2cDEbh_)
 
+## Structuring Random Encounter Tables
+
+[The '2 is always a dragon' post](https://www.paperspencils.com/structuring-encounter-tables/)
 
