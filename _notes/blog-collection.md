@@ -42,3 +42,9 @@ A few key dotpoints on what you need in a hex to make it good. [Video](https://y
 
 [The '2 is always a dragon' post](https://www.paperspencils.com/structuring-encounter-tables/)
 
+## Post-game Braunstein Analysis
+
+Discusses what worked well and didn't in a Braunstein. 
+Also useful is the discussion of SEEN mechanics.
+
+[Link to post](https://enragedeggplant.blogspot.com/2026/08/gacks-aar-week-13post-mortem.html)
