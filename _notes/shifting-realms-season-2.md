@@ -131,3 +131,7 @@ In season 2 I will be more strict on table chatter by punishing extended discuss
 - Kreyzabane unleashed, Althier fallen
 
 - More XP desired for faster levelling
+
+- SEEN channel for news. Weekly or monthly?
+
+- Bonus XP channel for rumour posting as easy session summary. Also character backstories
