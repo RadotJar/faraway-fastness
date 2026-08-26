@@ -11,7 +11,7 @@ Here follows my current hex stocking procedure for any given region. These steps
 
 3. Add a primary dungeon to your region if one does not exist.
 
-4. Create a regional wilderness encounter table, using the generated points of interest as inspiration. I use the 2d6 table structure from Prismatic Wasteland, where 2 is always a dragon. Fill some of the table entries with randomly rolled encounters from your system of choice.
+4. Create a regional wilderness encounter table, using the generated points of interest as inspiration. I use the 2d6 table structure from Prismatic Wasteland, where ['2 is always a dragon' post](https://www.paperspencils.com/structuring-encounter-tables/). Fill some of the table entries with randomly rolled encounters from your system of choice.
 
 5. Create a regional rumour table using the points of interest for inspiration and assign it to the nearest town. 
 
