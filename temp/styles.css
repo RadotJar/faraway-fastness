@@ -1,0 +1,28 @@
+html {
+  cursor: url("spellbook-svgrepo-com.svg"), auto;
+}
+
+body {
+  margin: 0;             /* Removes the default 8px browser margin */
+  min-height: 100vh;     /* Forces body to be at least full screen height */
+  width: 100%;           /* Ensures it spans the full width */
+}
+
+.lightning-node {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: lightskyblue;
+  position: absolute;
+  animation: disperse 1000ms forwards;
+}
+
+@keyframes disperse {
+  to {
+    transform:
+      translate(
+        calc(cos(var(--angle)) * var(--distance)),
+        calc(sin(var(--angle)) * var(--distance))
+      )
+  }
+}
