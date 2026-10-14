@@ -53,3 +53,8 @@ Also useful is the discussion of SEEN mechanics.
 
 An alternative to standard time tracking procedures that may prove more interactive for players.
 [Link to post](https://goblinpunch.blogspot.com/2023/04/the-underclock-fixing-random-encounter.html)
+
+## Shadowdark Experiments
+
+A great pro-Shadowdark experimental analysis of the system as applied to different modes of play. Echoes a lot of my experience with it.
+[Link to post](https://mythicmountainsrpg.substack.com/p/the-five-shadowdark-experiments)
